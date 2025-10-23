@@ -1,0 +1,20 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../../srcs/top/ipshared/3cbc" --include "../../../../../srcs/top/ipshared/53f7/inc" --include "../../../../../srcs/top/ipshared/ec67/hdl" --include "../../../../../srcs/top/ipshared/6f8f/hdl" \
+"../../../bd/top/ip/top_dpu_clk_wiz_0_1/top_dpu_clk_wiz_0_clk_wiz.v" \
+"../../../bd/top/ip/top_dpu_clk_wiz_0_1/top_dpu_clk_wiz_0.v" \
+"../../../bd/top/ip/top_dpu_concat_irq_inner_0_1/sim/top_dpu_concat_irq_inner_0.v" \
+
+sv xil_defaultlib --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../../srcs/top/ipshared/3cbc" --include "../../../../../srcs/top/ipshared/53f7/inc" --include "../../../../../srcs/top/ipshared/ec67/hdl" --include "../../../../../srcs/top/ipshared/6f8f/hdl" \
+"../../../bd/top/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv" \
+"../../../bd/top/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_sfm.sv" \
+"../../../bd/top/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_top.sv" \
+"../../../bd/top/ip/top_DPUCZDX8G_0_1/sim/top_DPUCZDX8G_0.sv" \
+
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../../srcs/top/ipshared/3cbc" --include "../../../../../srcs/top/ipshared/53f7/inc" --include "../../../../../srcs/top/ipshared/ec67/hdl" --include "../../../../../srcs/top/ipshared/6f8f/hdl" \
+"../../../bd/top/ip/top_zynq_ultra_ps_e_0_1/sim/top_zynq_ultra_ps_e_0_vip_wrapper.v" \
+"../../../bd/top/ip/top_dpu_concat_irq_0_1/sim/top_dpu_concat_irq_0.v" \
+"../../../bd/top/sim/top.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
