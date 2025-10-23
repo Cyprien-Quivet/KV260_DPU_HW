@@ -48,12 +48,12 @@ Le projet inclut la configuration, la génération et la **dimensionnement du DP
 
 - Le **fichier bitstream (.bit)** est généré à l’emplacement suivant :
   ```
-  C:\Users\Cyprien\Documents\GitHub\SII\KV260_DPU_HW\prj\Vivado\hw\prj\KV260.runs\impl_1_01
+  KV260_DPU_HW\prj\Vivado\hw\prj\KV260.runs\impl_1_01
   ```
 
 - Le **fichier matériel exporté (.xsa)** est disponible ici :
   ```
-  C:\Users\Cyprien\Documents\GitHub\SII\KV260_DPU_HW\prj\Vivado\hw\pre-built
+  KV260_DPU_HW\prj\Vivado\hw\pre-built
   ```
 
 4. Importer le fichier `.xsa` dans **Vitis AI** ou **PetaLinux** pour la génération de la plateforme logicielle et l’intégration du DPU.  
