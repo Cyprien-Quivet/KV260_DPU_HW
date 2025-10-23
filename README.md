@@ -84,5 +84,4 @@ Il peut servir de base pour des développements avancés, notamment l’ajout de
 
 ---
 
-✍️ **Auteur :** Cyprien  
 📅 **Outils utilisés :** Vivado 2024.2 | Vitis AI 3.0 | DPU V4.1  
