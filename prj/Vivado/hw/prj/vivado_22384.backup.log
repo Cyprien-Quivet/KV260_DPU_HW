@@ -1,0 +1,149 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Oct 23 17:14:28 2025
+# Process ID         : 22384
+# Current directory  : S:/prj/Vivado/hw/prj
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent20848 S:\prj\Vivado\hw\prj\KV260.xpr
+# Log file           : S:/prj/Vivado/hw/prj/vivado.log
+# Journal file       : S:/prj/Vivado/hw/prj\vivado.jou
+# Running On         : DESKTOP-S4UD1KI
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i9-10900K CPU @ 3.70GHz
+# CPU Frequency      : 3696 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 51356 MB
+# Swap memory        : 3221 MB
+# Total Virtual      : 54577 MB
+# Available Virtual  : 37595 MB
+#-----------------------------------------------------------
+start_gui
+open_project S:/prj/Vivado/hw/prj/KV260.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'S:/prj/Vivado/hw/prj/KV260.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 's:/dpu_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1649.723 ; gain = 393.773
+update_compile_order -fileset sources_1
+open_bd_design {S:/prj/Vivado/hw/srcs/top/top.bd}
+Reading block design file <S:/prj/Vivado/hw/srcs/top/top.bd>...
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - dpu_clk_wiz
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_gen_clk
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_gen_clk_dsp
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - dpu_concat_irq_inner
+Adding component instance block -- xilinx.com:ip:dpuczdx8g:4.1 - DPUCZDX8G
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - dpu_concat_irq
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_gen_reg
+Successfully read diagram <top> from block design file <S:/prj/Vivado/hw/srcs/top/top.bd>
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+set_property board_part xilinx.com:kv260_som:part0:1.4 [current_project]
+reset_property board_connections [get_projects KV260]
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1_01]
+set_property board_part xilinx.com:kv260_som:part0:1.4 [current_project]
+reset_property board_connections [get_projects KV260]
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {top_rst_gen_clk_dsp_0 top_dpu_clk_wiz_0 top_rst_gen_clk_0 top_rst_gen_reg_0 top_zynq_ultra_ps_e_0}] -log ip_upgrade.log
+Upgrading 'S:/prj/Vivado/hw/srcs/top/top.bd'
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3420] Updated top_dpu_clk_wiz_0 to use current project options
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3420] Updated top_rst_gen_clk_0 to use current project options
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3420] Updated top_rst_gen_clk_dsp_0 to use current project options
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3420] Updated top_rst_gen_reg_0 to use current project options
+Board is xilinx.com:kv260_som:part0:1.4
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [IP_Flow 19-3420] Updated top_zynq_ultra_ps_e_0 to use current project options
+Wrote  : <S:\prj\Vivado\hw\srcs\top\top.bd> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_2ae56375.ui> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_1b698f8d.ui> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_ba4bcbd.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'S:/prj/Vivado/hw/prj/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2877.664 ; gain = 0.000
+export_ip_user_files -of_objects [get_ips {top_rst_gen_clk_dsp_0 top_dpu_clk_wiz_0 top_rst_gen_clk_0 top_rst_gen_reg_0 top_zynq_ultra_ps_e_0}] -no_script -sync -force -quiet
+generate_target all [get_files  S:/prj/Vivado/hw/srcs/top/top.bd]
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter TIME_QUARTER(0) on '/hier_dpu/DPUCZDX8G' with propagated value(1). Command ignored
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /hier_dpu/hier_dpu_clk/dpu_clk_wiz clk_wiz propagate
+Wrote  : <S:\prj\Vivado\hw\srcs\top\top.bd> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_2ae56375.ui> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_1b698f8d.ui> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_ba4bcbd.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp2_awid'(6) to pin: '/hier_dpu/M_AXI_HP0_FPD_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp2_arid'(6) to pin: '/hier_dpu/M_AXI_HP0_FPD_arid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp3_awid'(6) to pin: '/hier_dpu/M_AXI_HP1_FPD_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp3_arid'(6) to pin: '/hier_dpu/M_AXI_HP1_FPD_arid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp6_awid'(6) to pin: '/hier_dpu/M_AXI_LPD_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp6_arid'(6) to pin: '/hier_dpu/M_AXI_LPD_arid'(2) - Only lower order bits will be connected.
+Verilog Output written to : S:/prj/Vivado/hw/srcs/top/synth/top.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp2_awid'(6) to pin: '/hier_dpu/M_AXI_HP0_FPD_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp2_arid'(6) to pin: '/hier_dpu/M_AXI_HP0_FPD_arid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp3_awid'(6) to pin: '/hier_dpu/M_AXI_HP1_FPD_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp3_arid'(6) to pin: '/hier_dpu/M_AXI_HP1_FPD_arid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp6_awid'(6) to pin: '/hier_dpu/M_AXI_LPD_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e/saxigp6_arid'(6) to pin: '/hier_dpu/M_AXI_LPD_arid'(2) - Only lower order bits will be connected.
+Verilog Output written to : S:/prj/Vivado/hw/srcs/top/sim/top.v
+Verilog Output written to : S:/prj/Vivado/hw/srcs/top/hdl/top_wrapper.v
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_2ae56375.ui> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_1b698f8d.ui> 
+Wrote  : <S:/prj/Vivado/hw/srcs/top/ui/bd_ba4bcbd.ui> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_dpu/hier_dpu_clk/dpu_clk_wiz .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_dpu/hier_dpu_clk/rst_gen_clk .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_dpu/hier_dpu_clk/rst_gen_clk_dsp .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_dpu/hier_dpu_irq/dpu_concat_irq_inner .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_dpu/DPUCZDX8G .
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.5-0] top_zynq_ultra_ps_e_0: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Amd's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Amd's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_LPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP1_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_LPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dpu_concat_irq .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_gen_reg .
+Exporting to file S:/prj/Vivado/hw/srcs/top/hw_handoff/top.hwh
+Generated Hardware Definition File S:/prj/Vivado/hw/srcs/top/synth/top.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin DPU0_M_AXI_DATA0 could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /hier_dpu/hier_dpu_ghp
+WARNING: [BD 41-2265] Clock pin for protocol instance pin DPU0_M_AXI_DATA1 could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /hier_dpu/hier_dpu_ghp
+WARNING: [BD 41-2265] Clock pin for protocol instance pin DPU0_M_AXI_INSTR could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /hier_dpu/hier_dpu_ghp
+WARNING: [BD 41-2265] Clock pin for protocol instance pin M_AXI_HP0_FPD could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /hier_dpu/hier_dpu_ghp
+WARNING: [BD 41-2265] Clock pin for protocol instance pin M_AXI_HP1_FPD could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /hier_dpu/hier_dpu_ghp
+WARNING: [BD 41-2265] Clock pin for protocol instance pin M_AXI_LPD could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /hier_dpu/hier_dpu_ghp
+generate_target: Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 2877.664 ; gain = 0.000
+export_ip_user_files -of_objects [get_files S:/prj/Vivado/hw/srcs/top/top.bd] -no_script -sync -force -quiet
+export_simulation -lib_map_path [list {modelsim=S:/prj/Vivado/hw/prj/KV260.cache/compile_simlib/modelsim} {questa=S:/prj/Vivado/hw/prj/KV260.cache/compile_simlib/questa} {riviera=S:/prj/Vivado/hw/prj/KV260.cache/compile_simlib/riviera} {activehdl=S:/prj/Vivado/hw/prj/KV260.cache/compile_simlib/activehdl}] -of_objects [get_files S:/prj/Vivado/hw/srcs/top/top.bd] -directory S:/prj/Vivado/hw/prj/KV260.ip_user_files/sim_scripts -ip_user_files_dir S:/prj/Vivado/hw/prj/KV260.ip_user_files -ipstatic_source_dir S:/prj/Vivado/hw/prj/KV260.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+launch_runs impl_1_01 -to_step write_bitstream -jobs 10
+[Thu Oct 23 17:17:53 2025] Launched synth_1...
+Run output will be captured here: S:/prj/Vivado/hw/prj/KV260.runs/synth_1/runme.log
+[Thu Oct 23 17:17:53 2025] Launched impl_1_01...
+Run output will be captured here: S:/prj/Vivado/hw/prj/KV260.runs/impl_1_01/runme.log
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 23 18:19:57 2025...
