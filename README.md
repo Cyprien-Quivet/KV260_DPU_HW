@@ -1,6 +1,6 @@
 # Projet DPU TRD pour la carte Kria KR260
 
-Ce dépôt contient l’implémentation du **DPU TRD (Targeted Reference Design)** pour la carte **Kria KR260**, réalisé avec les outils **Vivado 2024.2 (64-bit)** et **Vitis AI 3.0**.  
+Ce dépôt contient l’implémentation du **DPU TRD (Targeted Reference Design)** pour la carte **Kria KR260**, réalisé avec les outils **Vivado 2022.2 (64-bit)** et **Vitis AI 3.0**.  
 Le projet illustre la création, la personnalisation et la génération du matériel pour un DPU dimensionné selon nos besoins applicatifs.
 
 ---
@@ -9,7 +9,7 @@ Le projet illustre la création, la personnalisation et la génération du maté
 
 Ce tutoriel détaille le processus de **création d’un DPU TRD pour la carte Kria KR260**, à l’aide des outils suivants :
 
-- **Vivado v2024.2 (64-bit)**
+- **Vivado v2022.2 (64-bit)**
 - **Vitis AI 3.0**
 - **Vitis AI 2022.2 tools**
 
@@ -31,7 +31,7 @@ Le projet inclut la configuration, la génération et la **dimensionnement du DP
 
 ## ⚙️ Outils requis
 
-- **Vivado 2024.2 (64-bit)**  
+- **Vivado 2022.2 (64-bit)**  
 - **Vitis AI 3.0** ou version supérieure  
 - **Python 3.x** (pour l’exécution de scripts optionnels)  
 - **Carte Kria KR260** (Zynq UltraScale+ MPSoC)
@@ -84,4 +84,4 @@ Il peut servir de base pour des développements avancés, notamment l’ajout de
 
 ---
 
-📅 **Outils utilisés :** Vivado 2024.2 | Vitis AI 3.0 | DPU V4.1  
+📅 **Outils utilisés :** Vivado 2022.2 | Vitis AI 3.0 | DPU V4.1  
