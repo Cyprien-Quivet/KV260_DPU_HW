@@ -22,7 +22,7 @@ set dict_prj  {}
 #****************************************************************
 # set project
 #****************************************************************
-dict set dict_prj dict_sys prj_name                  {KV260}
+dict set dict_prj dict_sys prj_name                  {KR260}
 dict set dict_prj dict_sys prj_part                  {xck26-sfvc784-2LV-c}
 dict set dict_prj dict_sys prj_board                 {KV260}
 
@@ -37,8 +37,6 @@ dict set dict_prj dict_sys bd_ooc                    None
 # set param
 #****************************************************************
 dict set dict_prj dict_param  DPU_CLK_MHz            {275}
-dict set dict_prj dict_param  HP_CLK_MHz             {274}
-
 dict set dict_prj dict_param  REG_CLK_MHz            {100}
 
 #The following parameters correspond to Arch Tab of the IP GUI
@@ -57,7 +55,7 @@ dict set dict_prj dict_param  DPU_SAXICLK_INDPD      {1}
 dict set dict_prj dict_param  DPU_CLK_GATING_ENA     {1}
 dict set dict_prj dict_param  DPU_DSP48_MAX_CASC_LEN {4}
 dict set dict_prj dict_param  DPU_DSP48_USAGE        {high}
-dict set dict_prj dict_param  DPU_URAM_PER_DPU       {50}
+dict set dict_prj dict_param  DPU_URAM_PER_DPU       {0}
 
 #****************************************************************
 # source tcl
