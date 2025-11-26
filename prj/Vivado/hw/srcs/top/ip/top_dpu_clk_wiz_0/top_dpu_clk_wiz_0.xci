@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "top_dpu_clk_wiz_0",
-    "cell_name": "dpu_clk_wiz",
+    "cell_name": "hier_dpu/hier_dpu_clk/dpu_clk_wiz",
     "component_reference": "xilinx.com:ip:clk_wiz:6.0",
     "ip_revision": "11",
     "gen_directory": ".",

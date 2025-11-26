@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "top_rst_gen_clk_0",
-    "cell_name": "rst_gen_clk",
+    "cell_name": "hier_dpu/hier_dpu_clk/rst_gen_clk",
     "component_reference": "xilinx.com:ip:proc_sys_reset:5.0",
     "ip_revision": "13",
     "gen_directory": ".",

@@ -42,6 +42,13 @@
   "../../../bd/top/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_top.sv" \
   "../../../bd/top/ip/top_DPUCZDX8G_0/sim/top_DPUCZDX8G_0.sv" \
 -endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_dpu_concat_irq_0/sim/top_dpu_concat_irq_0.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_rst_gen_ghp_0/sim/top_rst_gen_ghp_0.vhd" \
+  "../../../bd/top/ip/top_rst_gen_reg_0/sim/top_rst_gen_reg_0.vhd" \
+-endlib
 -makelib xcelium_lib/axi_infrastructure_v1_1_0 \
   "../../../../../srcs/top/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v" \
 -endlib
@@ -53,11 +60,12 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/top/ip/top_zynq_ultra_ps_e_0/sim/top_zynq_ultra_ps_e_0_vip_wrapper.v" \
-  "../../../bd/top/ip/top_dpu_concat_irq_0/sim/top_dpu_concat_irq_0.v" \
 -endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/top/ip/top_rst_gen_reg_0/sim/top_rst_gen_reg_0.vhd" \
-  "../../../bd/top/ip/top_rst_gen_ghp_0/sim/top_rst_gen_ghp_0.vhd" \
+-makelib xcelium_lib/generic_baseblocks_v2_1_0 \
+  "../../../../../srcs/top/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/axi_register_slice_v2_1_27 \
+  "../../../../../srcs/top/ipshared/f0b4/hdl/axi_register_slice_v2_1_vl_rfs.v" \
 -endlib
 -makelib xcelium_lib/fifo_generator_v13_2_7 \
   "../../../../../srcs/top/ipshared/83df/simulation/fifo_generator_vlog_beh.v" \
@@ -68,6 +76,18 @@
 -makelib xcelium_lib/fifo_generator_v13_2_7 \
   "../../../../../srcs/top/ipshared/83df/hdl/fifo_generator_v13_2_rfs.v" \
 -endlib
+-makelib xcelium_lib/axi_data_fifo_v2_1_26 \
+  "../../../../../srcs/top/ipshared/3111/hdl/axi_data_fifo_v2_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/axi_crossbar_v2_1_28 \
+  "../../../../../srcs/top/ipshared/c40e/hdl/axi_crossbar_v2_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_xbar_1/sim/top_xbar_1.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/top/sim/top.vhd" \
+-endlib
 -makelib xcelium_lib/axi_clock_converter_v2_1_26 \
   "../../../../../srcs/top/ipshared/b8be/hdl/axi_clock_converter_v2_1_vl_rfs.v" \
 -endlib
@@ -76,8 +96,11 @@
   "../../../bd/top/ip/top_auto_cc_1/sim/top_auto_cc_1.v" \
   "../../../bd/top/ip/top_auto_cc_2/sim/top_auto_cc_2.v" \
 -endlib
+-makelib xcelium_lib/axi_protocol_converter_v2_1_27 \
+  "../../../../../srcs/top/ipshared/aeb3/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
+-endlib
 -makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/top/sim/top.vhd" \
+  "../../../bd/top/ip/top_auto_pc_0/sim/top_auto_pc_0.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v
