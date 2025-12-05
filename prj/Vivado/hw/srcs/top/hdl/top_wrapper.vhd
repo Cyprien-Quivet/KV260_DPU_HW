@@ -1,7 +1,7 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
---Date        : Wed Nov 26 16:34:00 2025
+--Date        : Fri Dec  5 17:18:29 2025
 --Host        : DESKTOP-S4UD1KI running 64-bit major release  (build 9200)
 --Command     : generate_target top_wrapper.bd
 --Design      : top_wrapper
@@ -32,6 +32,11 @@ entity top_wrapper is
     M00_AXI_0_wready : in STD_LOGIC;
     M00_AXI_0_wstrb : out STD_LOGIC_VECTOR ( 3 downto 0 );
     M00_AXI_0_wvalid : out STD_LOGIC;
+    S_AXIS_S2MM_1_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    S_AXIS_S2MM_1_tkeep : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    S_AXIS_S2MM_1_tlast : in STD_LOGIC;
+    S_AXIS_S2MM_1_tready : out STD_LOGIC;
+    S_AXIS_S2MM_1_tvalid : in STD_LOGIC;
     clk_sys_o : out STD_LOGIC;
     peripheral_reset_0 : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -60,7 +65,12 @@ architecture STRUCTURE of top_wrapper is
     M00_AXI_0_rvalid : in STD_LOGIC;
     M00_AXI_0_rready : out STD_LOGIC;
     clk_sys_o : out STD_LOGIC;
-    peripheral_reset_0 : out STD_LOGIC_VECTOR ( 0 to 0 )
+    peripheral_reset_0 : out STD_LOGIC_VECTOR ( 0 to 0 );
+    S_AXIS_S2MM_1_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    S_AXIS_S2MM_1_tkeep : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    S_AXIS_S2MM_1_tlast : in STD_LOGIC;
+    S_AXIS_S2MM_1_tready : out STD_LOGIC;
+    S_AXIS_S2MM_1_tvalid : in STD_LOGIC
   );
   end component top;
 begin
@@ -85,6 +95,11 @@ top_i: component top
       M00_AXI_0_wready => M00_AXI_0_wready,
       M00_AXI_0_wstrb(3 downto 0) => M00_AXI_0_wstrb(3 downto 0),
       M00_AXI_0_wvalid => M00_AXI_0_wvalid,
+      S_AXIS_S2MM_1_tdata(127 downto 0) => S_AXIS_S2MM_1_tdata(127 downto 0),
+      S_AXIS_S2MM_1_tkeep(15 downto 0) => S_AXIS_S2MM_1_tkeep(15 downto 0),
+      S_AXIS_S2MM_1_tlast => S_AXIS_S2MM_1_tlast,
+      S_AXIS_S2MM_1_tready => S_AXIS_S2MM_1_tready,
+      S_AXIS_S2MM_1_tvalid => S_AXIS_S2MM_1_tvalid,
       clk_sys_o => clk_sys_o,
       peripheral_reset_0(0) => peripheral_reset_0(0)
     );

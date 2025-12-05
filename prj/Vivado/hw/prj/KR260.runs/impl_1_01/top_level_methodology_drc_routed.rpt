@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Wed Nov 26 17:15:40 2025
+| Date         : Fri Dec  5 18:56:34 2025
 | Host         : DESKTOP-S4UD1KI running 64-bit major release  (build 9200)
 | Command      : report_methodology -file top_level_methodology_drc_routed.rpt -pb top_level_methodology_drc_routed.pb -rpx top_level_methodology_drc_routed.rpx
 | Design       : top_level
@@ -23,7 +23,7 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 8
+             Violations found: 9
 +-----------+------------------+-------------------------------------------------------------------------------------+------------+
 | Rule      | Severity         | Description                                                                         | Violations |
 +-----------+------------------+-------------------------------------------------------------------------------------+------------+
@@ -32,6 +32,7 @@ Table of Contents
 | TIMING-54 | Critical Warning | Scoped false path, clock group or max delay datapath only constraint between clocks | 2          |
 | TIMING-9  | Warning          | Unknown CDC Logic                                                                   | 1          |
 | TIMING-46 | Warning          | Multicycle path with tied CE pins                                                   | 1          |
+| ULMTCS-1  | Warning          | Control Sets use limits recommend reduction                                         | 1          |
 | CLKC-58   | Advisory         | PLLE4 with global clock driver has no LOC                                           | 1          |
 | XDCB-6    | Advisory         | Timing constraint pointing to hierarchical pins                                     | 1          |
 +-----------+------------------+-------------------------------------------------------------------------------------+------------+
@@ -50,12 +51,12 @@ Related violations: <none>
 
 TIMING-54#1 Critical Warning
 Scoped false path, clock group or max delay datapath only constraint between clocks  
-A scoped False Path timing constraint is set between clocks clk_pl_0 and hier_dpu_clk_DPU_CLK (see constraint position 18 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
+A scoped False Path timing constraint is set between clocks clk_pl_0 and hier_dpu_clk_DPU_CLK (see constraint position 19 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
 Related violations: <none>
 
 TIMING-54#2 Critical Warning
 Scoped false path, clock group or max delay datapath only constraint between clocks  
-A scoped False Path timing constraint is set between clocks hier_dpu_clk_DPU_CLK and clk_pl_0 (see constraint position 17 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
+A scoped False Path timing constraint is set between clocks hier_dpu_clk_DPU_CLK and clk_pl_0 (see constraint position 18 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
 Related violations: <none>
 
 TIMING-9#1 Warning
@@ -65,7 +66,12 @@ Related violations: <none>
 
 TIMING-46#1 Warning
 Multicycle path with tied CE pins  
-One or more multicycle paths are defined between registers top_i/hier_dpu/DPUCZDX8G/inst/GenDpu0.u_dpu0/m_dpu_top/m_conv_top/inst_pea/u_mults/u_fol_1x/toggle_dly10_r_reg/Q and top_i/hier_dpu/DPUCZDX8G/inst/GenDpu0.u_dpu0/m_dpu_top/m_conv_top/inst_pea/u_mults/u_fol_1x/toggle_dly15_r_reg/D with a direct connection and the CE pins connected to VCC (see constraint position 15 in the Timing Constraint window in Vivado IDE).  This may result in an inaccurate path requirement.
+One or more multicycle paths are defined between registers top_i/hier_dpu/DPUCZDX8G/inst/GenDpu0.u_dpu0/m_dpu_top/m_conv_top/inst_pea/u_mults/u_fol_1x/toggle_dly10_r_reg/Q and top_i/hier_dpu/DPUCZDX8G/inst/GenDpu0.u_dpu0/m_dpu_top/m_conv_top/inst_pea/u_mults/u_fol_1x/toggle_dly15_r_reg/D with a direct connection and the CE pins connected to VCC (see constraint position 16 in the Timing Constraint window in Vivado IDE).  This may result in an inaccurate path requirement.
+Related violations: <none>
+
+ULMTCS-1#1 Warning
+Control Sets use limits recommend reduction  
+This design uses 2326 control sets (vs. available limit of 29280, determined by 1 control set per CLB). This exceeds the control set use guideline of 7.5 percent. This is at a level where reduction is RECOMMENDED (see UG949). Use report_control_sets to get more details.
 Related violations: <none>
 
 CLKC-58#1 Advisory
@@ -75,8 +81,8 @@ Related violations: <none>
 
 XDCB-6#1 Advisory
 Timing constraint pointing to hierarchical pins  
-A timing constraint 'set_max_delay' has a single -through that points to hierarchical pins (see constraint position '16' in the Timing Constraint window in Vivado IDE). With such constraint, it is recommended to have a DONT_TOUCH or KEEP_HIERARCHY on the hierarchical module to avoid the risk of pin names changing during synthesis.
-Current XDC: c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0.xdc (Line: 32)
+A timing constraint 'set_max_delay' has a single -through that points to hierarchical pins (see constraint position '17' in the Timing Constraint window in Vivado IDE). With such constraint, it is recommended to have a DONT_TOUCH or KEEP_HIERARCHY on the hierarchical module to avoid the risk of pin names changing during synthesis.
+Current XDC: c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0.xdc (Line: 32)
 Related violations: <none>
 
 

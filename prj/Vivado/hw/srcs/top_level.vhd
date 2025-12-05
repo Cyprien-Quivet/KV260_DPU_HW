@@ -57,6 +57,11 @@ signal     sM00_AXI_0_wstrb :  STD_LOGIC_VECTOR ( 3 downto 0 );
 signal     sM00_AXI_0_wvalid :  STD_LOGIC;
 signal     sclk_sys_o :  STD_LOGIC;
 signal     speripheral_reset_0 :  STD_LOGIC_VECTOR ( 0 to 0 );
+signal     sS_AXIS_S2MM_1_tdata : STD_LOGIC_VECTOR ( 127 downto 0 );
+signal     sS_AXIS_S2MM_1_tkeep : STD_LOGIC_VECTOR ( 15 downto 0 );
+signal     sS_AXIS_S2MM_1_tlast : STD_LOGIC;
+signal     sS_AXIS_S2MM_1_tready :STD_LOGIC;
+signal     sS_AXIS_S2MM_1_tvalid : STD_LOGIC;
 
 component  top 
   port (
@@ -79,6 +84,11 @@ component  top
     M00_AXI_0_wready : in STD_LOGIC;
     M00_AXI_0_wstrb : out STD_LOGIC_VECTOR ( 3 downto 0 );
     M00_AXI_0_wvalid : out STD_LOGIC;
+    S_AXIS_S2MM_1_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    S_AXIS_S2MM_1_tkeep : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    S_AXIS_S2MM_1_tlast : in STD_LOGIC;
+    S_AXIS_S2MM_1_tready : out STD_LOGIC;
+    S_AXIS_S2MM_1_tvalid : in STD_LOGIC;
     clk_sys_o : out STD_LOGIC;
     peripheral_reset_0 : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -115,6 +125,12 @@ begin
             M00_AXI_0_wready  => sM00_AXI_0_wready,
             M00_AXI_0_wstrb   => sM00_AXI_0_wstrb,
             M00_AXI_0_wvalid  => sM00_AXI_0_wvalid,
+            
+            S_AXIS_S2MM_1_tdata  => sS_AXIS_S2MM_1_tdata,
+            S_AXIS_S2MM_1_tkeep  => sS_AXIS_S2MM_1_tkeep,
+            S_AXIS_S2MM_1_tlast  => sS_AXIS_S2MM_1_tlast,
+            S_AXIS_S2MM_1_tready => sS_AXIS_S2MM_1_tready,
+            S_AXIS_S2MM_1_tvalid => sS_AXIS_S2MM_1_tvalid,
 
             clk_sys_o         => sclk_sys_o,
             peripheral_reset_0 => speripheral_reset_0

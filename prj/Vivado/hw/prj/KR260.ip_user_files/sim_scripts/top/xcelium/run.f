@@ -11,6 +11,7 @@
 -endlib
 -makelib xcelium_lib/xpm -sv \
   "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+  "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
   "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 -endlib
 -makelib xcelium_lib/xpm \
@@ -88,6 +89,27 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/top/sim/top.vhd" \
 -endlib
+-makelib xcelium_lib/lib_pkg_v1_0_2 \
+  "../../../../../srcs/top/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/lib_fifo_v1_0_16 \
+  "../../../../../srcs/top/ipshared/6c82/hdl/lib_fifo_v1_0_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/lib_srl_fifo_v1_0_2 \
+  "../../../../../srcs/top/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/axi_datamover_v5_1_29 \
+  "../../../../../srcs/top/ipshared/2237/hdl/axi_datamover_v5_1_vh_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/axi_sg_v4_1_15 \
+  "../../../../../srcs/top/ipshared/751a/hdl/axi_sg_v4_1_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/axi_dma_v7_1_28 \
+  "../../../../../srcs/top/ipshared/70c4/hdl/axi_dma_v7_1_vh_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_axi_dma_0_0/sim/top_axi_dma_0_0.vhd" \
+-endlib
 -makelib xcelium_lib/axi_clock_converter_v2_1_26 \
   "../../../../../srcs/top/ipshared/b8be/hdl/axi_clock_converter_v2_1_vl_rfs.v" \
 -endlib
@@ -101,6 +123,7 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/top/ip/top_auto_pc_0/sim/top_auto_pc_0.v" \
+  "../../../bd/top/ip/top_auto_pc_1/sim/top_auto_pc_1.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/prj/KR260.runs/synth_1'
+HD_PWD='C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/prj/KR260.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

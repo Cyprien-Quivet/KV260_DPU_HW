@@ -15,6 +15,12 @@ vlib modelsim_lib/msim/axi_register_slice_v2_1_27
 vlib modelsim_lib/msim/fifo_generator_v13_2_7
 vlib modelsim_lib/msim/axi_data_fifo_v2_1_26
 vlib modelsim_lib/msim/axi_crossbar_v2_1_28
+vlib modelsim_lib/msim/lib_pkg_v1_0_2
+vlib modelsim_lib/msim/lib_fifo_v1_0_16
+vlib modelsim_lib/msim/lib_srl_fifo_v1_0_2
+vlib modelsim_lib/msim/axi_datamover_v5_1_29
+vlib modelsim_lib/msim/axi_sg_v4_1_15
+vlib modelsim_lib/msim/axi_dma_v7_1_28
 vlib modelsim_lib/msim/axi_clock_converter_v2_1_26
 vlib modelsim_lib/msim/axi_protocol_converter_v2_1_27
 
@@ -32,6 +38,12 @@ vmap axi_register_slice_v2_1_27 modelsim_lib/msim/axi_register_slice_v2_1_27
 vmap fifo_generator_v13_2_7 modelsim_lib/msim/fifo_generator_v13_2_7
 vmap axi_data_fifo_v2_1_26 modelsim_lib/msim/axi_data_fifo_v2_1_26
 vmap axi_crossbar_v2_1_28 modelsim_lib/msim/axi_crossbar_v2_1_28
+vmap lib_pkg_v1_0_2 modelsim_lib/msim/lib_pkg_v1_0_2
+vmap lib_fifo_v1_0_16 modelsim_lib/msim/lib_fifo_v1_0_16
+vmap lib_srl_fifo_v1_0_2 modelsim_lib/msim/lib_srl_fifo_v1_0_2
+vmap axi_datamover_v5_1_29 modelsim_lib/msim/axi_datamover_v5_1_29
+vmap axi_sg_v4_1_15 modelsim_lib/msim/axi_sg_v4_1_15
+vmap axi_dma_v7_1_28 modelsim_lib/msim/axi_dma_v7_1_28
 vmap axi_clock_converter_v2_1_26 modelsim_lib/msim/axi_clock_converter_v2_1_26
 vmap axi_protocol_converter_v2_1_27 modelsim_lib/msim/axi_protocol_converter_v2_1_27
 
@@ -48,6 +60,7 @@ vlog -work xilinx_vip  -incr -mfcu  -sv -L axi_vip_v1_1_13 -L zynq_ultra_ps_e_vi
 
 vlog -work xpm  -incr -mfcu  -sv -L axi_vip_v1_1_13 -L zynq_ultra_ps_e_vip_v1_0_13 -L xilinx_vip "+incdir+../../../../../srcs/top/ipshared/7698" "+incdir+../../../bd/top/ipshared/53f7/inc" "+incdir+../../../../../srcs/top/ipshared/ec67/hdl" "+incdir+../../../../../srcs/top/ipshared/abef/hdl" "+incdir+../../../../../srcs/top/ipshared/53f7/inc" "+incdir+D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/include" \
 "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
 "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 
 vcom -work xpm  -93  \
@@ -125,6 +138,27 @@ vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../../srcs/top/ipshare
 vcom -work xil_defaultlib  -93  \
 "../../../bd/top/sim/top.vhd" \
 
+vcom -work lib_pkg_v1_0_2  -93  \
+"../../../../../srcs/top/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd" \
+
+vcom -work lib_fifo_v1_0_16  -93  \
+"../../../../../srcs/top/ipshared/6c82/hdl/lib_fifo_v1_0_rfs.vhd" \
+
+vcom -work lib_srl_fifo_v1_0_2  -93  \
+"../../../../../srcs/top/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd" \
+
+vcom -work axi_datamover_v5_1_29  -93  \
+"../../../../../srcs/top/ipshared/2237/hdl/axi_datamover_v5_1_vh_rfs.vhd" \
+
+vcom -work axi_sg_v4_1_15  -93  \
+"../../../../../srcs/top/ipshared/751a/hdl/axi_sg_v4_1_rfs.vhd" \
+
+vcom -work axi_dma_v7_1_28  -93  \
+"../../../../../srcs/top/ipshared/70c4/hdl/axi_dma_v7_1_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib  -93  \
+"../../../bd/top/ip/top_axi_dma_0_0/sim/top_axi_dma_0_0.vhd" \
+
 vlog -work axi_clock_converter_v2_1_26  -incr -mfcu  "+incdir+../../../../../srcs/top/ipshared/7698" "+incdir+../../../bd/top/ipshared/53f7/inc" "+incdir+../../../../../srcs/top/ipshared/ec67/hdl" "+incdir+../../../../../srcs/top/ipshared/abef/hdl" "+incdir+../../../../../srcs/top/ipshared/53f7/inc" "+incdir+D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/include" \
 "../../../../../srcs/top/ipshared/b8be/hdl/axi_clock_converter_v2_1_vl_rfs.v" \
 
@@ -138,6 +172,7 @@ vlog -work axi_protocol_converter_v2_1_27  -incr -mfcu  "+incdir+../../../../../
 
 vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../../srcs/top/ipshared/7698" "+incdir+../../../bd/top/ipshared/53f7/inc" "+incdir+../../../../../srcs/top/ipshared/ec67/hdl" "+incdir+../../../../../srcs/top/ipshared/abef/hdl" "+incdir+../../../../../srcs/top/ipshared/53f7/inc" "+incdir+D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/include" \
 "../../../bd/top/ip/top_auto_pc_0/sim/top_auto_pc_0.v" \
+"../../../bd/top/ip/top_auto_pc_1/sim/top_auto_pc_1.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

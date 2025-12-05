@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/prj/KR260.runs/impl_1_01'
+HD_PWD='C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/prj/KR260.runs/impl_1_01'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log top_level.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top_level.tcl -notrace
 
 

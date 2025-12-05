@@ -145,6 +145,7 @@ void add_extensions_to_tlm(const xtlm::aximm_payload* xtlm_pay, tlm::tlm_generic
         ,maxihpm0_lpd_aclk("maxihpm0_lpd_aclk")
         ,saxihp0_fpd_aclk("saxihp0_fpd_aclk")
         ,saxihp1_fpd_aclk("saxihp1_fpd_aclk")
+        ,saxihp2_fpd_aclk("saxihp2_fpd_aclk")
         ,saxi_lpd_aclk("saxi_lpd_aclk")
         ,pl_ps_irq0("pl_ps_irq0")
         ,pl_ps_irq1("pl_ps_irq1")
@@ -153,16 +154,19 @@ void add_extensions_to_tlm(const xtlm::aximm_payload* xtlm_pay, tlm::tlm_generic
         ,pl_clk1("pl_clk1")
     ,S_AXI_HP0_FPD_xtlm_brdg("S_AXI_HP0_FPD_xtlm_brdg")
     ,S_AXI_HP1_FPD_xtlm_brdg("S_AXI_HP1_FPD_xtlm_brdg")
+    ,S_AXI_HP2_FPD_xtlm_brdg("S_AXI_HP2_FPD_xtlm_brdg")
     ,S_AXI_LPD_xtlm_brdg("S_AXI_LPD_xtlm_brdg")
     ,m_rp_bridge_M_AXI_HPM0_LPD("m_rp_bridge_M_AXI_HPM0_LPD")
         ,pl_clk0_clk("pl_clk0_clk", sc_time(10.000999599910012,sc_core::SC_NS))//clock period in nanoseconds = 1000/freq(in MZ)
-        ,pl_clk1_clk("pl_clk1_clk", sc_time(3.7040738092712093,sc_core::SC_NS))//clock period in nanoseconds = 1000/freq(in MZ)
+        ,pl_clk1_clk("pl_clk1_clk", sc_time(3.750374826524068,sc_core::SC_NS))//clock period in nanoseconds = 1000/freq(in MZ)
     {
         //creating instances of xtlm slave sockets
         S_AXI_HP0_FPD_wr_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_HP0_FPD_wr_socket", 128);
         S_AXI_HP0_FPD_rd_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_HP0_FPD_rd_socket", 128);
         S_AXI_HP1_FPD_wr_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_HP1_FPD_wr_socket", 128);
         S_AXI_HP1_FPD_rd_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_HP1_FPD_rd_socket", 128);
+        S_AXI_HP2_FPD_wr_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_HP2_FPD_wr_socket", 128);
+        S_AXI_HP2_FPD_rd_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_HP2_FPD_rd_socket", 128);
         S_AXI_LPD_wr_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_LPD_wr_socket", 128);
         S_AXI_LPD_rd_socket = new xtlm::xtlm_aximm_target_socket("S_AXI_LPD_rd_socket", 128);
 
@@ -206,6 +210,15 @@ void add_extensions_to_tlm(const xtlm::aximm_payload* xtlm_pay, tlm::tlm_generic
         S_AXI_HP1_FPD_buff->out_rd_socket->bind(*S_AXI_HP1_FPD_xtlm_brdg.rd_socket);
         m_zynqmp_tlm_model->s_axi_hp_fpd[1]->bind(S_AXI_HP1_FPD_xtlm_brdg.initiator_socket);
 
+        //instantiating XTLM2TLM bridge and stiching it between 
+        //S_AXI_HP2_FPD_wr_socket/rd_socket sockets to s_axi_hp_fpd[2] target socket of Zynqmp Qemu tlm wrapper
+        S_AXI_HP2_FPD_buff = new xtlm::xtlm_aximm_fifo("S_AXI_HP2_FPD_buff");
+        S_AXI_HP2_FPD_rd_socket->bind(*S_AXI_HP2_FPD_buff->in_rd_socket);
+        S_AXI_HP2_FPD_wr_socket->bind(*S_AXI_HP2_FPD_buff->in_wr_socket);
+        S_AXI_HP2_FPD_buff->out_wr_socket->bind(*S_AXI_HP2_FPD_xtlm_brdg.wr_socket);
+        S_AXI_HP2_FPD_buff->out_rd_socket->bind(*S_AXI_HP2_FPD_xtlm_brdg.rd_socket);
+        m_zynqmp_tlm_model->s_axi_hp_fpd[2]->bind(S_AXI_HP2_FPD_xtlm_brdg.initiator_socket);
+
         
         //instantiating XTLM2TLM bridge and stiching it between 
         //S_AXI_LPD_wr_socket/rd_socket sockets to s_axi_hp_fpd[4] target socket of Zynqmp Qemu tlm wrapper
@@ -243,6 +256,7 @@ void add_extensions_to_tlm(const xtlm::aximm_payload* xtlm_pay, tlm::tlm_generic
         
         S_AXI_HP0_FPD_xtlm_brdg.registerUserExtensionHandlerCallback(add_extensions_to_tlm);
         S_AXI_HP1_FPD_xtlm_brdg.registerUserExtensionHandlerCallback(&add_extensions_to_tlm);
+        S_AXI_HP2_FPD_xtlm_brdg.registerUserExtensionHandlerCallback(&add_extensions_to_tlm);
         S_AXI_LPD_xtlm_brdg.registerUserExtensionHandlerCallback(&add_extensions_to_tlm);
         m_rp_bridge_M_AXI_HPM0_LPD.registerUserExtensionHandlerCallback(&get_extensions_from_tlm);
 
@@ -258,6 +272,9 @@ void add_extensions_to_tlm(const xtlm::aximm_payload* xtlm_pay, tlm::tlm_generic
         delete S_AXI_HP1_FPD_wr_socket;
         delete S_AXI_HP1_FPD_rd_socket;
         delete S_AXI_HP1_FPD_buff;
+        delete S_AXI_HP2_FPD_wr_socket;
+        delete S_AXI_HP2_FPD_rd_socket;
+        delete S_AXI_HP2_FPD_buff;
         delete S_AXI_LPD_wr_socket;
         delete S_AXI_LPD_rd_socket;
         delete S_AXI_LPD_buff;

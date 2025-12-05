@@ -135,6 +135,7 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
     sc_core::sc_in<bool> maxihpm0_lpd_aclk;
     sc_core::sc_in<bool> saxihp0_fpd_aclk;
     sc_core::sc_in<bool> saxihp1_fpd_aclk;
+    sc_core::sc_in<bool> saxihp2_fpd_aclk;
     sc_core::sc_in<bool> saxi_lpd_aclk;
     sc_core::sc_in<sc_dt::sc_bv<1> >  pl_ps_irq0;
     sc_core::sc_in<sc_dt::sc_bv<1> >  pl_ps_irq1;
@@ -148,6 +149,8 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
     xtlm::xtlm_aximm_target_socket*         S_AXI_HP0_FPD_rd_socket;
     xtlm::xtlm_aximm_target_socket*         S_AXI_HP1_FPD_wr_socket;
     xtlm::xtlm_aximm_target_socket*         S_AXI_HP1_FPD_rd_socket;
+    xtlm::xtlm_aximm_target_socket*         S_AXI_HP2_FPD_wr_socket;
+    xtlm::xtlm_aximm_target_socket*         S_AXI_HP2_FPD_rd_socket;
     xtlm::xtlm_aximm_target_socket*         S_AXI_LPD_wr_socket;
     xtlm::xtlm_aximm_target_socket*         S_AXI_LPD_rd_socket;
 
@@ -184,6 +187,8 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
     xtlm::xtlm_aximm_fifo *S_AXI_HP0_FPD_buff;
     xtlm::xaximm_xtlm2tlm_t<128,32> S_AXI_HP1_FPD_xtlm_brdg;
     xtlm::xtlm_aximm_fifo *S_AXI_HP1_FPD_buff;
+    xtlm::xaximm_xtlm2tlm_t<128,32> S_AXI_HP2_FPD_xtlm_brdg;
+    xtlm::xtlm_aximm_fifo *S_AXI_HP2_FPD_buff;
     xtlm::xaximm_xtlm2tlm_t<32,32> S_AXI_LPD_xtlm_brdg;
     xtlm::xtlm_aximm_fifo *S_AXI_LPD_buff;
 

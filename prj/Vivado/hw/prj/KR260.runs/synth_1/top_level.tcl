@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/prj/KR260.runs/synth_1/top_level.tcl"
+  variable script "C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/prj/KR260.runs/synth_1/top_level.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,50 +77,53 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/prj/KR260.cache/wt [current_project]
-set_property parent.project_path C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/prj/KR260.xpr [current_project]
-set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+set_property webtalk.parent_dir C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/prj/KR260.cache/wt [current_project]
+set_property parent.project_path C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/prj/KR260.xpr [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part xilinx.com:kv260_som:part0:1.4 [current_project]
 set_property ip_repo_paths {
-  c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/dpu_ip
-  c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/axi_lite_led
+  c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/dpu_ip
+  c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/axi_lite_led
 } [current_project]
 update_ip_catalog
-set_property ip_output_repo c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/prj/KR260.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/prj/KR260.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top_level.vhd
-add_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/top.bd
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_0/top_rst_gen_clk_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_0/top_rst_gen_clk_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0.xdc]
-set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0_impl.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0_impl.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_ghp_0/top_rst_gen_ghp_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_ghp_0/top_rst_gen_ghp_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_reg_0/top_rst_gen_reg_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_rst_gen_reg_0/top_rst_gen_reg_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0.xdc]
-set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_ooc.xdc]
-set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/srcs/top/top_ooc.xdc]
+read_vhdl -library xil_defaultlib C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top_level.vhd
+add_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/top.bd
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_0/top_rst_gen_clk_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_0/top_rst_gen_clk_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0.xdc]
+set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_ghp_0/top_rst_gen_ghp_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_ghp_0/top_rst_gen_ghp_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_reg_0/top_rst_gen_reg_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_rst_gen_reg_0/top_rst_gen_reg_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_axi_dma_0_0/top_axi_dma_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_axi_dma_0_0/top_axi_dma_0_0_clocks.xdc]
+set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_ooc.xdc]
+set_property used_in_synthesis false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/ip/top_auto_pc_1/top_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/srcs/top/top_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -131,17 +134,17 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/pin.xdc
-set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/pin.xdc]
+read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/pin.xdc
+set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/pin.xdc]
 
-read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/misc.xdc
-set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/misc.xdc]
+read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/misc.xdc
+set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/misc.xdc]
 
-read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/timing.xdc
-set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/timing.xdc]
+read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/timing.xdc
+set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/timing.xdc]
 
-read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/debug.xdc
-set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_HW_2022_2/prj/Vivado/hw/constrs/debug.xdc]
+read_xdc C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/debug.xdc
+set_property used_in_implementation false [get_files C:/Users/Cyprien/Documents/GitHub/SII/KV260_DPU_PL/prj/Vivado/hw/constrs/debug.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

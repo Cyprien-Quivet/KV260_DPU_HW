@@ -186,6 +186,46 @@ module top_zynq_ultra_ps_e_0 (
   input bit_as_bool saxigp3_rready,
   input bit [3 : 0] saxigp3_awqos,
   input bit [3 : 0] saxigp3_arqos,
+  input bit_as_bool saxihp2_fpd_aclk,
+  input bit_as_bool saxigp4_aruser,
+  input bit_as_bool saxigp4_awuser,
+  input bit [5 : 0] saxigp4_awid,
+  input bit [48 : 0] saxigp4_awaddr,
+  input bit [7 : 0] saxigp4_awlen,
+  input bit [2 : 0] saxigp4_awsize,
+  input bit [1 : 0] saxigp4_awburst,
+  input bit_as_bool saxigp4_awlock,
+  input bit [3 : 0] saxigp4_awcache,
+  input bit [2 : 0] saxigp4_awprot,
+  input bit_as_bool saxigp4_awvalid,
+  output bit_as_bool saxigp4_awready,
+  input bit [127 : 0] saxigp4_wdata,
+  input bit [15 : 0] saxigp4_wstrb,
+  input bit_as_bool saxigp4_wlast,
+  input bit_as_bool saxigp4_wvalid,
+  output bit_as_bool saxigp4_wready,
+  output bit [5 : 0] saxigp4_bid,
+  output bit [1 : 0] saxigp4_bresp,
+  output bit_as_bool saxigp4_bvalid,
+  input bit_as_bool saxigp4_bready,
+  input bit [5 : 0] saxigp4_arid,
+  input bit [48 : 0] saxigp4_araddr,
+  input bit [7 : 0] saxigp4_arlen,
+  input bit [2 : 0] saxigp4_arsize,
+  input bit [1 : 0] saxigp4_arburst,
+  input bit_as_bool saxigp4_arlock,
+  input bit [3 : 0] saxigp4_arcache,
+  input bit [2 : 0] saxigp4_arprot,
+  input bit_as_bool saxigp4_arvalid,
+  output bit_as_bool saxigp4_arready,
+  output bit [5 : 0] saxigp4_rid,
+  output bit [127 : 0] saxigp4_rdata,
+  output bit [1 : 0] saxigp4_rresp,
+  output bit_as_bool saxigp4_rlast,
+  output bit_as_bool saxigp4_rvalid,
+  input bit_as_bool saxigp4_rready,
+  input bit [3 : 0] saxigp4_awqos,
+  input bit [3 : 0] saxigp4_arqos,
   input bit_as_bool saxi_lpd_aclk,
   input bit_as_bool saxigp6_aruser,
   input bit_as_bool saxigp6_awuser,
@@ -237,7 +277,7 @@ endmodule
 
 `ifdef XCELIUM
 (* XMSC_MODULE_EXPORT *)
-module top_zynq_ultra_ps_e_0 (maxihpm0_lpd_aclk,maxigp2_awid,maxigp2_awaddr,maxigp2_awlen,maxigp2_awsize,maxigp2_awburst,maxigp2_awlock,maxigp2_awcache,maxigp2_awprot,maxigp2_awvalid,maxigp2_awuser,maxigp2_awready,maxigp2_wdata,maxigp2_wstrb,maxigp2_wlast,maxigp2_wvalid,maxigp2_wready,maxigp2_bid,maxigp2_bresp,maxigp2_bvalid,maxigp2_bready,maxigp2_arid,maxigp2_araddr,maxigp2_arlen,maxigp2_arsize,maxigp2_arburst,maxigp2_arlock,maxigp2_arcache,maxigp2_arprot,maxigp2_arvalid,maxigp2_aruser,maxigp2_arready,maxigp2_rid,maxigp2_rdata,maxigp2_rresp,maxigp2_rlast,maxigp2_rvalid,maxigp2_rready,maxigp2_awqos,maxigp2_arqos,saxihp0_fpd_aclk,saxigp2_aruser,saxigp2_awuser,saxigp2_awid,saxigp2_awaddr,saxigp2_awlen,saxigp2_awsize,saxigp2_awburst,saxigp2_awlock,saxigp2_awcache,saxigp2_awprot,saxigp2_awvalid,saxigp2_awready,saxigp2_wdata,saxigp2_wstrb,saxigp2_wlast,saxigp2_wvalid,saxigp2_wready,saxigp2_bid,saxigp2_bresp,saxigp2_bvalid,saxigp2_bready,saxigp2_arid,saxigp2_araddr,saxigp2_arlen,saxigp2_arsize,saxigp2_arburst,saxigp2_arlock,saxigp2_arcache,saxigp2_arprot,saxigp2_arvalid,saxigp2_arready,saxigp2_rid,saxigp2_rdata,saxigp2_rresp,saxigp2_rlast,saxigp2_rvalid,saxigp2_rready,saxigp2_awqos,saxigp2_arqos,saxihp1_fpd_aclk,saxigp3_aruser,saxigp3_awuser,saxigp3_awid,saxigp3_awaddr,saxigp3_awlen,saxigp3_awsize,saxigp3_awburst,saxigp3_awlock,saxigp3_awcache,saxigp3_awprot,saxigp3_awvalid,saxigp3_awready,saxigp3_wdata,saxigp3_wstrb,saxigp3_wlast,saxigp3_wvalid,saxigp3_wready,saxigp3_bid,saxigp3_bresp,saxigp3_bvalid,saxigp3_bready,saxigp3_arid,saxigp3_araddr,saxigp3_arlen,saxigp3_arsize,saxigp3_arburst,saxigp3_arlock,saxigp3_arcache,saxigp3_arprot,saxigp3_arvalid,saxigp3_arready,saxigp3_rid,saxigp3_rdata,saxigp3_rresp,saxigp3_rlast,saxigp3_rvalid,saxigp3_rready,saxigp3_awqos,saxigp3_arqos,saxi_lpd_aclk,saxigp6_aruser,saxigp6_awuser,saxigp6_awid,saxigp6_awaddr,saxigp6_awlen,saxigp6_awsize,saxigp6_awburst,saxigp6_awlock,saxigp6_awcache,saxigp6_awprot,saxigp6_awvalid,saxigp6_awready,saxigp6_wdata,saxigp6_wstrb,saxigp6_wlast,saxigp6_wvalid,saxigp6_wready,saxigp6_bid,saxigp6_bresp,saxigp6_bvalid,saxigp6_bready,saxigp6_arid,saxigp6_araddr,saxigp6_arlen,saxigp6_arsize,saxigp6_arburst,saxigp6_arlock,saxigp6_arcache,saxigp6_arprot,saxigp6_arvalid,saxigp6_arready,saxigp6_rid,saxigp6_rdata,saxigp6_rresp,saxigp6_rlast,saxigp6_rvalid,saxigp6_rready,saxigp6_awqos,saxigp6_arqos,pl_ps_irq0,pl_ps_irq1,pl_resetn0,pl_clk0,pl_clk1)
+module top_zynq_ultra_ps_e_0 (maxihpm0_lpd_aclk,maxigp2_awid,maxigp2_awaddr,maxigp2_awlen,maxigp2_awsize,maxigp2_awburst,maxigp2_awlock,maxigp2_awcache,maxigp2_awprot,maxigp2_awvalid,maxigp2_awuser,maxigp2_awready,maxigp2_wdata,maxigp2_wstrb,maxigp2_wlast,maxigp2_wvalid,maxigp2_wready,maxigp2_bid,maxigp2_bresp,maxigp2_bvalid,maxigp2_bready,maxigp2_arid,maxigp2_araddr,maxigp2_arlen,maxigp2_arsize,maxigp2_arburst,maxigp2_arlock,maxigp2_arcache,maxigp2_arprot,maxigp2_arvalid,maxigp2_aruser,maxigp2_arready,maxigp2_rid,maxigp2_rdata,maxigp2_rresp,maxigp2_rlast,maxigp2_rvalid,maxigp2_rready,maxigp2_awqos,maxigp2_arqos,saxihp0_fpd_aclk,saxigp2_aruser,saxigp2_awuser,saxigp2_awid,saxigp2_awaddr,saxigp2_awlen,saxigp2_awsize,saxigp2_awburst,saxigp2_awlock,saxigp2_awcache,saxigp2_awprot,saxigp2_awvalid,saxigp2_awready,saxigp2_wdata,saxigp2_wstrb,saxigp2_wlast,saxigp2_wvalid,saxigp2_wready,saxigp2_bid,saxigp2_bresp,saxigp2_bvalid,saxigp2_bready,saxigp2_arid,saxigp2_araddr,saxigp2_arlen,saxigp2_arsize,saxigp2_arburst,saxigp2_arlock,saxigp2_arcache,saxigp2_arprot,saxigp2_arvalid,saxigp2_arready,saxigp2_rid,saxigp2_rdata,saxigp2_rresp,saxigp2_rlast,saxigp2_rvalid,saxigp2_rready,saxigp2_awqos,saxigp2_arqos,saxihp1_fpd_aclk,saxigp3_aruser,saxigp3_awuser,saxigp3_awid,saxigp3_awaddr,saxigp3_awlen,saxigp3_awsize,saxigp3_awburst,saxigp3_awlock,saxigp3_awcache,saxigp3_awprot,saxigp3_awvalid,saxigp3_awready,saxigp3_wdata,saxigp3_wstrb,saxigp3_wlast,saxigp3_wvalid,saxigp3_wready,saxigp3_bid,saxigp3_bresp,saxigp3_bvalid,saxigp3_bready,saxigp3_arid,saxigp3_araddr,saxigp3_arlen,saxigp3_arsize,saxigp3_arburst,saxigp3_arlock,saxigp3_arcache,saxigp3_arprot,saxigp3_arvalid,saxigp3_arready,saxigp3_rid,saxigp3_rdata,saxigp3_rresp,saxigp3_rlast,saxigp3_rvalid,saxigp3_rready,saxigp3_awqos,saxigp3_arqos,saxihp2_fpd_aclk,saxigp4_aruser,saxigp4_awuser,saxigp4_awid,saxigp4_awaddr,saxigp4_awlen,saxigp4_awsize,saxigp4_awburst,saxigp4_awlock,saxigp4_awcache,saxigp4_awprot,saxigp4_awvalid,saxigp4_awready,saxigp4_wdata,saxigp4_wstrb,saxigp4_wlast,saxigp4_wvalid,saxigp4_wready,saxigp4_bid,saxigp4_bresp,saxigp4_bvalid,saxigp4_bready,saxigp4_arid,saxigp4_araddr,saxigp4_arlen,saxigp4_arsize,saxigp4_arburst,saxigp4_arlock,saxigp4_arcache,saxigp4_arprot,saxigp4_arvalid,saxigp4_arready,saxigp4_rid,saxigp4_rdata,saxigp4_rresp,saxigp4_rlast,saxigp4_rvalid,saxigp4_rready,saxigp4_awqos,saxigp4_arqos,saxi_lpd_aclk,saxigp6_aruser,saxigp6_awuser,saxigp6_awid,saxigp6_awaddr,saxigp6_awlen,saxigp6_awsize,saxigp6_awburst,saxigp6_awlock,saxigp6_awcache,saxigp6_awprot,saxigp6_awvalid,saxigp6_awready,saxigp6_wdata,saxigp6_wstrb,saxigp6_wlast,saxigp6_wvalid,saxigp6_wready,saxigp6_bid,saxigp6_bresp,saxigp6_bvalid,saxigp6_bready,saxigp6_arid,saxigp6_araddr,saxigp6_arlen,saxigp6_arsize,saxigp6_arburst,saxigp6_arlock,saxigp6_arcache,saxigp6_arprot,saxigp6_arvalid,saxigp6_arready,saxigp6_rid,saxigp6_rdata,saxigp6_rresp,saxigp6_rlast,saxigp6_rvalid,saxigp6_rready,saxigp6_awqos,saxigp6_arqos,pl_ps_irq0,pl_ps_irq1,pl_resetn0,pl_clk0,pl_clk1)
 (* integer foreign = "SystemC";
 *);
   input bit maxihpm0_lpd_aclk;
@@ -360,6 +400,46 @@ module top_zynq_ultra_ps_e_0 (maxihpm0_lpd_aclk,maxigp2_awid,maxigp2_awaddr,maxi
   input bit saxigp3_rready;
   input bit [3 : 0] saxigp3_awqos;
   input bit [3 : 0] saxigp3_arqos;
+  input bit saxihp2_fpd_aclk;
+  input bit saxigp4_aruser;
+  input bit saxigp4_awuser;
+  input bit [5 : 0] saxigp4_awid;
+  input bit [48 : 0] saxigp4_awaddr;
+  input bit [7 : 0] saxigp4_awlen;
+  input bit [2 : 0] saxigp4_awsize;
+  input bit [1 : 0] saxigp4_awburst;
+  input bit saxigp4_awlock;
+  input bit [3 : 0] saxigp4_awcache;
+  input bit [2 : 0] saxigp4_awprot;
+  input bit saxigp4_awvalid;
+  output wire saxigp4_awready;
+  input bit [127 : 0] saxigp4_wdata;
+  input bit [15 : 0] saxigp4_wstrb;
+  input bit saxigp4_wlast;
+  input bit saxigp4_wvalid;
+  output wire saxigp4_wready;
+  output wire [5 : 0] saxigp4_bid;
+  output wire [1 : 0] saxigp4_bresp;
+  output wire saxigp4_bvalid;
+  input bit saxigp4_bready;
+  input bit [5 : 0] saxigp4_arid;
+  input bit [48 : 0] saxigp4_araddr;
+  input bit [7 : 0] saxigp4_arlen;
+  input bit [2 : 0] saxigp4_arsize;
+  input bit [1 : 0] saxigp4_arburst;
+  input bit saxigp4_arlock;
+  input bit [3 : 0] saxigp4_arcache;
+  input bit [2 : 0] saxigp4_arprot;
+  input bit saxigp4_arvalid;
+  output wire saxigp4_arready;
+  output wire [5 : 0] saxigp4_rid;
+  output wire [127 : 0] saxigp4_rdata;
+  output wire [1 : 0] saxigp4_rresp;
+  output wire saxigp4_rlast;
+  output wire saxigp4_rvalid;
+  input bit saxigp4_rready;
+  input bit [3 : 0] saxigp4_awqos;
+  input bit [3 : 0] saxigp4_arqos;
   input bit saxi_lpd_aclk;
   input bit saxigp6_aruser;
   input bit saxigp6_awuser;

@@ -14664,11 +14664,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Nov 12 14:27:52 UTC 2025</spirit:value>
+            <spirit:value>Fri Dec 05 15:41:49 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c8166569</spirit:value>
+            <spirit:value>9:c5625c86</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14679,7 +14679,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c8166569</spirit:value>
+            <spirit:value>9:c5625c86</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14695,11 +14695,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Nov 12 15:16:37 UTC 2025</spirit:value>
+            <spirit:value>Fri Dec 05 16:18:29 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c8166569</spirit:value>
+            <spirit:value>9:c5625c86</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14714,11 +14714,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Nov 12 14:27:52 UTC 2025</spirit:value>
+            <spirit:value>Fri Dec 05 15:41:49 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:4832b85f</spirit:value>
+            <spirit:value>9:d9bafa74</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14734,11 +14734,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Nov 12 15:16:37 UTC 2025</spirit:value>
+            <spirit:value>Fri Dec 05 16:18:29 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:4832b85f</spirit:value>
+            <spirit:value>9:d9bafa74</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14753,11 +14753,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Nov 12 15:16:37 UTC 2025</spirit:value>
+            <spirit:value>Fri Dec 05 16:18:29 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c8166569</spirit:value>
+            <spirit:value>9:c5625c86</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -35076,12 +35076,12 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>TIME_MONTH</spirit:name>
         <spirit:displayName>Time Month</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.TIME_MONTH" spirit:minimum="1" spirit:maximum="12" spirit:rangeType="long">11</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.TIME_MONTH" spirit:minimum="1" spirit:maximum="12" spirit:rangeType="long">12</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>TIME_DAY</spirit:name>
         <spirit:displayName>Time Day</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.TIME_DAY" spirit:minimum="1" spirit:maximum="31" spirit:rangeType="long">12</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.TIME_DAY" spirit:minimum="1" spirit:maximum="31" spirit:rangeType="long">5</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>TIME_HOUR</spirit:name>
@@ -35091,7 +35091,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>TIME_QUARTER</spirit:name>
         <spirit:displayName>Time Quarter</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.TIME_QUARTER" spirit:minimum="0" spirit:maximum="3" spirit:rangeType="long">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.TIME_QUARTER" spirit:minimum="0" spirit:maximum="3" spirit:rangeType="long">2</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>GIT_COMMIT_ID</spirit:name>
@@ -35166,7 +35166,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>ARCH_PP</spirit:name>
         <spirit:displayName>Arch Pp</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ARCH_PP" spirit:choiceRef="choice_list_aa15b708">4</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ARCH_PP" spirit:choiceRef="choice_list_aa15b708">8</spirit:value>
         <spirit:vendorExtensions>
           <xilinx:parameterInfo>
             <xilinx:enablement>
@@ -35178,7 +35178,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>ARCH_ICP</spirit:name>
         <spirit:displayName>Arch Icp</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ARCH_ICP" spirit:choiceRef="choice_list_6fb4a8e4">8</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ARCH_ICP" spirit:choiceRef="choice_list_6fb4a8e4">16</spirit:value>
         <spirit:vendorExtensions>
           <xilinx:parameterInfo>
             <xilinx:enablement>
@@ -35190,7 +35190,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>ARCH_OCP</spirit:name>
         <spirit:displayName>Arch Ocp</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ARCH_OCP" spirit:choiceRef="choice_list_6fb4a8e4">8</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ARCH_OCP" spirit:choiceRef="choice_list_6fb4a8e4">16</spirit:value>
         <spirit:vendorExtensions>
           <xilinx:parameterInfo>
             <xilinx:enablement>
@@ -35255,12 +35255,12 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>UBANK_WGT_N</spirit:name>
         <spirit:displayName>Ubank Wgt N</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.UBANK_WGT_N">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.UBANK_WGT_N">15.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>UBANK_BIAS</spirit:name>
         <spirit:displayName>Ubank Bias</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.UBANK_BIAS">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.UBANK_BIAS">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DBANK_IMG_N</spirit:name>
@@ -35363,7 +35363,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>ELEW_PARALLEL</spirit:name>
         <spirit:displayName>Elew Parallel</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ELEW_PARALLEL" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.ARCH_PP&apos;)) / 2)" spirit:choiceRef="choice_list_dd2843c6">4</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ELEW_PARALLEL" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.ARCH_PP&apos;)) / 2)" spirit:choiceRef="choice_list_dd2843c6">2</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>ELEW_MULT_EN</spirit:name>
@@ -35385,7 +35385,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>ALU_PARALLEL</spirit:name>
         <spirit:displayName>Alu Parallel</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="MODELPARAM_VALUE.ALU_PARALLEL" spirit:choiceRef="choice_list_dd2843c6">4</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="MODELPARAM_VALUE.ALU_PARALLEL" spirit:choiceRef="choice_list_dd2843c6">2</spirit:value>
         <spirit:vendorExtensions>
           <xilinx:parameterInfo>
             <xilinx:enablement>
@@ -35402,8 +35402,8 @@
       <spirit:modelParameter spirit:dataType="string">
         <spirit:name>DNNDK_PRINT</spirit:name>
         <spirit:displayName>Dnndk Print</spirit:displayName>
-        <spirit:value spirit:resolve="user" spirit:id="MODELPARAM_VALUE.DNNDK_PRINT">Number of DPU Cores:1;Arch of DPU:B512;RAM Usage:Low;Channel Augmentation:Enabled;DepthWiseConv:Enabled;AveragePool:Enabled;Conv ReLU Type:ReLU + LeakyReLU + ReLU6;Number of SFM cores:0;S-AXI Clock Mode:Independent;dpu_2x Clock Gating:Enabled;DSP48 Maximal Cascade Length:4;DSP48 Usage:High;Ultra-RAM Use per DPU:0;Enable timestamp auto-update:Enabled;Target Version:1.4.1;AXI Protocol:AXI4;S-AXI Data Width:32;M-AXI GP Data Width:32;M-AXI HP Data Width (DPU):128;M-AXI HP Data Width (SFM):128;M-AXI 
-ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:value>
+        <spirit:value spirit:resolve="user" spirit:id="MODELPARAM_VALUE.DNNDK_PRINT">Number of DPU Cores:1;Arch of DPU:B4096;RAM Usage:Low;Channel Augmentation:Enabled;DepthWiseConv:Enabled;AveragePool:Enabled;Conv ReLU Type:ReLU + LeakyReLU + ReLU6;Number of SFM cores:0;S-AXI Clock Mode:Independent;dpu_2x Clock Gating:Enabled;DSP48 Maximal Cascade Length:4;DSP48 Usage:High;Ultra-RAM Use per DPU:32;Enable timestamp auto-update:Enabled;Target Version:1.4.1;AXI Protocol:AXI4;S-AXI Data Width:32;M-AXI GP Data Width:32;M-AXI HP Data Width (DPU):128;M-AXI HP Data Width (SFM):128;M-AX
+I ID Width:2;DSP Slice Count:678;Ultra-RAM Count:32.0;Block-RAM Count:135.0</spirit:value>
         <spirit:vendorExtensions>
           <xilinx:parameterInfo>
             <xilinx:enablement>
@@ -35445,12 +35445,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU1_UBANK_WGT_N</spirit:name>
         <spirit:displayName>Dpu1 Ubank Wgt N</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU1_UBANK_WGT_N">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU1_UBANK_WGT_N">15.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU1_UBANK_BIAS</spirit:name>
         <spirit:displayName>Dpu1 Ubank Bias</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU1_UBANK_BIAS">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU1_UBANK_BIAS">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU1_DBANK_IMG_N</spirit:name>
@@ -35500,12 +35500,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU2_UBANK_WGT_N</spirit:name>
         <spirit:displayName>Dpu2 Ubank Wgt N</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU2_UBANK_WGT_N">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU2_UBANK_WGT_N">15.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU2_UBANK_BIAS</spirit:name>
         <spirit:displayName>Dpu2 Ubank Bias</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU2_UBANK_BIAS">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU2_UBANK_BIAS">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU2_DBANK_IMG_N</spirit:name>
@@ -35555,12 +35555,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU3_UBANK_WGT_N</spirit:name>
         <spirit:displayName>Dpu3 Ubank Wgt N</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU3_UBANK_WGT_N">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU3_UBANK_WGT_N">15.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU3_UBANK_BIAS</spirit:name>
         <spirit:displayName>Dpu3 Ubank Bias</spirit:displayName>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU3_UBANK_BIAS">0</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DPU3_UBANK_BIAS">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DPU3_DBANK_IMG_N</spirit:name>
@@ -36050,12 +36050,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>TIME_MONTH</spirit:name>
       <spirit:displayName>Month</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.TIME_MONTH" spirit:minimum="1" spirit:maximum="12" spirit:rangeType="long">11</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.TIME_MONTH" spirit:minimum="1" spirit:maximum="12" spirit:rangeType="long">12</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>TIME_DAY</spirit:name>
       <spirit:displayName>Day</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.TIME_DAY" spirit:minimum="1" spirit:maximum="31" spirit:rangeType="long">12</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.TIME_DAY" spirit:minimum="1" spirit:maximum="31" spirit:rangeType="long">5</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>TIME_HOUR</spirit:name>
@@ -36065,7 +36065,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>TIME_QUARTER</spirit:name>
       <spirit:displayName>Quarter</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.TIME_QUARTER" spirit:minimum="0" spirit:maximum="3" spirit:rangeType="long">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.TIME_QUARTER" spirit:minimum="0" spirit:maximum="3" spirit:rangeType="long">2</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>GIT_COMMIT_ID</spirit:name>
@@ -36140,7 +36140,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>ARCH_PP</spirit:name>
       <spirit:displayName>PP </spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH_PP" spirit:choiceRef="choice_list_aa15b708">4</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH_PP" spirit:choiceRef="choice_list_aa15b708">8</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36152,7 +36152,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>ARCH_ICP</spirit:name>
       <spirit:displayName>ICP </spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH_ICP" spirit:choiceRef="choice_list_6fb4a8e4">8</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH_ICP" spirit:choiceRef="choice_list_6fb4a8e4">16</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36164,7 +36164,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>ARCH_OCP</spirit:name>
       <spirit:displayName>OCP </spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH_OCP" spirit:choiceRef="choice_list_6fb4a8e4">8</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH_OCP" spirit:choiceRef="choice_list_6fb4a8e4">16</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36229,12 +36229,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>UBANK_WGT_N</spirit:name>
       <spirit:displayName>Ubank Wgt N</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_WGT_N">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_WGT_N">15.0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>UBANK_BIAS</spirit:name>
       <spirit:displayName>Ubank Bias</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_BIAS">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_BIAS">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DBANK_IMG_N</spirit:name>
@@ -36337,7 +36337,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>ELEW_PARALLEL</spirit:name>
       <spirit:displayName>Elew Parallel</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ELEW_PARALLEL" spirit:choiceRef="choice_list_dd2843c6">4</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ELEW_PARALLEL" spirit:choiceRef="choice_list_dd2843c6">2</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>ELEW_MULT_EN</spirit:name>
@@ -36359,7 +36359,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>ALU_PARALLEL</spirit:name>
       <spirit:displayName>Alu Parallel Actual</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ALU_PARALLEL" spirit:choiceRef="choice_list_dd2843c6">4</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ALU_PARALLEL" spirit:choiceRef="choice_list_dd2843c6">2</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36376,8 +36376,8 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>DNNDK_PRINT</spirit:name>
       <spirit:displayName>Printed by DNNDK</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DNNDK_PRINT">Number of DPU Cores:1;Arch of DPU:B512;RAM Usage:Low;Channel Augmentation:Enabled;DepthWiseConv:Enabled;AveragePool:Enabled;Conv ReLU Type:ReLU + LeakyReLU + ReLU6;Number of SFM cores:0;S-AXI Clock Mode:Independent;dpu_2x Clock Gating:Enabled;DSP48 Maximal Cascade Length:4;DSP48 Usage:High;Ultra-RAM Use per DPU:0;Enable timestamp auto-update:Enabled;Target Version:1.4.1;AXI Protocol:AXI4;S-AXI Data Width:32;M-AXI GP Data Width:32;M-AXI HP Data Width (DPU):128;M-AXI HP Data Width (SFM):128;M-AXI 
-ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DNNDK_PRINT">Number of DPU Cores:1;Arch of DPU:B4096;RAM Usage:Low;Channel Augmentation:Enabled;DepthWiseConv:Enabled;AveragePool:Enabled;Conv ReLU Type:ReLU + LeakyReLU + ReLU6;Number of SFM cores:0;S-AXI Clock Mode:Independent;dpu_2x Clock Gating:Enabled;DSP48 Maximal Cascade Length:4;DSP48 Usage:High;Ultra-RAM Use per DPU:32;Enable timestamp auto-update:Enabled;Target Version:1.4.1;AXI Protocol:AXI4;S-AXI Data Width:32;M-AXI GP Data Width:32;M-AXI HP Data Width (DPU):128;M-AXI HP Data Width (SFM):128;M-AX
+I ID Width:2;DSP Slice Count:678;Ultra-RAM Count:32.0;Block-RAM Count:135.0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36419,12 +36419,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>DPU1_UBANK_WGT_N</spirit:name>
       <spirit:displayName>Dpu1 Ubank Wgt N</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU1_UBANK_WGT_N">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU1_UBANK_WGT_N">15.0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DPU1_UBANK_BIAS</spirit:name>
       <spirit:displayName>Dpu1 Ubank Bias</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU1_UBANK_BIAS">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU1_UBANK_BIAS">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DPU1_DBANK_IMG_N</spirit:name>
@@ -36474,12 +36474,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>DPU2_UBANK_WGT_N</spirit:name>
       <spirit:displayName>Dpu2 Ubank Wgt N</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU2_UBANK_WGT_N">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU2_UBANK_WGT_N">15.0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DPU2_UBANK_BIAS</spirit:name>
       <spirit:displayName>Dpu2 Ubank Bias</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU2_UBANK_BIAS">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU2_UBANK_BIAS">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DPU2_DBANK_IMG_N</spirit:name>
@@ -36529,12 +36529,12 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>DPU3_UBANK_WGT_N</spirit:name>
       <spirit:displayName>Dpu3 Ubank Wgt N</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU3_UBANK_WGT_N">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU3_UBANK_WGT_N">15.0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DPU3_UBANK_BIAS</spirit:name>
       <spirit:displayName>Dpu3 Ubank Bias</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU3_UBANK_BIAS">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.DPU3_UBANK_BIAS">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DPU3_DBANK_IMG_N</spirit:name>
@@ -36592,7 +36592,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>ARCH</spirit:name>
       <spirit:displayName>Arch of DPU</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH" spirit:choiceRef="choice_pairs_7937c2b8">512</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ARCH" spirit:choiceRef="choice_pairs_7937c2b8">4096</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>AXI_PROTOCOL</spirit:name>
@@ -36626,7 +36626,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>CONV_DSP_NUM</spirit:name>
       <spirit:displayName>CONV</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CONV_DSP_NUM">96</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CONV_DSP_NUM">640</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36667,7 +36667,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>ALU_PARALLEL_USER</spirit:name>
       <spirit:displayName>Alu Parallel</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.ALU_PARALLEL_USER" spirit:choiceRef="choice_list_dd2843c6">4</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.ALU_PARALLEL_USER" spirit:choiceRef="choice_list_dd2843c6">2</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DWCV_ENA</spirit:name>
@@ -36684,7 +36684,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>BANK_IMG_N</spirit:name>
       <spirit:displayName>IMG</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BANK_IMG_N">8</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BANK_IMG_N">16</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36696,7 +36696,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>BANK_WGT_N</spirit:name>
       <spirit:displayName>WGT</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BANK_WGT_N">9</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BANK_WGT_N">17</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36725,17 +36725,17 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>UBANK_WGT_N_USER</spirit:name>
       <spirit:displayName>WGT</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_WGT_N_USER">0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_WGT_N_USER">15.0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>UBANK_BIAS_USER</spirit:name>
       <spirit:displayName>BIAS</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_BIAS_USER">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.UBANK_BIAS_USER">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BBANK_IMG_N</spirit:name>
       <spirit:displayName>IMG</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.BBANK_IMG_N">8</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.BBANK_IMG_N">16</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36747,7 +36747,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>BBANK_WGT_N</spirit:name>
       <spirit:displayName>WGT</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.BBANK_WGT_N">9</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.BBANK_WGT_N">2.0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36759,7 +36759,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>BBANK_BIAS</spirit:name>
       <spirit:displayName>BIAS</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.BBANK_BIAS">1</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.BBANK_BIAS">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36771,7 +36771,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>URAM_N_USER</spirit:name>
       <spirit:displayName>Ultra-RAM Use per DPU</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.URAM_N_USER" spirit:minimum="0" spirit:maximum="84" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.URAM_N_USER" spirit:minimum="0" spirit:maximum="84" spirit:rangeType="long">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>TIMESTAMP_ENA</spirit:name>
@@ -36853,7 +36853,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>SUM_DSP_NUM</spirit:name>
       <spirit:displayName>DSP Slice Count</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SUM_DSP_NUM">134</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SUM_DSP_NUM">678</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36865,7 +36865,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>SUM_URAM_N</spirit:name>
       <spirit:displayName>Ultra-RAM Count</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.SUM_URAM_N">0.0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.SUM_URAM_N">32.0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36877,7 +36877,7 @@ ID Width:2;DSP Slice Count:134;Ultra-RAM Count:0.0;Block-RAM Count:72.0</spirit:
     <spirit:parameter>
       <spirit:name>SUM_BRAM_N</spirit:name>
       <spirit:displayName>Block-RAM Count</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.SUM_BRAM_N">72.0</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.SUM_BRAM_N">135.0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
