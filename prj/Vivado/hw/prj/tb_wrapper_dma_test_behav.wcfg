@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_wrapper_dma_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_wrapper_dma_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="317.001 ns"></ZoomEndTime>
+      <Cursor1Time time="29.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/clk_sys">
+      <obj_property name="ElementShortName">clk_sys</obj_property>
+      <obj_property name="ObjectShortName">clk_sys</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/arst_n">
+      <obj_property name="ElementShortName">arst_n</obj_property>
+      <obj_property name="ObjectShortName">arst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/araddr">
+      <obj_property name="ElementShortName">araddr[39:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/arprot">
+      <obj_property name="ElementShortName">arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/arready">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/arvalid">
+      <obj_property name="ElementShortName">arvalid</obj_property>
+      <obj_property name="ObjectShortName">arvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/awaddr">
+      <obj_property name="ElementShortName">awaddr[39:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/awprot">
+      <obj_property name="ElementShortName">awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/awready">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/awvalid">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/bready">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/bresp">
+      <obj_property name="ElementShortName">bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/bvalid">
+      <obj_property name="ElementShortName">bvalid</obj_property>
+      <obj_property name="ObjectShortName">bvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/rdata">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/rready">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/rresp">
+      <obj_property name="ElementShortName">rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/rvalid">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/wdata">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/wready">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/wstrb">
+      <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/wvalid">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/tdata">
+      <obj_property name="ElementShortName">tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/tkeep">
+      <obj_property name="ElementShortName">tkeep[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tkeep[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/tlast">
+      <obj_property name="ElementShortName">tlast</obj_property>
+      <obj_property name="ObjectShortName">tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/tready">
+      <obj_property name="ElementShortName">tready</obj_property>
+      <obj_property name="ObjectShortName">tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/tvalid">
+      <obj_property name="ElementShortName">tvalid</obj_property>
+      <obj_property name="ObjectShortName">tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/ram_addr">
+      <obj_property name="ElementShortName">ram_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/ram_data">
+      <obj_property name="ElementShortName">ram_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/data_from_ram">
+      <obj_property name="ElementShortName">data_from_ram[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_from_ram[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/get_data">
+      <obj_property name="ElementShortName">get_data</obj_property>
+      <obj_property name="ObjectShortName">get_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/trg">
+      <obj_property name="ElementShortName">trg</obj_property>
+      <obj_property name="ObjectShortName">trg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/trg_done">
+      <obj_property name="ElementShortName">trg_done</obj_property>
+      <obj_property name="ObjectShortName">trg_done</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_wrapper_dma_test/clk_period">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_wrapper_dma_test/DUT/gen_stream/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/DUT/gen_stream/index_cnt">
+      <obj_property name="ElementShortName">index_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">index_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_wrapper_dma_test/DUT/gen_stream/data_reg">
+      <obj_property name="ElementShortName">data_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/DUT/gen_stream/valid_reg">
+      <obj_property name="ElementShortName">valid_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/DUT/gen_stream/last_reg">
+      <obj_property name="ElementShortName">last_reg</obj_property>
+      <obj_property name="ObjectShortName">last_reg</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_wrapper_dma_test/DUT/gen_stream/C_NB_TRANSFERS">
+      <obj_property name="ElementShortName">C_NB_TRANSFERS</obj_property>
+      <obj_property name="ObjectShortName">C_NB_TRANSFERS</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_wrapper_dma_test/trg_done">
+      <obj_property name="ElementShortName">trg_done</obj_property>
+      <obj_property name="ObjectShortName">trg_done</obj_property>
+   </wvobject>
+</wave_config>

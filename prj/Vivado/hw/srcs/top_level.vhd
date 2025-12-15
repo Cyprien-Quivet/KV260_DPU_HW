@@ -139,48 +139,49 @@ begin
     -------------------------------------------------------------------------
     -- Instanciation des custom IPs ici ....
     -------------------------------------------------------------------------
-    
-     axi_fake_driver : process(sclk_sys_o)
-    begin
-        if rising_edge(sclk_sys_o) then
-        --------------------------------------------------------------------
-        -- READ ADDRESS CHANNEL (AR)
-        --------------------------------------------------------------------
-        -- Always ready to accept a read address
-        sM00_AXI_0_arready <= '1';
-        -- On ARVALID rising, prepare a read response
-        if sM00_AXI_0_arvalid = '1' then
-            -- Example read data : return address bits
-            sM00_AXI_0_rdata  <= sM00_AXI_0_araddr(31 downto 0);
-            sM00_AXI_0_rresp  <= "00";       -- OKAY
-            sM00_AXI_0_rvalid <= '1';
-        elsif sM00_AXI_0_rready = '1' then
-            sM00_AXI_0_rvalid <= '0';
-        end if;
-        --------------------------------------------------------------------
-        -- WRITE ADDRESS CHANNEL (AW)
-        --------------------------------------------------------------------
-        sM00_AXI_0_awready <= '1';  -- always accept write address
-        --------------------------------------------------------------------
-        -- WRITE DATA CHANNEL (W)
-        --------------------------------------------------------------------
-        sM00_AXI_0_wready <= '1';   -- always ready for write data
-        --------------------------------------------------------------------
-        -- WRITE RESPONSE CHANNEL (B)
-        --------------------------------------------------------------------
-        if (sM00_AXI_0_awvalid = '1' and sM00_AXI_0_wvalid = '1') then
-            sM00_AXI_0_bresp  <= "00"; -- OKAY
-            sM00_AXI_0_bvalid <= '1';
-        elsif sM00_AXI_0_bready = '1' then
-            sM00_AXI_0_bvalid <= '0';
-        end if;
+    u_wrapper_dma_test : entity work.wrapper_dma_test
+generic map (
+    C_S_AXI_ADDR_WIDTH => 40
+)
+port map (
 
-        end if;
-    end process;
+    -- Clocks / Reset
+    clk_sys_i          => sclk_sys_o,
+    peripheral_reset_i => speripheral_reset_0(0),
+    arst_n_i           => '1',                   
+
+    S_AXI_araddr_i  => sM00_AXI_0_araddr,
+    S_AXI_arprot_i  => sM00_AXI_0_arprot,
+    S_AXI_arready_o => sM00_AXI_0_arready,
+    S_AXI_arvalid_i => sM00_AXI_0_arvalid,
+
+    S_AXI_awaddr_i  => sM00_AXI_0_awaddr,
+    S_AXI_awprot_i  => sM00_AXI_0_awprot,
+    S_AXI_awready_o => sM00_AXI_0_awready,
+    S_AXI_awvalid_i => sM00_AXI_0_awvalid,
+
+    S_AXI_bready_i  => sM00_AXI_0_bready,
+    S_AXI_bresp_o   => sM00_AXI_0_bresp,
+    S_AXI_bvalid_o  => sM00_AXI_0_bvalid,
+
+    S_AXI_rdata_o   => sM00_AXI_0_rdata,
+    S_AXI_rready_i  => sM00_AXI_0_rready,
+    S_AXI_rresp_o   => sM00_AXI_0_rresp,
+    S_AXI_rvalid_o  => sM00_AXI_0_rvalid,
+
+    S_AXI_wdata_i   => sM00_AXI_0_wdata,
+    S_AXI_wready_o  => sM00_AXI_0_wready,
+    S_AXI_wstrb_i   => sM00_AXI_0_wstrb,
+    S_AXI_wvalid_i  => sM00_AXI_0_wvalid,
+
     
-    
-    
-    -------------------------------------------------------------------------
+    M_AXIS_S2MM_tdata_o  => sS_AXIS_S2MM_1_tdata,
+    M_AXIS_S2MM_tkeep_o  => sS_AXIS_S2MM_1_tkeep,
+    M_AXIS_S2MM_tlast_o  => sS_AXIS_S2MM_1_tlast,
+    M_AXIS_S2MM_tready_i => sS_AXIS_S2MM_1_tready,
+    M_AXIS_S2MM_tvalid_i => sS_AXIS_S2MM_1_tvalid
+);
+    ------------------------------------------
     -- Fin des instanciations des custom IPs ici ....
     -------------------------------------------------------------------------
 

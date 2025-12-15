@@ -1,9 +1,9 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.888243",
-   "Default View_TopLeft":"-204,-56",
+   "Default View_TopLeft":"-204,42",
    "ExpandedHierarchyInLayout":"",
-   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
 preplace port S_AXI -pg 1 -lvl 0 -x -70 -y 200 -defaultsOSRD
 preplace port M_AXI_HP0_FPD -pg 1 -lvl 4 -x 1090 -y 260 -defaultsOSRD
@@ -22,18 +22,18 @@ preplace inst hier_dpu_ghp -pg 1 -lvl 3 -x 890 -y 290 -defaultsOSRD
 preplace inst hier_dpu_irq -pg 1 -lvl 3 -x 890 -y 130 -defaultsOSRD
 preplace inst DPUCZDX8G -pg 1 -lvl 2 -x 470 -y 260 -defaultsOSRD
 preplace netloc CLK_1 1 0 1 NJ 80
-preplace netloc DPUCZDX8G_dpu0_interrupt 1 2 1 660J 130n
-preplace netloc DPUCZDX8G_dpu_2x_clk_ce 1 0 3 -50 210 230J 140 650
-preplace netloc GHP_CLK_I_1 1 0 3 NJ 420 NJ 420 660J
-preplace netloc GHP_RSTn_1 1 0 3 -50J 410 NJ 410 670J
+preplace netloc DPUCZDX8G_dpu0_interrupt 1 2 1 650J 130n
+preplace netloc DPUCZDX8G_dpu_2x_clk_ce 1 0 3 -50 210 220J 140 640
+preplace netloc GHP_CLK_I_1 1 0 3 NJ 420 NJ 420 650J
+preplace netloc GHP_RSTn_1 1 0 3 -50J 410 NJ 410 660J
 preplace netloc RSTn_1 1 0 1 NJ 100
 preplace netloc S_AXI_CLK_1 1 0 2 NJ 220 NJ
 preplace netloc S_AXI_RSTn_1 1 0 2 NJ 240 NJ
-preplace netloc hier_dpu_clk_DPU_CLK 1 1 2 220 120 670
-preplace netloc hier_dpu_clk_DSP_CLK 1 1 1 250 50n
-preplace netloc hier_dpu_clk_RSTn_DSP 1 1 1 240 70n
-preplace netloc hier_dpu_clk_RSTn_INTC 1 1 2 NJ 130 640
-preplace netloc hier_dpu_clk_RSTn_PERI 1 1 2 210 380 650
+preplace netloc hier_dpu_clk_DPU_CLK 1 1 2 210 120 660
+preplace netloc hier_dpu_clk_DSP_CLK 1 1 1 240 50n
+preplace netloc hier_dpu_clk_RSTn_DSP 1 1 1 230 70n
+preplace netloc hier_dpu_clk_RSTn_INTC 1 1 2 NJ 130 630
+preplace netloc hier_dpu_clk_RSTn_PERI 1 1 2 200 380 640
 preplace netloc hier_dpu_ghp_GHP_CLK_O 1 3 1 NJ 320
 preplace netloc hier_dpu_irq_INTR 1 3 1 NJ 130
 preplace netloc Conn1 1 3 1 NJ 260
@@ -44,7 +44,7 @@ preplace netloc DPUCZDX8G_DPU0_M_AXI_DATA1 1 2 1 N 240
 preplace netloc DPUCZDX8G_DPU0_M_AXI_INSTR 1 2 1 N 260
 preplace netloc S_AXI_1 1 0 2 NJ 200 NJ
 levelinfo -pg 1 -70 80 470 890 1090
-pagesize -pg 1 -db -bbox -sgen -210 -10 1260 1290
+pagesize -pg 1 -db -bbox -sgen -190 -10 1240 1290
 "
 }
 0

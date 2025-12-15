@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../srcs/top/ipshared/7698" --include "../../../../../srcs/top/ipshared/ec67/hdl" --include "../../../../../srcs/top/ipshared/53f7/inc" --include "../../../../../srcs/top/ipshared/abef/hdl" --include "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../KR260.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

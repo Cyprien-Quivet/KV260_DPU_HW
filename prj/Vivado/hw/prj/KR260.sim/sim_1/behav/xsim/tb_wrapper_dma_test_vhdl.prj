@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../srcs/axi_lite_custom.vhd" \
+"../../../../../srcs/gen_stram.vhd" \
+"../../../../../srcs/wrapper_test_dma.vhd" \
+"../../../../KR260.srcs/sim_1/new/benchtest.vhd" \
+
+# Do not sort compile order
+nosort

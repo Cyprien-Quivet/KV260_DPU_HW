@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/user/Documents/dma_test/prj/Vivado/hw/prj/KR260.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1765198342,verilog,,,,dist_mem_gen_0,,axi_vip_v1_1_13;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_13,../../../../../srcs/top/ipshared/53f7/inc;../../../../../srcs/top/ipshared/7698;../../../../../srcs/top/ipshared/abef/hdl;../../../../../srcs/top/ipshared/ec67/hdl;/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/include,,,,,
+/home/user/Documents/dma_test/prj/Vivado/hw/prj/KR260.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,axi_vip_v1_1_13;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_13,,,,,,
+/home/user/Documents/dma_test/prj/Vivado/hw/prj/KR260.srcs/sim_1/new/benchtest.vhd,1765272364,vhdl,,,,tb_wrapper_dma_test,,,,,,,,
+/home/user/Documents/dma_test/prj/Vivado/hw/srcs/axi_lite_custom.vhd,1765192736,vhdl,/home/user/Documents/dma_test/prj/Vivado/hw/srcs/wrapper_test_dma.vhd,,,axi_lite_custom,,,,,,,,
+/home/user/Documents/dma_test/prj/Vivado/hw/srcs/gen_stram.vhd,1765294623,vhdl,/home/user/Documents/dma_test/prj/Vivado/hw/srcs/wrapper_test_dma.vhd,,,gen_stream,,,,,,,,
+/home/user/Documents/dma_test/prj/Vivado/hw/srcs/wrapper_test_dma.vhd,1765272322,vhdl,/home/user/Documents/dma_test/prj/Vivado/hw/prj/KR260.srcs/sim_1/new/benchtest.vhd,,,wrapper_dma_test,,,,,,,,
