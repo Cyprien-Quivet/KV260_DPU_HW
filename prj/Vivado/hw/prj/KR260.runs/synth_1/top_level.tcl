@@ -70,6 +70,11 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 1
+set_param power.BramSDPPropagationFix 1
+set_param power.enableCarry8RouteBelPower 1
+set_param power.enableUnconnectedCarry8PinPower 1
+set_param power.enableLutRouteBelPower 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xck26-sfvc784-2LV-c
 
@@ -106,15 +111,6 @@ set_property used_in_implementation false [get_files -all /home/user/Documents/d
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_0/top_rst_gen_clk_0.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0_board.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0.xdc]
-set_property used_in_synthesis false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0.xdc]
 set_property used_in_synthesis false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0_impl.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0_impl.xdc]
@@ -124,10 +120,19 @@ set_property used_in_implementation false [get_files -all /home/user/Documents/d
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_rst_gen_reg_0/top_rst_gen_reg_0.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_1/top_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_axi_dma_0_0/top_axi_dma_0_0.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_axi_dma_0_0/top_axi_dma_0_0_clocks.xdc]
+set_property used_in_synthesis false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_1/top_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/top_ooc.xdc]
 
 read_ip -quiet /home/user/Documents/dma_test/prj/Vivado/hw/prj/KR260.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci
@@ -157,6 +162,8 @@ set_property used_in_implementation false [get_files /home/user/Documents/dma_te
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental /home/user/Documents/dma_test/prj/Vivado/hw/prj/KR260.srcs/utils_1/imports/synth_1/top_level.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

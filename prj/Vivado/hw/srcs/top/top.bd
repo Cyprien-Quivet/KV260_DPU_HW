@@ -534,7 +534,7 @@
               "dpu_clk_wiz": {
                 "vlnv": "xilinx.com:ip:clk_wiz:6.0",
                 "xci_name": "top_dpu_clk_wiz_0",
-                "xci_path": "ip\\top_dpu_clk_wiz_0\\top_dpu_clk_wiz_0.xci",
+                "xci_path": "ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0.xci",
                 "inst_hier_path": "hier_dpu/hier_dpu_clk/dpu_clk_wiz",
                 "parameters": {
                   "AUTO_PRIMITIVE": {
@@ -617,13 +617,13 @@
               "rst_gen_clk": {
                 "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
                 "xci_name": "top_rst_gen_clk_0",
-                "xci_path": "ip\\top_rst_gen_clk_0\\top_rst_gen_clk_0.xci",
+                "xci_path": "ip/top_rst_gen_clk_0/top_rst_gen_clk_0.xci",
                 "inst_hier_path": "hier_dpu/hier_dpu_clk/rst_gen_clk"
               },
               "rst_gen_clk_dsp": {
                 "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
                 "xci_name": "top_rst_gen_clk_dsp_0",
-                "xci_path": "ip\\top_rst_gen_clk_dsp_0\\top_rst_gen_clk_dsp_0.xci",
+                "xci_path": "ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0.xci",
                 "inst_hier_path": "hier_dpu/hier_dpu_clk/rst_gen_clk_dsp"
               }
             },
@@ -752,7 +752,7 @@
             "components": {
               "dpu_intc_M_AXI_LPD": {
                 "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-                "xci_path": "ip\\top_dpu_intc_M_AXI_LPD_0\\top_dpu_intc_M_AXI_LPD_0.xci",
+                "xci_path": "ip/top_dpu_intc_M_AXI_LPD_0/top_dpu_intc_M_AXI_LPD_0.xci",
                 "inst_hier_path": "hier_dpu/hier_dpu_ghp/dpu_intc_M_AXI_LPD",
                 "xci_name": "top_dpu_intc_M_AXI_LPD_0",
                 "parameters": {
@@ -874,7 +874,7 @@
                       "auto_cc": {
                         "vlnv": "xilinx.com:ip:axi_clock_converter:2.1",
                         "xci_name": "top_auto_cc_0",
-                        "xci_path": "ip\\top_auto_cc_0\\top_auto_cc_0.xci",
+                        "xci_path": "ip/top_auto_cc_0/top_auto_cc_0.xci",
                         "inst_hier_path": "hier_dpu/hier_dpu_ghp/dpu_intc_M_AXI_LPD/s00_couplers/auto_cc",
                         "interface_ports": {
                           "S_AXI": {
@@ -972,7 +972,7 @@
               },
               "dpu_intc_M_AXI_HP0_FPD": {
                 "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-                "xci_path": "ip\\top_dpu_intc_M_AXI_HP0_FPD_0\\top_dpu_intc_M_AXI_HP0_FPD_0.xci",
+                "xci_path": "ip/top_dpu_intc_M_AXI_HP0_FPD_0/top_dpu_intc_M_AXI_HP0_FPD_0.xci",
                 "inst_hier_path": "hier_dpu/hier_dpu_ghp/dpu_intc_M_AXI_HP0_FPD",
                 "xci_name": "top_dpu_intc_M_AXI_HP0_FPD_0",
                 "parameters": {
@@ -1094,7 +1094,7 @@
                       "auto_cc": {
                         "vlnv": "xilinx.com:ip:axi_clock_converter:2.1",
                         "xci_name": "top_auto_cc_1",
-                        "xci_path": "ip\\top_auto_cc_1\\top_auto_cc_1.xci",
+                        "xci_path": "ip/top_auto_cc_1/top_auto_cc_1.xci",
                         "inst_hier_path": "hier_dpu/hier_dpu_ghp/dpu_intc_M_AXI_HP0_FPD/s00_couplers/auto_cc",
                         "interface_ports": {
                           "S_AXI": {
@@ -1192,7 +1192,7 @@
               },
               "dpu_intc_M_AXI_HP1_FPD": {
                 "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-                "xci_path": "ip\\top_dpu_intc_M_AXI_HP1_FPD_0\\top_dpu_intc_M_AXI_HP1_FPD_0.xci",
+                "xci_path": "ip/top_dpu_intc_M_AXI_HP1_FPD_0/top_dpu_intc_M_AXI_HP1_FPD_0.xci",
                 "inst_hier_path": "hier_dpu/hier_dpu_ghp/dpu_intc_M_AXI_HP1_FPD",
                 "xci_name": "top_dpu_intc_M_AXI_HP1_FPD_0",
                 "parameters": {
@@ -1314,7 +1314,7 @@
                       "auto_cc": {
                         "vlnv": "xilinx.com:ip:axi_clock_converter:2.1",
                         "xci_name": "top_auto_cc_2",
-                        "xci_path": "ip\\top_auto_cc_2\\top_auto_cc_2.xci",
+                        "xci_path": "ip/top_auto_cc_2/top_auto_cc_2.xci",
                         "inst_hier_path": "hier_dpu/hier_dpu_ghp/dpu_intc_M_AXI_HP1_FPD/s00_couplers/auto_cc",
                         "interface_ports": {
                           "S_AXI": {
@@ -1514,7 +1514,7 @@
               "dpu_concat_irq_inner": {
                 "vlnv": "xilinx.com:ip:xlconcat:2.1",
                 "xci_name": "top_dpu_concat_irq_inner_0",
-                "xci_path": "ip\\top_dpu_concat_irq_inner_0\\top_dpu_concat_irq_inner_0.xci",
+                "xci_path": "ip/top_dpu_concat_irq_inner_0/top_dpu_concat_irq_inner_0.xci",
                 "inst_hier_path": "hier_dpu/hier_dpu_irq/dpu_concat_irq_inner",
                 "parameters": {
                   "NUM_PORTS": {
@@ -1541,14 +1541,14 @@
           "DPUCZDX8G": {
             "vlnv": "xilinx.com:ip:dpuczdx8g:4.1",
             "xci_name": "top_DPUCZDX8G_0",
-            "xci_path": "ip\\top_DPUCZDX8G_0\\top_DPUCZDX8G_0.xci",
+            "xci_path": "ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0.xci",
             "inst_hier_path": "hier_dpu/DPUCZDX8G",
             "parameters": {
               "ALU_LEAKYRELU": {
                 "value": "0"
               },
               "ALU_PARALLEL_USER": {
-                "value": "2"
+                "value": "4"
               },
               "ARCH": {
                 "value": "4096"
@@ -1587,16 +1587,16 @@
                 "value": "1"
               },
               "TIME_DAY": {
-                "value": "5"
+                "value": "16"
               },
               "TIME_HOUR": {
-                "value": "16"
+                "value": "1"
               },
               "TIME_MONTH": {
                 "value": "12"
               },
               "TIME_QUARTER": {
-                "value": "2"
+                "value": "1"
               },
               "TIME_YEAR": {
                 "value": "25"
@@ -1805,7 +1805,7 @@
       "dpu_concat_irq": {
         "vlnv": "xilinx.com:ip:xlconcat:2.1",
         "xci_name": "top_dpu_concat_irq_0",
-        "xci_path": "ip\\top_dpu_concat_irq_0\\top_dpu_concat_irq_0.xci",
+        "xci_path": "ip/top_dpu_concat_irq_0/top_dpu_concat_irq_0.xci",
         "inst_hier_path": "dpu_concat_irq",
         "parameters": {
           "NUM_PORTS": {
@@ -1816,19 +1816,19 @@
       "rst_gen_ghp": {
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
         "xci_name": "top_rst_gen_ghp_0",
-        "xci_path": "ip\\top_rst_gen_ghp_0\\top_rst_gen_ghp_0.xci",
+        "xci_path": "ip/top_rst_gen_ghp_0/top_rst_gen_ghp_0.xci",
         "inst_hier_path": "rst_gen_ghp"
       },
       "rst_gen_reg": {
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
         "xci_name": "top_rst_gen_reg_0",
-        "xci_path": "ip\\top_rst_gen_reg_0\\top_rst_gen_reg_0.xci",
+        "xci_path": "ip/top_rst_gen_reg_0/top_rst_gen_reg_0.xci",
         "inst_hier_path": "rst_gen_reg"
       },
       "zynq_ultra_ps_e": {
         "vlnv": "xilinx.com:ip:zynq_ultra_ps_e:3.4",
         "xci_name": "top_zynq_ultra_ps_e_0",
-        "xci_path": "ip\\top_zynq_ultra_ps_e_0\\top_zynq_ultra_ps_e_0.xci",
+        "xci_path": "ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0.xci",
         "inst_hier_path": "zynq_ultra_ps_e",
         "parameters": {
           "CAN0_BOARD_INTERFACE": {
@@ -4977,7 +4977,7 @@
       },
       "axi_interconnect_0": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-        "xci_path": "ip\\top_axi_interconnect_0_1\\top_axi_interconnect_0_1.xci",
+        "xci_path": "ip/top_axi_interconnect_0_1/top_axi_interconnect_0_1.xci",
         "inst_hier_path": "axi_interconnect_0",
         "xci_name": "top_axi_interconnect_0_1",
         "parameters": {
@@ -5090,7 +5090,7 @@
           "xbar": {
             "vlnv": "xilinx.com:ip:axi_crossbar:2.1",
             "xci_name": "top_xbar_1",
-            "xci_path": "ip\\top_xbar_1\\top_xbar_1.xci",
+            "xci_path": "ip/top_xbar_1/top_xbar_1.xci",
             "inst_hier_path": "axi_interconnect_0/xbar",
             "parameters": {
               "NUM_MI": {
@@ -5222,7 +5222,7 @@
               "auto_pc": {
                 "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
                 "xci_name": "top_auto_pc_0",
-                "xci_path": "ip\\top_auto_pc_0\\top_auto_pc_0.xci",
+                "xci_path": "ip/top_auto_pc_0/top_auto_pc_0.xci",
                 "inst_hier_path": "axi_interconnect_0/m00_couplers/auto_pc",
                 "parameters": {
                   "MI_PROTOCOL": {
@@ -5379,7 +5379,7 @@
               "auto_pc": {
                 "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
                 "xci_name": "top_auto_pc_1",
-                "xci_path": "ip\\top_auto_pc_1\\top_auto_pc_1.xci",
+                "xci_path": "ip/top_auto_pc_1/top_auto_pc_1.xci",
                 "inst_hier_path": "axi_interconnect_0/m02_couplers/auto_pc",
                 "parameters": {
                   "MI_PROTOCOL": {
@@ -5514,7 +5514,7 @@
       "axi_dma_0": {
         "vlnv": "xilinx.com:ip:axi_dma:7.1",
         "xci_name": "top_axi_dma_0_0",
-        "xci_path": "ip\\top_axi_dma_0_0\\top_axi_dma_0_0.xci",
+        "xci_path": "ip/top_axi_dma_0_0/top_axi_dma_0_0.xci",
         "inst_hier_path": "axi_dma_0",
         "parameters": {
           "c_addr_width": {

@@ -1,8 +1,8 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
---Date        : Fri Dec  5 17:18:29 2025
---Host        : DESKTOP-S4UD1KI running 64-bit major release  (build 9200)
+--Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+--Date        : Tue Dec 16 01:24:44 2025
+--Host        : ubuntu running 64-bit Ubuntu 20.04.6 LTS
 --Command     : generate_target top_wrapper.bd
 --Design      : top_wrapper
 --Purpose     : IP block netlist
@@ -64,13 +64,13 @@ architecture STRUCTURE of top_wrapper is
     M00_AXI_0_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M00_AXI_0_rvalid : in STD_LOGIC;
     M00_AXI_0_rready : out STD_LOGIC;
-    clk_sys_o : out STD_LOGIC;
-    peripheral_reset_0 : out STD_LOGIC_VECTOR ( 0 to 0 );
     S_AXIS_S2MM_1_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
     S_AXIS_S2MM_1_tkeep : in STD_LOGIC_VECTOR ( 15 downto 0 );
     S_AXIS_S2MM_1_tlast : in STD_LOGIC;
     S_AXIS_S2MM_1_tready : out STD_LOGIC;
-    S_AXIS_S2MM_1_tvalid : in STD_LOGIC
+    S_AXIS_S2MM_1_tvalid : in STD_LOGIC;
+    clk_sys_o : out STD_LOGIC;
+    peripheral_reset_0 : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component top;
 begin

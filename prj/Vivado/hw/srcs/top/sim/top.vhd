@@ -1,8 +1,8 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
---Date        : Fri Dec  5 17:18:28 2025
---Host        : DESKTOP-S4UD1KI running 64-bit major release  (build 9200)
+--Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+--Date        : Tue Dec 16 01:24:44 2025
+--Host        : ubuntu running 64-bit Ubuntu 20.04.6 LTS
 --Command     : generate_target top.bd
 --Design      : top
 --Purpose     : IP block netlist
@@ -6938,10 +6938,10 @@ entity top is
     clk_sys_o : out STD_LOGIC;
     peripheral_reset_0 : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of top : entity is "top,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=top,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=31,numReposBlks=16,numNonXlnxBlks=0,numHierBlks=15,maxHierDepth=2,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,synth_mode=Global}";
-  attribute HW_HANDOFF : string;
-  attribute HW_HANDOFF of top : entity is "top.hwdef";
+  attribute core_generation_info : string;
+  attribute core_generation_info of top : entity is "top,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=top,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=31,numReposBlks=16,numNonXlnxBlks=0,numHierBlks=15,maxHierDepth=2,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,synth_mode=Global}";
+  attribute hw_handoff : string;
+  attribute hw_handoff of top : entity is "top.hwdef";
 end top;
 
 architecture STRUCTURE of top is
@@ -7512,36 +7512,36 @@ architecture STRUCTURE of top is
   signal NLW_zynq_ultra_ps_e_saxigp4_rdata_UNCONNECTED : STD_LOGIC_VECTOR ( 127 downto 0 );
   signal NLW_zynq_ultra_ps_e_saxigp4_rid_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
   signal NLW_zynq_ultra_ps_e_saxigp4_rresp_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
-  attribute X_INTERFACE_INFO : string;
-  attribute X_INTERFACE_INFO of M00_AXI_0_arready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARREADY";
-  attribute X_INTERFACE_INFO of M00_AXI_0_arvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARVALID";
-  attribute X_INTERFACE_INFO of M00_AXI_0_awready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWREADY";
-  attribute X_INTERFACE_INFO of M00_AXI_0_awvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWVALID";
-  attribute X_INTERFACE_INFO of M00_AXI_0_bready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 BREADY";
-  attribute X_INTERFACE_INFO of M00_AXI_0_bvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 BVALID";
-  attribute X_INTERFACE_INFO of M00_AXI_0_rready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RREADY";
-  attribute X_INTERFACE_INFO of M00_AXI_0_rvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RVALID";
-  attribute X_INTERFACE_INFO of M00_AXI_0_wready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WREADY";
-  attribute X_INTERFACE_INFO of M00_AXI_0_wvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WVALID";
-  attribute X_INTERFACE_INFO of S_AXIS_S2MM_1_tlast : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TLAST";
-  attribute X_INTERFACE_INFO of S_AXIS_S2MM_1_tready : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TREADY";
-  attribute X_INTERFACE_INFO of S_AXIS_S2MM_1_tvalid : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TVALID";
-  attribute X_INTERFACE_INFO of M00_AXI_0_araddr : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARADDR";
-  attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of M00_AXI_0_araddr : signal is "XIL_INTERFACENAME M00_AXI_0, ADDR_WIDTH 40, ARUSER_WIDTH 0, AWUSER_WIDTH 0, BUSER_WIDTH 0, DATA_WIDTH 32, FREQ_HZ 99990005, HAS_BRESP 1, HAS_BURST 0, HAS_CACHE 0, HAS_LOCK 0, HAS_PROT 1, HAS_QOS 0, HAS_REGION 0, HAS_RRESP 1, HAS_WSTRB 1, ID_WIDTH 0, INSERT_VIP 0, MAX_BURST_LENGTH 1, NUM_READ_OUTSTANDING 8, NUM_READ_THREADS 1, NUM_WRITE_OUTSTANDING 8, NUM_WRITE_THREADS 1, PHASE 0.0, PROTOCOL AXI4LITE, READ_WRITE_MODE READ_WRITE, RUSER_BITS_PER_BYTE 0, RUSER_WIDTH 0, SUPPORTS_NARROW_BURST 0, WUSER_BITS_PER_BYTE 0, WUSER_WIDTH 0";
-  attribute X_INTERFACE_INFO of M00_AXI_0_arprot : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARPROT";
-  attribute X_INTERFACE_INFO of M00_AXI_0_awaddr : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWADDR";
-  attribute X_INTERFACE_INFO of M00_AXI_0_awprot : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWPROT";
-  attribute X_INTERFACE_INFO of M00_AXI_0_bresp : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 BRESP";
-  attribute X_INTERFACE_INFO of M00_AXI_0_rdata : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RDATA";
-  attribute X_INTERFACE_INFO of M00_AXI_0_rresp : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RRESP";
-  attribute X_INTERFACE_INFO of M00_AXI_0_wdata : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WDATA";
-  attribute X_INTERFACE_INFO of M00_AXI_0_wstrb : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WSTRB";
-  attribute X_INTERFACE_INFO of S_AXIS_S2MM_1_tdata : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TDATA";
-  attribute X_INTERFACE_PARAMETER of S_AXIS_S2MM_1_tdata : signal is "XIL_INTERFACENAME S_AXIS_S2MM_1, FREQ_HZ 99990005, HAS_TKEEP 1, HAS_TLAST 1, HAS_TREADY 1, HAS_TSTRB 0, INSERT_VIP 0, LAYERED_METADATA undef, PHASE 0.0, TDATA_NUM_BYTES 16, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0";
-  attribute X_INTERFACE_INFO of S_AXIS_S2MM_1_tkeep : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TKEEP";
-  attribute X_INTERFACE_INFO of peripheral_reset_0 : signal is "xilinx.com:signal:reset:1.0 RST.PERIPHERAL_RESET_0 RST";
-  attribute X_INTERFACE_PARAMETER of peripheral_reset_0 : signal is "XIL_INTERFACENAME RST.PERIPHERAL_RESET_0, INSERT_VIP 0, POLARITY ACTIVE_HIGH";
+  attribute x_interface_info : string;
+  attribute x_interface_info of M00_AXI_0_arready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARREADY";
+  attribute x_interface_info of M00_AXI_0_arvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARVALID";
+  attribute x_interface_info of M00_AXI_0_awready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWREADY";
+  attribute x_interface_info of M00_AXI_0_awvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWVALID";
+  attribute x_interface_info of M00_AXI_0_bready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 BREADY";
+  attribute x_interface_info of M00_AXI_0_bvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 BVALID";
+  attribute x_interface_info of M00_AXI_0_rready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RREADY";
+  attribute x_interface_info of M00_AXI_0_rvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RVALID";
+  attribute x_interface_info of M00_AXI_0_wready : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WREADY";
+  attribute x_interface_info of M00_AXI_0_wvalid : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WVALID";
+  attribute x_interface_info of S_AXIS_S2MM_1_tlast : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TLAST";
+  attribute x_interface_info of S_AXIS_S2MM_1_tready : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TREADY";
+  attribute x_interface_info of S_AXIS_S2MM_1_tvalid : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TVALID";
+  attribute x_interface_info of M00_AXI_0_araddr : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARADDR";
+  attribute x_interface_parameter : string;
+  attribute x_interface_parameter of M00_AXI_0_araddr : signal is "XIL_INTERFACENAME M00_AXI_0, ADDR_WIDTH 40, ARUSER_WIDTH 0, AWUSER_WIDTH 0, BUSER_WIDTH 0, DATA_WIDTH 32, FREQ_HZ 99990005, HAS_BRESP 1, HAS_BURST 0, HAS_CACHE 0, HAS_LOCK 0, HAS_PROT 1, HAS_QOS 0, HAS_REGION 0, HAS_RRESP 1, HAS_WSTRB 1, ID_WIDTH 0, INSERT_VIP 0, MAX_BURST_LENGTH 1, NUM_READ_OUTSTANDING 8, NUM_READ_THREADS 1, NUM_WRITE_OUTSTANDING 8, NUM_WRITE_THREADS 1, PHASE 0.0, PROTOCOL AXI4LITE, READ_WRITE_MODE READ_WRITE, RUSER_BITS_PER_BYTE 0, RUSER_WIDTH 0, SUPPORTS_NARROW_BURST 0, WUSER_BITS_PER_BYTE 0, WUSER_WIDTH 0";
+  attribute x_interface_info of M00_AXI_0_arprot : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARPROT";
+  attribute x_interface_info of M00_AXI_0_awaddr : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWADDR";
+  attribute x_interface_info of M00_AXI_0_awprot : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWPROT";
+  attribute x_interface_info of M00_AXI_0_bresp : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 BRESP";
+  attribute x_interface_info of M00_AXI_0_rdata : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RDATA";
+  attribute x_interface_info of M00_AXI_0_rresp : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 RRESP";
+  attribute x_interface_info of M00_AXI_0_wdata : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WDATA";
+  attribute x_interface_info of M00_AXI_0_wstrb : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 WSTRB";
+  attribute x_interface_info of S_AXIS_S2MM_1_tdata : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TDATA";
+  attribute x_interface_parameter of S_AXIS_S2MM_1_tdata : signal is "XIL_INTERFACENAME S_AXIS_S2MM_1, FREQ_HZ 99990005, HAS_TKEEP 1, HAS_TLAST 1, HAS_TREADY 1, HAS_TSTRB 0, INSERT_VIP 0, LAYERED_METADATA undef, PHASE 0.0, TDATA_NUM_BYTES 16, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0";
+  attribute x_interface_info of S_AXIS_S2MM_1_tkeep : signal is "xilinx.com:interface:axis:1.0 S_AXIS_S2MM_1 TKEEP";
+  attribute x_interface_info of peripheral_reset_0 : signal is "xilinx.com:signal:reset:1.0 RST.PERIPHERAL_RESET_0 RST";
+  attribute x_interface_parameter of peripheral_reset_0 : signal is "XIL_INTERFACENAME RST.PERIPHERAL_RESET_0, INSERT_VIP 0, POLARITY ACTIVE_HIGH";
 begin
   M00_AXI_0_araddr(39 downto 0) <= axi_interconnect_0_M00_AXI_ARADDR(39 downto 0);
   M00_AXI_0_arprot(2 downto 0) <= axi_interconnect_0_M00_AXI_ARPROT(2 downto 0);

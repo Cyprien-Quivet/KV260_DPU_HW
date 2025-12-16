@@ -13,7 +13,7 @@ view structure
 
 do {top.udo}
 
-run 1000ns
+run
 
 endsim
 

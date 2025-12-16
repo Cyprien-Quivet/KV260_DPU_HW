@@ -1,21 +1,21 @@
 -makelib xcelium_lib/xilinx_vip -sv \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/axi_vip_pkg.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/axi4stream_vip_if.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/axi_vip_if.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/clk_vip_if.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/xilinx_vip/hdl/rst_vip_if.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/axi_vip_pkg.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/axi4stream_vip_if.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/axi_vip_if.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/clk_vip_if.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/hdl/rst_vip_if.sv" \
 -endlib
 -makelib xcelium_lib/xpm -sv \
-  "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
-  "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+  "/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 -endlib
 -makelib xcelium_lib/xpm \
-  "D:/Xinlinx/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd" \
+  "/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0_clk_wiz.v" \
@@ -86,9 +86,6 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/top/ip/top_xbar_1/sim/top_xbar_1.v" \
 -endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/top/sim/top.vhd" \
--endlib
 -makelib xcelium_lib/lib_pkg_v1_0_2 \
   "../../../../../srcs/top/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd" \
 -endlib
@@ -109,6 +106,7 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/top/ip/top_axi_dma_0_0/sim/top_axi_dma_0_0.vhd" \
+  "../../../bd/top/sim/top.vhd" \
 -endlib
 -makelib xcelium_lib/axi_clock_converter_v2_1_26 \
   "../../../../../srcs/top/ipshared/b8be/hdl/axi_clock_converter_v2_1_vl_rfs.v" \

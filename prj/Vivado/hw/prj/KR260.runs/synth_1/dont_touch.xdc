@@ -21,20 +21,11 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_rst_gen
 # IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_rst_gen_clk_dsp_0 || ORIG_REF_NAME==top_rst_gen_clk_dsp_0} -quiet] -quiet
 
-# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_cc_0 || ORIG_REF_NAME==top_auto_cc_0} -quiet] -quiet
-
 # IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_dpu_intc_M_AXI_LPD_0/top_dpu_intc_M_AXI_LPD_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_dpu_intc_M_AXI_LPD_0 || ORIG_REF_NAME==top_dpu_intc_M_AXI_LPD_0} -quiet] -quiet
 
-# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_cc_1 || ORIG_REF_NAME==top_auto_cc_1} -quiet] -quiet
-
 # IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_dpu_intc_M_AXI_HP0_FPD_0/top_dpu_intc_M_AXI_HP0_FPD_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_dpu_intc_M_AXI_HP0_FPD_0 || ORIG_REF_NAME==top_dpu_intc_M_AXI_HP0_FPD_0} -quiet] -quiet
-
-# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_cc_2 || ORIG_REF_NAME==top_auto_cc_2} -quiet] -quiet
 
 # IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_dpu_intc_M_AXI_HP1_FPD_0/top_dpu_intc_M_AXI_HP1_FPD_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_dpu_intc_M_AXI_HP1_FPD_0 || ORIG_REF_NAME==top_dpu_intc_M_AXI_HP1_FPD_0} -quiet] -quiet
@@ -60,17 +51,26 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_zynq_ul
 # IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_xbar_1/top_xbar_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_xbar_1 || ORIG_REF_NAME==top_xbar_1} -quiet] -quiet
 
-# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_pc_0 || ORIG_REF_NAME==top_auto_pc_0} -quiet] -quiet
-
-# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_1/top_auto_pc_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_pc_1 || ORIG_REF_NAME==top_auto_pc_1} -quiet] -quiet
-
 # IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_axi_interconnect_0_1/top_axi_interconnect_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_axi_interconnect_0_1 || ORIG_REF_NAME==top_axi_interconnect_0_1} -quiet] -quiet
 
 # IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_axi_dma_0_0/top_axi_dma_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_axi_dma_0_0 || ORIG_REF_NAME==top_axi_dma_0_0} -quiet] -quiet
+
+# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_cc_0 || ORIG_REF_NAME==top_auto_cc_0} -quiet] -quiet
+
+# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_cc_1 || ORIG_REF_NAME==top_auto_cc_1} -quiet] -quiet
+
+# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_cc_2 || ORIG_REF_NAME==top_auto_cc_2} -quiet] -quiet
+
+# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_pc_0 || ORIG_REF_NAME==top_auto_pc_0} -quiet] -quiet
+
+# IP: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_1/top_auto_pc_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==top_auto_pc_1 || ORIG_REF_NAME==top_auto_pc_1} -quiet] -quiet
 
 # XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_dpu_clk_wiz_0/top_dpu_clk_wiz_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_dpu_clk_wiz_0 || ORIG_REF_NAME==top_dpu_clk_wiz_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
@@ -91,21 +91,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filte
 
 # XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_rst_gen_clk_dsp_0/top_rst_gen_clk_dsp_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_rst_gen_clk_dsp_0 || ORIG_REF_NAME==top_rst_gen_clk_dsp_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
-
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc
-set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_auto_cc_0 || ORIG_REF_NAME==top_auto_cc_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
-
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_ooc.xdc
-
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc
-set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_auto_cc_1 || ORIG_REF_NAME==top_auto_cc_1} -quiet] {/inst } ]/inst ] -quiet] -quiet
-
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_ooc.xdc
-
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc
-set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_auto_cc_2 || ORIG_REF_NAME==top_auto_cc_2} -quiet] {/inst } ]/inst ] -quiet] -quiet
-
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_ooc.xdc
 
 # XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_DPUCZDX8G_0/top_DPUCZDX8G_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_DPUCZDX8G_0 || ORIG_REF_NAME==top_DPUCZDX8G_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
@@ -130,14 +115,29 @@ set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filte
 # XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_zynq_ultra_ps_e_0/top_zynq_ultra_ps_e_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_zynq_ultra_ps_e_0 || ORIG_REF_NAME==top_zynq_ultra_ps_e_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0_ooc.xdc
-
-# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_1/top_auto_pc_1_ooc.xdc
-
 # XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_axi_dma_0_0/top_axi_dma_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_axi_dma_0_0 || ORIG_REF_NAME==top_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
 # XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_axi_dma_0_0/top_axi_dma_0_0_clocks.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_axi_dma_0_0 || ORIG_REF_NAME==top_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_clocks.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_auto_cc_0 || ORIG_REF_NAME==top_auto_cc_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_0/top_auto_cc_0_ooc.xdc
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_clocks.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_auto_cc_1 || ORIG_REF_NAME==top_auto_cc_1} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_1/top_auto_cc_1_ooc.xdc
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_clocks.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==top_auto_cc_2 || ORIG_REF_NAME==top_auto_cc_2} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_cc_2/top_auto_cc_2_ooc.xdc
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_0/top_auto_pc_0_ooc.xdc
+
+# XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/ip/top_auto_pc_1/top_auto_pc_1_ooc.xdc
 
 # XDC: /home/user/Documents/dma_test/prj/Vivado/hw/srcs/top/top_ooc.xdc
