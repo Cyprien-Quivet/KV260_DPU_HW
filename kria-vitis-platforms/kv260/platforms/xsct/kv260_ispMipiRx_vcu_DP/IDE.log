@@ -1,0 +1,5 @@
+07:29:16 DEBUG : Logs will be stored at '/home/user/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/IDE.log'.
+07:29:16 INFO  : Registering command handlers for Vitis TCF services
+07:29:16 INFO  : Platform repository initialization has completed.
+07:29:17 INFO  : Result from executing command 'getProjects': kv260_ispMipiRx_vcu_DP
+07:29:17 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/tools/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm

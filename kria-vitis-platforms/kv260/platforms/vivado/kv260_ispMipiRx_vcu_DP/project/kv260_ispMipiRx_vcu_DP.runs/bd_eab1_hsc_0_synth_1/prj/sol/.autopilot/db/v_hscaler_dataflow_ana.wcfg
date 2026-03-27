@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="v_hscaler.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_v_hscaler_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler//AESL_inst_bd_eab1_hsc_0_v_hscaler_activity">
+         <obj_property name="label">AESL_inst_bd_eab1_hsc_0_v_hscaler_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_bd_eab1_hsc_0_v_hscaler_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_bd_eab1_hsc_0_v_hscaler_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler//AESL_inst_bd_eab1_hsc_0_v_hscaler_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler//AESL_inst_bd_eab1_hsc_0_v_hscaler_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler//AESL_inst_bd_eab1_hsc_0_v_hscaler_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/Block_entry1_proc_U0_activity">
+            <obj_property name="label">Block_entry1_proc_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">Block_entry1_proc_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">Block_entry1_proc_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/Block_entry1_proc_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/Block_entry1_proc_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/Block_entry1_proc_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/AXIvideo2MultiPixStream_U0_activity">
+            <obj_property name="label">AXIvideo2MultiPixStream_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">AXIvideo2MultiPixStream_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">AXIvideo2MultiPixStream_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/AXIvideo2MultiPixStream_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/AXIvideo2MultiPixStream_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/AXIvideo2MultiPixStream_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity">
+               <obj_property name="label">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity">
+               <obj_property name="label">grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity">
+               <obj_property name="label">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/v_hcresampler_core_U0_activity">
+            <obj_property name="label">v_hcresampler_core_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">v_hcresampler_core_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">v_hcresampler_core_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/v_hcresampler_core_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/v_hcresampler_core_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/v_hcresampler_core_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity">
+               <obj_property name="label">grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hscale_core_polyphase_U0_activity">
+            <obj_property name="label">hscale_core_polyphase_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">hscale_core_polyphase_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">hscale_core_polyphase_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hscale_core_polyphase_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hscale_core_polyphase_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hscale_core_polyphase_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity">
+               <obj_property name="label">grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity">
+               <obj_property name="label">grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity.dataflowTxTooltipData</obj_property>
+               <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/grp_hscale_polyphase_fu_226_activity">
+                  <obj_property name="label">grp_hscale_polyphase_fu_226_activity</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_hscale_polyphase_fu_226_activity</obj_property>
+                  <obj_property name="ObjectShortName">grp_hscale_polyphase_fu_226_activity</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/grp_hscale_polyphase_fu_226_activity.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/grp_hscale_polyphase_fu_226_activity.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/grp_hscale_polyphase_fu_226_activity.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/v_csc_core_U0_activity">
+            <obj_property name="label">v_csc_core_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">v_csc_core_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">v_csc_core_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/v_csc_core_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/v_csc_core_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/v_csc_core_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity">
+               <obj_property name="label">grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/v_hcresampler_core_1_U0_activity">
+            <obj_property name="label">v_hcresampler_core_1_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">v_hcresampler_core_1_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">v_hcresampler_core_1_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/v_hcresampler_core_1_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/v_hcresampler_core_1_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/v_hcresampler_core_1_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity">
+               <obj_property name="label">grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/v_vcresampler_core_U0_activity">
+            <obj_property name="label">v_vcresampler_core_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">v_vcresampler_core_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">v_vcresampler_core_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/v_vcresampler_core_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/v_vcresampler_core_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/v_vcresampler_core_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity">
+               <obj_property name="label">grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/MultiPixStream2AXIvideo_U0_activity">
+            <obj_property name="label">MultiPixStream2AXIvideo_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">MultiPixStream2AXIvideo_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">MultiPixStream2AXIvideo_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/MultiPixStream2AXIvideo_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/MultiPixStream2AXIvideo_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/MultiPixStream2AXIvideo_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity">
+               <obj_property name="label">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity">
+               <obj_property name="label">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler//AESL_inst_bd_eab1_hsc_0_v_hscaler_activity">
+      <obj_property name="ElementShortName">AESL_inst_bd_eab1_hsc_0_v_hscaler_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_bd_eab1_hsc_0_v_hscaler_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_bd_eab1_hsc_0_v_hscaler_group">
+      <obj_property name="label">AESL_inst_bd_eab1_hsc_0_v_hscaler</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/Block_entry1_proc_U0_activity">
+         <obj_property name="ElementShortName">Block_entry1_proc_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">Block_entry1_proc_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/AXIvideo2MultiPixStream_U0_activity">
+         <obj_property name="ElementShortName">AXIvideo2MultiPixStream_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">AXIvideo2MultiPixStream_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/v_hcresampler_core_U0_activity">
+         <obj_property name="ElementShortName">v_hcresampler_core_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">v_hcresampler_core_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hscale_core_polyphase_U0_activity">
+         <obj_property name="ElementShortName">hscale_core_polyphase_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">hscale_core_polyphase_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/v_csc_core_U0_activity">
+         <obj_property name="ElementShortName">v_csc_core_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">v_csc_core_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/v_hcresampler_core_1_U0_activity">
+         <obj_property name="ElementShortName">v_hcresampler_core_1_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">v_hcresampler_core_1_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/v_vcresampler_core_U0_activity">
+         <obj_property name="ElementShortName">v_vcresampler_core_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">v_vcresampler_core_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/MultiPixStream2AXIvideo_U0_activity">
+         <obj_property name="ElementShortName">MultiPixStream2AXIvideo_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">MultiPixStream2AXIvideo_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_bd_eab1_hsc_0_v_hscaler_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="Block_entry1_proc_U0_group">
+         <obj_property name="label">Block_entry1_proc_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="Block_entry1_proc_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="Block_entry1_proc_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="Block_entry1_proc_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="ColorMode_c_group">
+               <obj_property name="label">ColorMode_c(ColorMode_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorMode_c_blk_n">
+                  <obj_property name="ElementShortName">ColorMode_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorMode_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorMode_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorMode_c_full_n">
+                  <obj_property name="ElementShortName">ColorMode_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorMode_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorMode_c_write">
+                  <obj_property name="ElementShortName">ColorMode_c_write</obj_property>
+                  <obj_property name="ObjectShortName">ColorMode_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="ColorModeOut_c_group">
+               <obj_property name="label">ColorModeOut_c(ColorModeOut_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorModeOut_c_blk_n">
+                  <obj_property name="ElementShortName">ColorModeOut_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorModeOut_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorModeOut_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorModeOut_c_full_n">
+                  <obj_property name="ElementShortName">ColorModeOut_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorModeOut_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/Block_entry1_proc_U0/ColorModeOut_c_write">
+                  <obj_property name="ElementShortName">ColorModeOut_c_write</obj_property>
+                  <obj_property name="ObjectShortName">ColorModeOut_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="AXIvideo2MultiPixStream_U0_group">
+         <obj_property name="label">AXIvideo2MultiPixStream_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity">
+            <obj_property name="ElementShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity">
+            <obj_property name="ElementShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity">
+            <obj_property name="ElementShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="AXIvideo2MultiPixStream_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="AXIvideo2MultiPixStream_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="AXIvideo2MultiPixStream_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_in_group">
+               <obj_property name="label">stream_in(stream_in_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/stream_in_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/stream_in_full_n">
+                  <obj_property name="ElementShortName">stream_in_full_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_in_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/stream_in_write">
+                  <obj_property name="ElementShortName">stream_in_write</obj_property>
+                  <obj_property name="ObjectShortName">stream_in_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_c20_group">
+               <obj_property name="label">Height_c20(Height_c20_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/Height_c20_blk_n">
+                  <obj_property name="ElementShortName">Height_c20_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c20_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/Height_c20_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/Height_c20_full_n">
+                  <obj_property name="ElementShortName">Height_c20_full_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c20_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/Height_c20_write">
+                  <obj_property name="ElementShortName">Height_c20_write</obj_property>
+                  <obj_property name="ObjectShortName">Height_c20_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthIn_c_group">
+               <obj_property name="label">WidthIn_c(WidthIn_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/WidthIn_c_blk_n">
+                  <obj_property name="ElementShortName">WidthIn_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthIn_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/WidthIn_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/WidthIn_c_full_n">
+                  <obj_property name="ElementShortName">WidthIn_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthIn_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/WidthIn_c_write">
+                  <obj_property name="ElementShortName">WidthIn_c_write</obj_property>
+                  <obj_property name="ObjectShortName">WidthIn_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_group">
+            <obj_property name="label">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_180/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_group">
+            <obj_property name="label">grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_200/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_group">
+            <obj_property name="label">grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_230/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="v_hcresampler_core_U0_group">
+         <obj_property name="label">v_hcresampler_core_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity">
+            <obj_property name="ElementShortName">grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="v_hcresampler_core_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_in_group">
+               <obj_property name="label">stream_in(stream_in_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/stream_in_dout">
+                  <obj_property name="ElementShortName">stream_in_dout[23:0]</obj_property>
+                  <obj_property name="ObjectShortName">stream_in_dout[23:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/stream_in_empty_n">
+                  <obj_property name="ElementShortName">stream_in_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_in_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/stream_in_read">
+                  <obj_property name="ElementShortName">stream_in_read</obj_property>
+                  <obj_property name="ObjectShortName">stream_in_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_group">
+               <obj_property name="label">Height(Height_c20_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/Height_blk_n">
+                  <obj_property name="ElementShortName">Height_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/Height_dout">
+                  <obj_property name="ElementShortName">Height_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">Height_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/Height_empty_n">
+                  <obj_property name="ElementShortName">Height_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/Height_read">
+                  <obj_property name="ElementShortName">Height_read</obj_property>
+                  <obj_property name="ObjectShortName">Height_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthIn_group">
+               <obj_property name="label">WidthIn(WidthIn_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/WidthIn_blk_n">
+                  <obj_property name="ElementShortName">WidthIn_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthIn_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/WidthIn_dout">
+                  <obj_property name="ElementShortName">WidthIn_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">WidthIn_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/WidthIn_empty_n">
+                  <obj_property name="ElementShortName">WidthIn_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthIn_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/WidthIn_read">
+                  <obj_property name="ElementShortName">WidthIn_read</obj_property>
+                  <obj_property name="ObjectShortName">WidthIn_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_hcresampler_core_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_hcresampler_core_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_upsampled_group">
+               <obj_property name="label">stream_upsampled(stream_upsampled_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/stream_upsampled_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/stream_upsampled_full_n">
+                  <obj_property name="ElementShortName">stream_upsampled_full_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_upsampled_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/stream_upsampled_write">
+                  <obj_property name="ElementShortName">stream_upsampled_write</obj_property>
+                  <obj_property name="ObjectShortName">stream_upsampled_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_group">
+            <obj_property name="label">grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_U0/grp_v_hcresampler_core_Pipeline_VITIS_LOOP_1636_2_fu_162/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="hscale_core_polyphase_U0_group">
+         <obj_property name="label">hscale_core_polyphase_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity">
+            <obj_property name="ElementShortName">grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity">
+            <obj_property name="ElementShortName">grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="hscale_core_polyphase_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_upsampled_group">
+               <obj_property name="label">stream_upsampled(stream_upsampled_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/stream_upsampled_dout">
+                  <obj_property name="ElementShortName">stream_upsampled_dout[23:0]</obj_property>
+                  <obj_property name="ObjectShortName">stream_upsampled_dout[23:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/stream_upsampled_empty_n">
+                  <obj_property name="ElementShortName">stream_upsampled_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_upsampled_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/stream_upsampled_read">
+                  <obj_property name="ElementShortName">stream_upsampled_read</obj_property>
+                  <obj_property name="ObjectShortName">stream_upsampled_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="hfltCoeff_group">
+               <obj_property name="label">hfltCoeff(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hfltCoeff_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hfltCoeff_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/hfltCoeff_ce0">
+                  <obj_property name="ElementShortName">hfltCoeff_ce0</obj_property>
+                  <obj_property name="ObjectShortName">hfltCoeff_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="phasesH_group">
+               <obj_property name="label">phasesH(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/phasesH_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/phasesH_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/phasesH_ce0">
+                  <obj_property name="ElementShortName">phasesH_ce0</obj_property>
+                  <obj_property name="ObjectShortName">phasesH_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="hscale_core_polyphase_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="hscale_core_polyphase_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_scaled_group">
+               <obj_property name="label">stream_scaled(stream_scaled_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/stream_scaled_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/stream_scaled_full_n">
+                  <obj_property name="ElementShortName">stream_scaled_full_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/stream_scaled_write">
+                  <obj_property name="ElementShortName">stream_scaled_write</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_c19_group">
+               <obj_property name="label">Height_c19(Height_c19_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/Height_c19_blk_n">
+                  <obj_property name="ElementShortName">Height_c19_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c19_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/Height_c19_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/Height_c19_full_n">
+                  <obj_property name="ElementShortName">Height_c19_full_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c19_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/Height_c19_write">
+                  <obj_property name="ElementShortName">Height_c19_write</obj_property>
+                  <obj_property name="ObjectShortName">Height_c19_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_c23_group">
+               <obj_property name="label">WidthOut_c23(WidthOut_c23_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/WidthOut_c23_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_c23_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c23_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/WidthOut_c23_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/WidthOut_c23_full_n">
+                  <obj_property name="ElementShortName">WidthOut_c23_full_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c23_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/WidthOut_c23_write">
+                  <obj_property name="ElementShortName">WidthOut_c23_write</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c23_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_group">
+            <obj_property name="label">grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_group">
+            <obj_property name="label">grp_hscale_core_polyphase_Pipeline_loop_width_fu_264</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/grp_hscale_polyphase_fu_226_activity">
+               <obj_property name="ElementShortName">grp_hscale_polyphase_fu_226_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_hscale_polyphase_fu_226_activity</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_hscale_core_polyphase_Pipeline_loop_width_fu_264_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_hscale_polyphase_fu_226_group">
+               <obj_property name="label">grp_hscale_polyphase_fu_226</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="grp_hscale_polyphase_fu_226_Handshake_group">
+                  <obj_property name="label">Block-level handshake</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/ap_start">
+                     <obj_property name="ElementShortName">ap_start</obj_property>
+                     <obj_property name="ObjectShortName">ap_start</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="v_csc_core_U0_group">
+         <obj_property name="label">v_csc_core_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity">
+            <obj_property name="ElementShortName">grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="v_csc_core_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_scaled_group">
+               <obj_property name="label">stream_scaled(stream_scaled_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/stream_scaled_dout">
+                  <obj_property name="ElementShortName">stream_scaled_dout[23:0]</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_dout[23:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/stream_scaled_empty_n">
+                  <obj_property name="ElementShortName">stream_scaled_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/stream_scaled_read">
+                  <obj_property name="ElementShortName">stream_scaled_read</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_group">
+               <obj_property name="label">Height(Height_c19_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_blk_n">
+                  <obj_property name="ElementShortName">Height_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_dout">
+                  <obj_property name="ElementShortName">Height_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">Height_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_empty_n">
+                  <obj_property name="ElementShortName">Height_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_read">
+                  <obj_property name="ElementShortName">Height_read</obj_property>
+                  <obj_property name="ObjectShortName">Height_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_group">
+               <obj_property name="label">WidthOut(WidthOut_c23_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_dout">
+                  <obj_property name="ElementShortName">WidthOut_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_empty_n">
+                  <obj_property name="ElementShortName">WidthOut_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_read">
+                  <obj_property name="ElementShortName">WidthOut_read</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="ColorMode_group">
+               <obj_property name="label">ColorMode(ColorMode_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ColorMode_blk_n">
+                  <obj_property name="ElementShortName">ColorMode_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorMode_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ColorMode_dout">
+                  <obj_property name="ElementShortName">ColorMode_dout[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">ColorMode_dout[7:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ColorMode_empty_n">
+                  <obj_property name="ElementShortName">ColorMode_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorMode_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ColorMode_read">
+                  <obj_property name="ElementShortName">ColorMode_read</obj_property>
+                  <obj_property name="ObjectShortName">ColorMode_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_csc_core_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_csc_core_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_scaled_csc_group">
+               <obj_property name="label">stream_scaled_csc(stream_scaled_csc_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/stream_scaled_csc_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/stream_scaled_csc_full_n">
+                  <obj_property name="ElementShortName">stream_scaled_csc_full_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_csc_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/stream_scaled_csc_write">
+                  <obj_property name="ElementShortName">stream_scaled_csc_write</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_csc_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_c18_group">
+               <obj_property name="label">Height_c18(Height_c18_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_c18_blk_n">
+                  <obj_property name="ElementShortName">Height_c18_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c18_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_c18_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_c18_full_n">
+                  <obj_property name="ElementShortName">Height_c18_full_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c18_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/Height_c18_write">
+                  <obj_property name="ElementShortName">Height_c18_write</obj_property>
+                  <obj_property name="ObjectShortName">Height_c18_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_c22_group">
+               <obj_property name="label">WidthOut_c22(WidthOut_c22_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_c22_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_c22_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c22_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_c22_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_c22_full_n">
+                  <obj_property name="ElementShortName">WidthOut_c22_full_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c22_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/WidthOut_c22_write">
+                  <obj_property name="ElementShortName">WidthOut_c22_write</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c22_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_group">
+            <obj_property name="label">grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="v_hcresampler_core_1_U0_group">
+         <obj_property name="label">v_hcresampler_core_1_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity">
+            <obj_property name="ElementShortName">grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="v_hcresampler_core_1_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_scaled_csc_group">
+               <obj_property name="label">stream_scaled_csc(stream_scaled_csc_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/stream_scaled_csc_dout">
+                  <obj_property name="ElementShortName">stream_scaled_csc_dout[23:0]</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_csc_dout[23:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/stream_scaled_csc_empty_n">
+                  <obj_property name="ElementShortName">stream_scaled_csc_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_csc_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/stream_scaled_csc_read">
+                  <obj_property name="ElementShortName">stream_scaled_csc_read</obj_property>
+                  <obj_property name="ObjectShortName">stream_scaled_csc_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_group">
+               <obj_property name="label">Height(Height_c18_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_blk_n">
+                  <obj_property name="ElementShortName">Height_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_dout">
+                  <obj_property name="ElementShortName">Height_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">Height_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_empty_n">
+                  <obj_property name="ElementShortName">Height_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_read">
+                  <obj_property name="ElementShortName">Height_read</obj_property>
+                  <obj_property name="ObjectShortName">Height_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_group">
+               <obj_property name="label">WidthOut(WidthOut_c22_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_dout">
+                  <obj_property name="ElementShortName">WidthOut_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_empty_n">
+                  <obj_property name="ElementShortName">WidthOut_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_read">
+                  <obj_property name="ElementShortName">WidthOut_read</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_hcresampler_core_1_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_hcresampler_core_1_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_out_422_group">
+               <obj_property name="label">stream_out_422(stream_out_422_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/stream_out_422_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/stream_out_422_full_n">
+                  <obj_property name="ElementShortName">stream_out_422_full_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_422_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/stream_out_422_write">
+                  <obj_property name="ElementShortName">stream_out_422_write</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_422_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_c17_group">
+               <obj_property name="label">Height_c17(Height_c17_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_c17_blk_n">
+                  <obj_property name="ElementShortName">Height_c17_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c17_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_c17_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_c17_full_n">
+                  <obj_property name="ElementShortName">Height_c17_full_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c17_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/Height_c17_write">
+                  <obj_property name="ElementShortName">Height_c17_write</obj_property>
+                  <obj_property name="ObjectShortName">Height_c17_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_c21_group">
+               <obj_property name="label">WidthOut_c21(WidthOut_c21_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_c21_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_c21_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c21_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_c21_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_c21_full_n">
+                  <obj_property name="ElementShortName">WidthOut_c21_full_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c21_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/WidthOut_c21_write">
+                  <obj_property name="ElementShortName">WidthOut_c21_write</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c21_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_group">
+            <obj_property name="label">grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="v_vcresampler_core_U0_group">
+         <obj_property name="label">v_vcresampler_core_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity">
+            <obj_property name="ElementShortName">grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="v_vcresampler_core_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_out_422_group">
+               <obj_property name="label">stream_out_422(stream_out_422_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/stream_out_422_dout">
+                  <obj_property name="ElementShortName">stream_out_422_dout[23:0]</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_422_dout[23:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/stream_out_422_empty_n">
+                  <obj_property name="ElementShortName">stream_out_422_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_422_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/stream_out_422_read">
+                  <obj_property name="ElementShortName">stream_out_422_read</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_422_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_group">
+               <obj_property name="label">Height(Height_c17_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_blk_n">
+                  <obj_property name="ElementShortName">Height_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_dout">
+                  <obj_property name="ElementShortName">Height_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">Height_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_empty_n">
+                  <obj_property name="ElementShortName">Height_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_read">
+                  <obj_property name="ElementShortName">Height_read</obj_property>
+                  <obj_property name="ObjectShortName">Height_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_group">
+               <obj_property name="label">WidthOut(WidthOut_c21_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_dout">
+                  <obj_property name="ElementShortName">WidthOut_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_empty_n">
+                  <obj_property name="ElementShortName">WidthOut_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_read">
+                  <obj_property name="ElementShortName">WidthOut_read</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_vcresampler_core_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="v_vcresampler_core_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_out_420_group">
+               <obj_property name="label">stream_out_420(stream_out_420_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/stream_out_420_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/stream_out_420_full_n">
+                  <obj_property name="ElementShortName">stream_out_420_full_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_420_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/stream_out_420_write">
+                  <obj_property name="ElementShortName">stream_out_420_write</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_420_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_c_group">
+               <obj_property name="label">Height_c(Height_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_c_blk_n">
+                  <obj_property name="ElementShortName">Height_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_c_full_n">
+                  <obj_property name="ElementShortName">Height_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/Height_c_write">
+                  <obj_property name="ElementShortName">Height_c_write</obj_property>
+                  <obj_property name="ObjectShortName">Height_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_c_group">
+               <obj_property name="label">WidthOut_c(WidthOut_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_c_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_c_full_n">
+                  <obj_property name="ElementShortName">WidthOut_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/WidthOut_c_write">
+                  <obj_property name="ElementShortName">WidthOut_c_write</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_group">
+            <obj_property name="label">grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1853_2_fu_142/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="MultiPixStream2AXIvideo_U0_group">
+         <obj_property name="label">MultiPixStream2AXIvideo_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity">
+            <obj_property name="ElementShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity">
+            <obj_property name="ElementShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="MultiPixStream2AXIvideo_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="stream_out_420_group">
+               <obj_property name="label">stream_out_420(stream_out_420_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/stream_out_420_dout">
+                  <obj_property name="ElementShortName">stream_out_420_dout[23:0]</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_420_dout[23:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/stream_out_420_empty_n">
+                  <obj_property name="ElementShortName">stream_out_420_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_420_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/stream_out_420_read">
+                  <obj_property name="ElementShortName">stream_out_420_read</obj_property>
+                  <obj_property name="ObjectShortName">stream_out_420_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="Height_group">
+               <obj_property name="label">Height(Height_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/Height_blk_n">
+                  <obj_property name="ElementShortName">Height_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/Height_dout">
+                  <obj_property name="ElementShortName">Height_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">Height_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/Height_empty_n">
+                  <obj_property name="ElementShortName">Height_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">Height_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/Height_read">
+                  <obj_property name="ElementShortName">Height_read</obj_property>
+                  <obj_property name="ObjectShortName">Height_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="WidthOut_group">
+               <obj_property name="label">WidthOut(WidthOut_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/WidthOut_blk_n">
+                  <obj_property name="ElementShortName">WidthOut_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/WidthOut_dout">
+                  <obj_property name="ElementShortName">WidthOut_dout[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_dout[15:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/WidthOut_empty_n">
+                  <obj_property name="ElementShortName">WidthOut_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/WidthOut_read">
+                  <obj_property name="ElementShortName">WidthOut_read</obj_property>
+                  <obj_property name="ObjectShortName">WidthOut_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="ColorModeOut_group">
+               <obj_property name="label">ColorModeOut(ColorModeOut_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ColorModeOut_blk_n">
+                  <obj_property name="ElementShortName">ColorModeOut_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorModeOut_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ColorModeOut_dout">
+                  <obj_property name="ElementShortName">ColorModeOut_dout[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">ColorModeOut_dout[7:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ColorModeOut_empty_n">
+                  <obj_property name="ElementShortName">ColorModeOut_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">ColorModeOut_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ColorModeOut_read">
+                  <obj_property name="ElementShortName">ColorModeOut_read</obj_property>
+                  <obj_property name="ObjectShortName">ColorModeOut_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="mapComp_group">
+               <obj_property name="label">mapComp(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/mapComp_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/mapComp_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/mapComp_ce0">
+                  <obj_property name="ElementShortName">mapComp_ce0</obj_property>
+                  <obj_property name="ObjectShortName">mapComp_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="MultiPixStream2AXIvideo_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="MultiPixStream2AXIvideo_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_group">
+            <obj_property name="label">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1536_1_fu_144/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_group">
+            <obj_property name="label">grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_v_hscaler_top/AESL_inst_bd_eab1_hsc_0_v_hscaler/MultiPixStream2AXIvideo_U0/grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_1544_3_fu_154/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

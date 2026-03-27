@@ -1,0 +1,297 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar  6 00:14:53 2026
+# Process ID: 78233
+# Current directory: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado
+# Command line: vivado
+# Log file: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/vivado.log
+# Journal file: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2803.212 MHz, CPU Physical cores: 4, Host memory: 16728 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd}
+delete_bd_objs [get_bd_intf_nets mipi_phy_if_1]
+connect_bd_intf_net [get_bd_intf_ports mipi_phy_if] -boundary_type upper [get_bd_intf_pins raspi_pipeline/mipi_phy_if]
+delete_bd_objs [get_bd_intf_nets axi_interconnect_0_M00_AXI1]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_ic_ctrl_300/M00_AXI] [get_bd_intf_pins raspi_pipeline/s_axi_ctrl_frmbuf]
+delete_bd_objs [get_bd_intf_nets capture_pipeline_m_axi_mm_video]
+connect_bd_intf_net [get_bd_intf_pins PS_0/S_AXI_HP0_FPD] -boundary_type upper [get_bd_intf_pins raspi_pipeline/m_axi_mm_video]
+delete_bd_objs [get_bd_nets mipi_csi2_rx_subsyst_0_csirxss_csi_irq]
+connect_bd_net [get_bd_pins xlconcat_0_0/In0] [get_bd_pins raspi_pipeline/csirxss_csi_irq]
+delete_bd_objs [get_bd_intf_nets axi_interconnect_0_M00_AXI]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_ic_ctrl_100/M00_AXI] [get_bd_intf_pins raspi_pipeline/csirxss_s_axi]
+connect_bd_net [get_bd_pins raspi_pipeline/Din] [get_bd_pins PS_0/emio_gpio_o]
+connect_bd_net [get_bd_pins raspi_pipeline/aclk] [get_bd_pins clk_wiz_0/clk_300M]
+connect_bd_net [get_bd_pins raspi_pipeline/aresetn] [get_bd_pins proc_sys_reset_300MHz/peripheral_aresetn]
+connect_bd_net [get_bd_pins raspi_pipeline/lite_aclk] [get_bd_pins clk_wiz_0/clk_100M]
+connect_bd_net [get_bd_pins raspi_pipeline/lite_aresetn] [get_bd_pins proc_sys_reset_100MHz/peripheral_aresetn]
+connect_bd_net [get_bd_pins raspi_pipeline/dphy_clk_200M] [get_bd_pins clk_wiz_0/clk_200M]
+delete_bd_objs [get_bd_nets capture_pipeline_interrupt] [get_bd_cells capture_pipeline]
+startgroup
+set_property CONFIG.NUM_MI {3} [get_bd_cells axi_ic_ctrl_300]
+endgroup
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_ic_ctrl_300/M01_AXI] [get_bd_intf_pins raspi_pipeline/s_axi_ctrl_dem]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins raspi_pipeline/s_axi_ctrl_vpss] [get_bd_intf_pins axi_ic_ctrl_300/M02_AXI]
+delete_bd_objs [get_bd_intf_nets audio_ss_0_m_axi_s2mm_audio] [get_bd_intf_nets axi_interconnect_0_M04_AXI] [get_bd_nets audio_ss_0_irq_mm2s_audio] [get_bd_nets audio_ss_0_sclk_rx] [get_bd_nets audio_ss_0_irq_i2s_rx] [get_bd_nets audio_ss_0_irq_i2s_tx] [get_bd_nets sdata_rx_0_1] [get_bd_nets PS_0_pl_clk1] [get_bd_nets audio_ss_0_irq_s2mm_audio_fmt] [get_bd_nets audio_ss_0_mclk_out_tx] [get_bd_nets audio_ss_0_lrclk_rx] [get_bd_nets audio_ss_0_lrclk_tx] [get_bd_nets audio_ss_0_mclk_out_rx] [get_bd_nets pl_rst_1] [get_bd_nets audio_ss_0_sdata_tx] [get_bd_nets audio_ss_0_sclk_tx] [get_bd_intf_nets audio_ss_0_m_axi_mm2s_audio] [get_bd_intf_nets axi_interconnect_0_M03_AXI] [get_bd_intf_nets axi_interconnect_0_M05_AXI] [get_bd_cells audio_ss_0]
+startgroup
+set_property -dict [list \
+  CONFIG.NUM_MI {1} \
+  CONFIG.NUM_SI {1} \
+] [get_bd_cells axi_ic_audio_mcu]
+endgroup
+startgroup
+set_property CONFIG.NUM_MI {3} [get_bd_cells axi_ic_ctrl_100]
+endgroup
+startgroup
+set_property -dict [list \
+  CONFIG.PSU__SAXIGP2__DATA_WIDTH {64} \
+  CONFIG.PSU__USE__S_AXI_GP6 {0} \
+] [get_bd_cells PS_0]
+delete_bd_objs [get_bd_intf_nets axi_ic_cap_audio_M00_AXI]
+endgroup
+connect_bd_net [get_bd_pins xlconcat_0_0/In1] [get_bd_pins raspi_pipeline/csirxss_csi_irq]
+undo
+connect_bd_net [get_bd_pins xlconcat_0_0/In1] [get_bd_pins raspi_pipeline/dem_irq]
+connect_bd_net [get_bd_pins raspi_pipeline/frm_buf_irq] [get_bd_pins xlconcat_0_0/In4]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_1
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_cells xlconstant_1]
+make_bd_intf_pins_external  [get_bd_cells xlconstant_1]
+endgroup
+create_bd_port -dir O raspi_enable
+delete_bd_objs [get_bd_nets xlconstant_1_dout]
+delete_bd_objs [get_bd_ports dout_0]
+connect_bd_net [get_bd_ports raspi_enable] [get_bd_pins xlconstant_1/dout]
+delete_bd_objs [get_bd_ports sclk_rx] [get_bd_ports lrclk_rx] [get_bd_ports sclk_tx] [get_bd_ports mclk_out_rx] [get_bd_ports lrclk_tx] [get_bd_ports mclk_out_tx] [get_bd_ports sdata_tx]
+save_bd_design
+close_bd_design [get_bd_designs kv260_ispMipiRx_vcu_DP]
+open_bd_design {/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd}
+assign_bd_address
+save_bd_design
+delete_bd_objs [get_bd_ports sdata_rx]
+delete_bd_objs [get_bd_addr_segs] [get_bd_addr_segs -excluded]
+undo
+save_bd_design
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_300M (299 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_300M (299 MHz)} Master {/PS_0/M_AXI_HPM0_FPD} Slave {/raspi_pipeline/ISPPipeline_accel_0/s_axi_CTRL} ddr_seg {Auto} intc_ip {/axi_ic_accel_ctrl} master_apm {0}}  [get_bd_intf_pins raspi_pipeline/ISPPipeline_accel_0/s_axi_CTRL]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_300M (299 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_300M (299 MHz)} Master {/PS_0/M_AXI_HPM0_FPD} Slave {/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/s_axi_CTRL} ddr_seg {Auto} intc_ip {/axi_ic_accel_ctrl} master_apm {0}}  [get_bd_intf_pins raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/s_axi_CTRL]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/clk_wiz_0/clk_300M (299 MHz)} Clk_xbar {/clk_wiz_0/clk_300M (299 MHz)} Master {/raspi_pipeline/raspi_pipeline/m_axi_mm_video} Slave {/axi_vip_0/S_AXI} ddr_seg {Auto} intc_ip {/axi_ic_accel_ctrl} master_apm {0}}  [get_bd_intf_pins raspi_pipeline/raspi_pipeline/m_axi_mm_video]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_300M (299 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_300M (299 MHz)} Master {/PS_0/M_AXI_HPM0_FPD} Slave {/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/csirxss_s_axi} ddr_seg {Auto} intc_ip {/axi_ic_accel_ctrl} master_apm {0}}  [get_bd_intf_pins raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/csirxss_s_axi]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_300M (299 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_300M (299 MHz)} Master {/PS_0/M_AXI_HPM0_FPD} Slave {/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/s_axi_CTRL} ddr_seg {Auto} intc_ip {/axi_ic_accel_ctrl} master_apm {0}}  [get_bd_intf_pins raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/s_axi_CTRL]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_300M (299 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_300M (299 MHz)} Master {/PS_0/M_AXI_HPM0_FPD} Slave {/raspi_pipeline/raspi_pipeline/v_proc_ss_0/s_axi_ctrl} ddr_seg {Auto} intc_ip {/axi_ic_accel_ctrl} master_apm {0}}  [get_bd_intf_pins raspi_pipeline/raspi_pipeline/v_proc_ss_0/s_axi_ctrl]
+endgroup
+undo
+save_bd_design
+connect_bd_intf_net [get_bd_intf_pins raspi_pipeline/m_axi_mm_video] -boundary_type upper [get_bd_intf_pins raspi_pipeline/raspi_pipeline/m_axi_mm_video]
+connect_bd_net [get_bd_pins raspi_pipeline/raspi_pipeline/lite_aclk] [get_bd_pins raspi_pipeline/raspi_pipeline/aclk] -boundary_type upper
+undo
+connect_bd_net [get_bd_pins raspi_pipeline/lite_aclk] [get_bd_pins raspi_pipeline/raspi_pipeline/lite_aclk]
+connect_bd_net [get_bd_pins raspi_pipeline/Din] [get_bd_pins raspi_pipeline/raspi_pipeline/Din]
+connect_bd_net [get_bd_pins raspi_pipeline/lite_aresetn] [get_bd_pins raspi_pipeline/raspi_pipeline/lite_aresetn]
+connect_bd_net [get_bd_pins raspi_pipeline/aclk] [get_bd_pins raspi_pipeline/raspi_pipeline/aclk]
+connect_bd_net [get_bd_pins raspi_pipeline/dphy_clk_200M] [get_bd_pins raspi_pipeline/raspi_pipeline/dphy_clk_200M]
+connect_bd_net [get_bd_pins raspi_pipeline/aresetn] [get_bd_pins raspi_pipeline/raspi_pipeline/aresetn]
+connect_bd_intf_net [get_bd_intf_pins raspi_pipeline/s_axi_ctrl_vpss] -boundary_type upper [get_bd_intf_pins raspi_pipeline/raspi_pipeline/s_axi_ctrl_vpss]
+connect_bd_intf_net [get_bd_intf_pins raspi_pipeline/s_axi_ctrl_frmbuf] -boundary_type upper [get_bd_intf_pins raspi_pipeline/raspi_pipeline/s_axi_ctrl_frmbuf]
+connect_bd_intf_net [get_bd_intf_pins raspi_pipeline/s_axi_ctrl_dem] -boundary_type upper [get_bd_intf_pins raspi_pipeline/raspi_pipeline/s_axi_ctrl_dem]
+connect_bd_intf_net [get_bd_intf_pins raspi_pipeline/mipi_phy_if] -boundary_type upper [get_bd_intf_pins raspi_pipeline/raspi_pipeline/mipi_phy_if]
+connect_bd_intf_net [get_bd_intf_pins raspi_pipeline/csirxss_s_axi] -boundary_type upper [get_bd_intf_pins raspi_pipeline/raspi_pipeline/csirxss_s_axi]
+connect_bd_net [get_bd_pins raspi_pipeline/csirxss_csi_irq] [get_bd_pins raspi_pipeline/raspi_pipeline/csirxss_csi_irq]
+connect_bd_net [get_bd_pins raspi_pipeline/dem_irq] [get_bd_pins raspi_pipeline/raspi_pipeline/dem_irq]
+connect_bd_net [get_bd_pins raspi_pipeline/frm_buf_irq] [get_bd_pins raspi_pipeline/raspi_pipeline/frm_buf_irq]
+save_bd_design
+assign_bd_address -target_address_space /PS_0/Data [get_bd_addr_segs raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/s_axi_CTRL/Reg] -force
+assign_bd_address -target_address_space /PS_0/Data [get_bd_addr_segs raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/csirxss_s_axi/Reg] -force
+assign_bd_address -target_address_space /PS_0/Data [get_bd_addr_segs raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/s_axi_CTRL/Reg] -force
+assign_bd_address -target_address_space /PS_0/Data [get_bd_addr_segs raspi_pipeline/raspi_pipeline/v_proc_ss_0/s_axi_ctrl/Reg] -force
+set_property offset 0x0080002000 [get_bd_addr_segs {PS_0/Data/SEG_mipi_csi2_rx_subsyst_0_Reg}]
+set_property offset 0x00B0080000 [get_bd_addr_segs {PS_0/Data/SEG_v_frmbuf_wr_0_Reg}]
+save_bd_design
+startgroup
+set_property -dict [list \
+  CONFIG.CLKOUT3_JITTER {102.087} \
+  CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {200} \
+  CONFIG.CLK_OUT3_PORT {clkv_200M} \
+  CONFIG.MMCM_CLKOUT2_DIVIDE {6} \
+] [get_bd_cells clk_wiz_0]
+endgroup
+save_bd_design
+set_property PFM.CLOCK {clk_100M {id "2" is_default "false" proc_sys_reset "/proc_sys_reset_100MHz" status "fixed" freq_hz "99999000"} clkv_200M {id "9" is_default "false" proc_sys_reset "" status "fixed" freq_hz "199998000"} clk_600M {id "1" is_default "false" proc_sys_reset "/proc_sys_reset_600MHz" status "fixed" freq_hz "599994000"}} [get_bd_cells /clk_wiz_0]
+set_property PFM.CLOCK {clk_100M {id "2" is_default "false" proc_sys_reset "/proc_sys_reset_100MHz" status "fixed" freq_hz "99999000"} clkv_200M {id "9" is_default "true" proc_sys_reset "" status "fixed" freq_hz "199998000"} clk_600M {id "1" is_default "false" proc_sys_reset "/proc_sys_reset_600MHz" status "fixed" freq_hz "599994000"}} [get_bd_cells /clk_wiz_0]
+set_property PFM.CLOCK {clk_100M {id "2" is_default "false" proc_sys_reset "/proc_sys_reset_100MHz" status "fixed" freq_hz "99999000"} clkv_200M {id "9" is_default "true" proc_sys_reset "" status "fixed" freq_hz "199998000"} clk_600M {id "1" is_default "false" proc_sys_reset "/proc_sys_reset_600MHz" status "fixed" freq_hz "599994000"}} [get_bd_cells /clk_wiz_0]
+set_property PFM.CLOCK {clk_100M {id "2" is_default "false" proc_sys_reset "/proc_sys_reset_100MHz" status "fixed" freq_hz "99999000"} clkv_200M {id "9" is_default "true" proc_sys_reset "" status "fixed" freq_hz "199998000"} clk_600M {id "1" is_default "false" proc_sys_reset "/proc_sys_reset_600MHz" status "fixed" freq_hz "599994000"}} [get_bd_cells /clk_wiz_0]
+save_bd_design
+copy_bd_objs /  [get_bd_cells {proc_sys_reset_300MHz}]
+set_property name proc_sys_reset_200MHz1 [get_bd_cells proc_sys_reset_300MHz1]
+delete_bd_objs [get_bd_cells proc_sys_reset_200MHz1]
+connect_bd_net [get_bd_pins clk_wiz_0/clkv_200M] [get_bd_pins PS_0/maxihpm0_fpd_aclk]
+save_bd_design
+set_property PFM.CLOCK {clk_100M {id "2" is_default "false" proc_sys_reset "/proc_sys_reset_100MHz" status "fixed" freq_hz "99999000"} clkv_200M {id "9" is_default "true" proc_sys_reset "" status "fixed" freq_hz "199998000"} clk_600M {id "1" is_default "false" proc_sys_reset "/proc_sys_reset_600MHz" status "fixed" freq_hz "599994000"}} [get_bd_cells /clk_wiz_0]
+set_property PFM.CLOCK {clk_100M {id "2" is_default "false" proc_sys_reset "/proc_sys_reset_100MHz" status "fixed" freq_hz "99999000"} clkv_200M {id "9" is_default "true" proc_sys_reset "/proc_sys_reset_300MHz" status "fixed" freq_hz "199998000"} clk_600M {id "1" is_default "false" proc_sys_reset "/proc_sys_reset_600MHz" status "fixed" freq_hz "599994000"}} [get_bd_cells /clk_wiz_0]
+save_bd_design
+validate_bd_design
+connect_bd_net [get_bd_pins axi_ic_ctrl_300/M01_ACLK] [get_bd_pins clk_wiz_0/clkv_200M]
+connect_bd_net [get_bd_pins axi_ic_ctrl_300/M02_ACLK] [get_bd_pins clk_wiz_0/clkv_200M]
+connect_bd_net [get_bd_pins axi_ic_ctrl_300/M02_ARESETN] [get_bd_pins proc_sys_reset_300MHz/peripheral_aresetn]
+connect_bd_net [get_bd_pins axi_ic_ctrl_300/M01_ARESETN] [get_bd_pins proc_sys_reset_300MHz/peripheral_aresetn]
+save_bd_design
+validate_bd_design
+delete_bd_objs [get_bd_cells raspi_pipeline/ISPPipeline_accel_0]
+save_bd_design
+validate_bd_design
+save_bd_design
+generate_target all [get_files  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd]
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_PS_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_1] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_axi_vip_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_clk_wiz_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0] }
+catch { [ delete_ip_run [get_ips -all kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0] ] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_2] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_3] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_vcu_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_xbar_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_r_sync_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_rx_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_phy_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_vfb_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_smartconnect_0_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_vsc_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_hsc_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_input_size_set_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_rst_axis_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_reset_sel_axis_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_axis_register_slice_0_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_axis_fifo_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_4] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_12] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_13] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_14] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_15] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s01_regslice_6] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_m00_regslice_6] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_16] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s01_regslice_7] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_m00_regslice_7] }
+export_ip_user_files -of_objects [get_files /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd]
+launch_runs kv260_ispMipiRx_vcu_DP_xbar_1_synth_1 kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1 kv260_ispMipiRx_vcu_DP_vcu_0_0_synth_1 kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_synth_1 kv260_ispMipiRx_vcu_DP_xbar_3_synth_1 kv260_ispMipiRx_vcu_DP_xbar_2_synth_1 kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_synth_1 kv260_ispMipiRx_vcu_DP_PS_0_0_synth_1 kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1 kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_synth_1 kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1_synth_1 kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0_synth_1 kv260_ispMipiRx_vcu_DP_xbar_4_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_12_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_13_synth_1 kv260_ispMipiRx_vcu_DP_auto_pc_1_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_15_synth_1 kv260_ispMipiRx_vcu_DP_s01_regslice_6_synth_1 kv260_ispMipiRx_vcu_DP_m00_regslice_6_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_16_synth_1 kv260_ispMipiRx_vcu_DP_s01_regslice_7_synth_1 kv260_ispMipiRx_vcu_DP_m00_regslice_7_synth_1 -jobs 2
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_vcu_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_3_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_2_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_PS_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_4_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_12_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_13_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_auto_pc_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_15_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s01_regslice_6_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_m00_regslice_6_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_16_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s01_regslice_7_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_m00_regslice_7_synth_1
+export_simulation -of_objects [get_files /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd] -directory /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.ip_user_files/sim_scripts -ip_user_files_dir /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.ip_user_files -ipstatic_source_dir /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/modelsim} {questa=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/questa} {xcelium=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/xcelium} {vcs=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/vcs} {riviera=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/imports/hdl/kv260_ispMipiRx_vcu_DP_wrapper.v] -no_script -reset -force -quiet
+remove_files  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/imports/hdl/kv260_ispMipiRx_vcu_DP_wrapper.v
+set_property source_mgmt_mode DisplayOnly [current_project]
+make_wrapper -files [get_files /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd] -top
+add_files -norecurse /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/hdl/kv260_ispMipiRx_vcu_DP_wrapper.v
+reset_target all [get_files  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd]
+export_ip_user_files -of_objects  [get_files  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd]
+generate_target all [get_files  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd]
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_PS_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_1] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_axi_iic_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_axi_vip_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_clk_wiz_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_2] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_3] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_vcu_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_xbar_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_r_sync_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_rx_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_phy_0] }
+catch { config_ip_cache -export [get_ips -all bd_3be0_vfb_0_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_smartconnect_0_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_vsc_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_hsc_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_input_size_set_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_rst_axis_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_reset_sel_axis_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_axis_register_slice_0_0] }
+catch { config_ip_cache -export [get_ips -all bd_eab1_axis_fifo_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_xbar_4] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_12] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_13] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_14] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_15] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s01_regslice_6] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_m00_regslice_6] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s00_regslice_16] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_s01_regslice_7] }
+catch { config_ip_cache -export [get_ips -all kv260_ispMipiRx_vcu_DP_m00_regslice_7] }
+export_ip_user_files -of_objects [get_files /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd]
+launch_runs kv260_ispMipiRx_vcu_DP_PS_0_0_synth_1 kv260_ispMipiRx_vcu_DP_xbar_1_synth_1 kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1 kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_synth_1 kv260_ispMipiRx_vcu_DP_xbar_2_synth_1 kv260_ispMipiRx_vcu_DP_xbar_3_synth_1 kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_synth_1 kv260_ispMipiRx_vcu_DP_vcu_0_0_synth_1 kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1 kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_synth_1 kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1_synth_1 kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0_synth_1 kv260_ispMipiRx_vcu_DP_xbar_4_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_12_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_13_synth_1 kv260_ispMipiRx_vcu_DP_auto_pc_1_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_15_synth_1 kv260_ispMipiRx_vcu_DP_s01_regslice_6_synth_1 kv260_ispMipiRx_vcu_DP_m00_regslice_6_synth_1 kv260_ispMipiRx_vcu_DP_s00_regslice_16_synth_1 kv260_ispMipiRx_vcu_DP_s01_regslice_7_synth_1 kv260_ispMipiRx_vcu_DP_m00_regslice_7_synth_1 -jobs 2
+wait_on_run kv260_ispMipiRx_vcu_DP_PS_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_2_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_3_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_vcu_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_xbar_4_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_12_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_13_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_auto_pc_1_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_15_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s01_regslice_6_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_m00_regslice_6_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s00_regslice_16_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_s01_regslice_7_synth_1
+wait_on_run kv260_ispMipiRx_vcu_DP_m00_regslice_7_synth_1
+export_simulation -of_objects [get_files /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd] -directory /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.ip_user_files/sim_scripts -ip_user_files_dir /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.ip_user_files -ipstatic_source_dir /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/modelsim} {questa=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/questa} {xcelium=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/xcelium} {vcs=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/vcs} {riviera=/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_run impl_1
+open_bd_design {/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd}
+write_bd_layout -format pdf -orientation portrait -hierarchy [get_bd_cell raspi_pipeline/raspi_pipeline] /home/user/Downloads/raspi_pipeline.pdf
+write_bd_layout -format pdf -orientation portrait /home/user/Downloads/kv260_ispMipiRx_vcu_DP.pdf

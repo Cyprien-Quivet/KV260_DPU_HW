@@ -1,7 +1,0 @@
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/axi_lite_led_simu/ipshared/7a7e/hdl/axi_lite_led_v1_0_S00_AXI.vhd" \
-  "../../../bd/axi_lite_led_simu/ipshared/7a7e/hdl/axi_lite_led_v1_0.vhd" \
-  "../../../bd/axi_lite_led_simu/ip/axi_lite_led_simu_axi_lite_led_0_0/sim/axi_lite_led_simu_axi_lite_led_0_0.vhd" \
-  "../../../bd/axi_lite_led_simu/sim/axi_lite_led_simu.vhd" \
--endlib
-

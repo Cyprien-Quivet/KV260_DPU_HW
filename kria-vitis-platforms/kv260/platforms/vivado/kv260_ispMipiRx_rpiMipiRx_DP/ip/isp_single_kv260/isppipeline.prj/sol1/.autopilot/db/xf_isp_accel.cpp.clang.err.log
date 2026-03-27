@@ -1,0 +1,11 @@
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:17:
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_types.h:24:
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_common.hpp:20:
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp:27:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:41:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/climits:41:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h:508:
+/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h:39:10: fatal error: 'features.h' file not found
+#include <features.h>
+         ^~~~~~~~~~~~
+1 error generated.

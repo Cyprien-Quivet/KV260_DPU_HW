@@ -1,0 +1,21 @@
+<dict>
+  <key>main-file</key>
+  <string>../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>fatal error</string>
+      <key>filename</key>
+      <string>/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h</string>
+      <key>line</key>
+      <integer>39</integer>
+      <key>column</key>
+      <integer>10</integer>
+      <key>message</key>
+      <string>&apos;features.h&apos; file not found</string>
+      <key>ID</key>
+      <integer>812</integer>
+    </dict>
+  </array>
+</dict>

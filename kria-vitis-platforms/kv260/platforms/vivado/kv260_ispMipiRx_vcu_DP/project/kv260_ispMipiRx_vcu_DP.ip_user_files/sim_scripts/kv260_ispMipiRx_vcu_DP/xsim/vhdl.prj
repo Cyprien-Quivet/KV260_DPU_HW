@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_iic_0_0/sim/kv260_ispMipiRx_vcu_DP_axi_iic_0_0.vhd" \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0/sim/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0.vhd" \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0/sim/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0.vhd" \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0/sim/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0.vhd" \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/sim/bd_3be0_r_sync_0.vhd" \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_1/ip/ip_1/sim/bd_a669_psr_aclk_0.vhd" \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_4/sim/bd_eab1_rst_axis_0.vhd" \
+"../../../../kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_5/sim/bd_eab1_reset_sel_axis_0.vhd" \
+
+nosort

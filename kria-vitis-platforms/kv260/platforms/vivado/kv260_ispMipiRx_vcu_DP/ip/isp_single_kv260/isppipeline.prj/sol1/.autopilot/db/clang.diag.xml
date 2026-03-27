@@ -1,0 +1,55 @@
+<dict>
+  <key>main-file</key>
+  <string>/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip/isp_single_kv260/isppipeline.prj/sol1/.autopilot/db/xf_isp_accel.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_video_mem.hpp</string>
+      <key>line</key>
+      <integer>759</integer>
+      <key>column</key>
+      <integer>47</integer>
+      <key>message</key>
+      <string>&apos;factor&apos; in &apos;#pragma HLS array_reshape&apos; is ignored</string>
+      <key>ID</key>
+      <integer>5529</integer>
+      <key>WarningOption</key>
+      <string>extra-tokens</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp</string>
+      <key>line</key>
+      <integer>422</integer>
+      <key>column</key>
+      <integer>33</integer>
+      <key>message</key>
+      <string>extra token before variable expression is ignored</string>
+      <key>ID</key>
+      <integer>5531</integer>
+      <key>WarningOption</key>
+      <string>extra-tokens</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp</string>
+      <key>line</key>
+      <integer>423</integer>
+      <key>column</key>
+      <integer>33</integer>
+      <key>message</key>
+      <string>extra token before variable expression is ignored</string>
+      <key>ID</key>
+      <integer>5531</integer>
+      <key>WarningOption</key>
+      <string>extra-tokens</string>
+    </dict>
+  </array>
+</dict>

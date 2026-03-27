@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 10.02 seconds; current allocated memory: 207.176 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp&apos; ..." resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-812]" key="HLS 207-812" tag="" content="&apos;features.h&apos; file not found (/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h:39:10)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Command csynth_design CPU user time: 0.1 seconds. CPU system time: 0.1 seconds. Elapsed time: 0.2 seconds; current allocated memory: 0.262 MB." resolution=""/>
+</Messages>

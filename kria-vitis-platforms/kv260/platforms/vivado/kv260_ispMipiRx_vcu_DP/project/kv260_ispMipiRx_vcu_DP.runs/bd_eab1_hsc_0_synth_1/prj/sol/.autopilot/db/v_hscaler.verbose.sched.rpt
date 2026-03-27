@@ -1,0 +1,337 @@
+
+
+================================================================
+== Vitis HLS Report for 'v_hscaler'
+================================================================
+* Date:           Fri Mar  6 02:17:01 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+------------+----------+-----------+-----+------------+----------+
+    |   Latency (cycles)   |  Latency (absolute)  |     Interval     | Pipeline |
+    |   min   |     max    |    min   |    max    | min |     max    |   Type   |
+    +---------+------------+----------+-----------+-----+------------+----------+
+    |      999|  1073938444|  4.995 us|  5.370 sec|  997|  1073938428|  dataflow|
+    +---------+------------+----------+-----------+-----+------------+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 16
+* Pipeline : 0
+* Dataflow Pipeline: 1
+  DF-Pipeline-0: Size = 16, States = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 }
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%ColorModeOut_c = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 17 'alloca' 'ColorModeOut_c' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.90> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 7> <FIFO>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%ColorMode_c = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 18 'alloca' 'ColorMode_c' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 8> <Depth = 4> <FIFO>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%WidthOut_c23 = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 19 'alloca' 'WidthOut_c23' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%WidthOut_c22 = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 20 'alloca' 'WidthOut_c22' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%WidthOut_c21 = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 21 'alloca' 'WidthOut_c21' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%WidthOut_c = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 22 'alloca' 'WidthOut_c' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%WidthIn_c = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 23 'alloca' 'WidthIn_c' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%Height_c20 = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 24 'alloca' 'Height_c20' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%Height_c19 = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 25 'alloca' 'Height_c19' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%Height_c18 = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 26 'alloca' 'Height_c18' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%Height_c17 = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 27 'alloca' 'Height_c17' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%Height_c = alloca i64 1" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 28 'alloca' 'Height_c' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%stream_in = alloca i64 1"   --->   Operation 29 'alloca' 'stream_in' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 16> <FIFO>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%stream_upsampled = alloca i64 1"   --->   Operation 30 'alloca' 'stream_upsampled' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 16> <FIFO>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%stream_scaled = alloca i64 1"   --->   Operation 31 'alloca' 'stream_scaled' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 16> <FIFO>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%stream_scaled_csc = alloca i64 1"   --->   Operation 32 'alloca' 'stream_scaled_csc' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 16> <FIFO>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%stream_out_422 = alloca i64 1"   --->   Operation 33 'alloca' 'stream_out_422' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 16> <FIFO>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%stream_out_420 = alloca i64 1"   --->   Operation 34 'alloca' 'stream_out_420' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 16> <FIFO>
+
+State 2 <SV = 1> <Delay = 1.82>
+ST_2 : Operation 35 [2/2] (1.82ns)   --->   "%call_ln144 = call void @AXIvideo2MultiPixStream, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i24 %stream_in, i16 %Height, i16 %WidthIn, i8 %ColorMode, i16 %Height_c20, i16 %WidthIn_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:144]   --->   Operation 35 'call' 'call_ln144' <Predicate = true> <Delay = 1.82> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 36 [1/2] (0.00ns)   --->   "%call_ln144 = call void @AXIvideo2MultiPixStream, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i24 %stream_in, i16 %Height, i16 %WidthIn, i8 %ColorMode, i16 %Height_c20, i16 %WidthIn_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:144]   --->   Operation 36 'call' 'call_ln144' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 3.65>
+ST_4 : Operation 37 [1/1] (1.82ns)   --->   "%call_ret = call i4 @Block_entry1_proc, i8 %ColorMode, i8 %ColorModeOut, i8 %ColorMode_c, i8 %ColorModeOut_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 37 'call' 'call_ret' <Predicate = true> <Delay = 1.82> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 38 [1/1] (0.00ns)   --->   "%bPassThruHcr1_channel = extractvalue i4 %call_ret" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 38 'extractvalue' 'bPassThruHcr1_channel' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 1> <Depth = 2> <FIFO>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%bPassThruCsc_channel = extractvalue i4 %call_ret" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 39 'extractvalue' 'bPassThruCsc_channel' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 1> <Depth = 2> <FIFO>
+ST_4 : Operation 40 [1/1] (0.00ns)   --->   "%bPassThruHcr2_channel = extractvalue i4 %call_ret" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 40 'extractvalue' 'bPassThruHcr2_channel' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 1> <Depth = 2> <FIFO>
+ST_4 : Operation 41 [1/1] (0.00ns)   --->   "%bPassThruVcr_channel = extractvalue i4 %call_ret" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 41 'extractvalue' 'bPassThruVcr_channel' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 1> <Depth = 2> <FIFO>
+ST_4 : Operation 42 [2/2] (1.82ns)   --->   "%call_ln147 = call void @v_hcresampler_core, i24 %stream_in, i16 %Height_c20, i16 %WidthIn_c, i1 %bPassThruHcr1_channel, i24 %stream_upsampled" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:147]   --->   Operation 42 'call' 'call_ln147' <Predicate = true> <Delay = 1.82> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 43 [1/2] (0.00ns)   --->   "%call_ln147 = call void @v_hcresampler_core, i24 %stream_in, i16 %Height_c20, i16 %WidthIn_c, i1 %bPassThruHcr1_channel, i24 %stream_upsampled" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:147]   --->   Operation 43 'call' 'call_ln147' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 2.28>
+ST_6 : Operation 44 [2/2] (2.28ns)   --->   "%call_ln158 = call void @hscale_core_polyphase, i24 %stream_upsampled, i16 %Height, i16 %WidthIn, i16 %WidthOut, i16 %hfltCoeff, i9 %phasesH, i24 %stream_scaled, i16 %Height_c19, i16 %WidthOut_c23" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:158]   --->   Operation 44 'call' 'call_ln158' <Predicate = true> <Delay = 2.28> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 45 [1/2] (0.00ns)   --->   "%call_ln158 = call void @hscale_core_polyphase, i24 %stream_upsampled, i16 %Height, i16 %WidthIn, i16 %WidthOut, i16 %hfltCoeff, i9 %phasesH, i24 %stream_scaled, i16 %Height_c19, i16 %WidthOut_c23" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:158]   --->   Operation 45 'call' 'call_ln158' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 1.82>
+ST_8 : Operation 46 [2/2] (1.82ns)   --->   "%call_ln166 = call void @v_csc_core, i24 %stream_scaled, i16 %Height_c19, i16 %WidthOut_c23, i8 %ColorMode_c, i1 %bPassThruCsc_channel, i24 %stream_scaled_csc, i16 %Height_c18, i16 %WidthOut_c22" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:166]   --->   Operation 46 'call' 'call_ln166' <Predicate = true> <Delay = 1.82> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 9 <SV = 8> <Delay = 0.00>
+ST_9 : Operation 47 [1/2] (0.00ns)   --->   "%call_ln166 = call void @v_csc_core, i24 %stream_scaled, i16 %Height_c19, i16 %WidthOut_c23, i8 %ColorMode_c, i1 %bPassThruCsc_channel, i24 %stream_scaled_csc, i16 %Height_c18, i16 %WidthOut_c22" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:166]   --->   Operation 47 'call' 'call_ln166' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 10 <SV = 9> <Delay = 1.82>
+ST_10 : Operation 48 [2/2] (1.82ns)   --->   "%call_ln173 = call void @v_hcresampler_core.1, i24 %stream_scaled_csc, i16 %Height_c18, i16 %WidthOut_c22, i1 %bPassThruHcr2_channel, i24 %stream_out_422, i16 %Height_c17, i16 %WidthOut_c21" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:173]   --->   Operation 48 'call' 'call_ln173' <Predicate = true> <Delay = 1.82> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 11 <SV = 10> <Delay = 0.00>
+ST_11 : Operation 49 [1/2] (0.00ns)   --->   "%call_ln173 = call void @v_hcresampler_core.1, i24 %stream_scaled_csc, i16 %Height_c18, i16 %WidthOut_c22, i1 %bPassThruHcr2_channel, i24 %stream_out_422, i16 %Height_c17, i16 %WidthOut_c21" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:173]   --->   Operation 49 'call' 'call_ln173' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 12 <SV = 11> <Delay = 2.96>
+ST_12 : Operation 50 [2/2] (2.96ns)   --->   "%call_ln180 = call void @v_vcresampler_core, i24 %stream_out_422, i16 %Height_c17, i16 %WidthOut_c21, i1 %bPassThruVcr_channel, i24 %stream_out_420, i16 %Height_c, i16 %WidthOut_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:180]   --->   Operation 50 'call' 'call_ln180' <Predicate = true> <Delay = 2.96> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 13 <SV = 12> <Delay = 0.00>
+ST_13 : Operation 51 [1/2] (0.00ns)   --->   "%call_ln180 = call void @v_vcresampler_core, i24 %stream_out_422, i16 %Height_c17, i16 %WidthOut_c21, i1 %bPassThruVcr_channel, i24 %stream_out_420, i16 %Height_c, i16 %WidthOut_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:180]   --->   Operation 51 'call' 'call_ln180' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 14 <SV = 13> <Delay = 0.00>
+ST_14 : Operation 52 [2/2] (0.00ns)   --->   "%call_ln186 = call void @MultiPixStream2AXIvideo, i24 %stream_out_420, i24 %m_axis_video_V_data_V, i3 %m_axis_video_V_keep_V, i3 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V, i16 %Height_c, i16 %WidthOut_c, i8 %ColorModeOut_c, i2 %mapComp" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:186]   --->   Operation 52 'call' 'call_ln186' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 15 <SV = 14> <Delay = 0.00>
+ST_15 : Operation 53 [1/2] (0.00ns)   --->   "%call_ln186 = call void @MultiPixStream2AXIvideo, i24 %stream_out_420, i24 %m_axis_video_V_data_V, i3 %m_axis_video_V_keep_V, i3 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V, i16 %Height_c, i16 %WidthOut_c, i8 %ColorModeOut_c, i2 %mapComp" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:186]   --->   Operation 53 'call' 'call_ln186' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 16 <SV = 15> <Delay = 0.00>
+ST_16 : Operation 54 [1/1] (0.00ns)   --->   "%empty = specchannel i32 @_ssdm_op_SpecChannel, void @ColorModeOut_c_str, i32 1, void @p_str, void @p_str, i32 7, i32 0, i8 %ColorModeOut_c, i8 %ColorModeOut_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 54 'specchannel' 'empty' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 55 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i8 %ColorModeOut_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 55 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 56 [1/1] (0.00ns)   --->   "%empty_59 = specchannel i32 @_ssdm_op_SpecChannel, void @ColorMode_c_str, i32 1, void @p_str, void @p_str, i32 4, i32 0, i8 %ColorMode_c, i8 %ColorMode_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 56 'specchannel' 'empty_59' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 57 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i8 %ColorMode_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 57 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 58 [1/1] (0.00ns)   --->   "%empty_60 = specchannel i32 @_ssdm_op_SpecChannel, void @WidthOut_c23_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %WidthOut_c23, i16 %WidthOut_c23" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 58 'specchannel' 'empty_60' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 59 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthOut_c23, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 59 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 60 [1/1] (0.00ns)   --->   "%empty_61 = specchannel i32 @_ssdm_op_SpecChannel, void @WidthOut_c22_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %WidthOut_c22, i16 %WidthOut_c22" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 60 'specchannel' 'empty_61' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 61 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthOut_c22, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 61 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 62 [1/1] (0.00ns)   --->   "%empty_62 = specchannel i32 @_ssdm_op_SpecChannel, void @WidthOut_c21_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %WidthOut_c21, i16 %WidthOut_c21" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 62 'specchannel' 'empty_62' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 63 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthOut_c21, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 63 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 64 [1/1] (0.00ns)   --->   "%empty_63 = specchannel i32 @_ssdm_op_SpecChannel, void @WidthOut_c_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %WidthOut_c, i16 %WidthOut_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 64 'specchannel' 'empty_63' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 65 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthOut_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 65 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 66 [1/1] (0.00ns)   --->   "%empty_64 = specchannel i32 @_ssdm_op_SpecChannel, void @WidthIn_c_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %WidthIn_c, i16 %WidthIn_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 66 'specchannel' 'empty_64' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 67 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthIn_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 67 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 68 [1/1] (0.00ns)   --->   "%empty_65 = specchannel i32 @_ssdm_op_SpecChannel, void @Height_c20_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %Height_c20, i16 %Height_c20" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 68 'specchannel' 'empty_65' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 69 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %Height_c20, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 69 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 70 [1/1] (0.00ns)   --->   "%empty_66 = specchannel i32 @_ssdm_op_SpecChannel, void @Height_c19_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %Height_c19, i16 %Height_c19" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 70 'specchannel' 'empty_66' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 71 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %Height_c19, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 71 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 72 [1/1] (0.00ns)   --->   "%empty_67 = specchannel i32 @_ssdm_op_SpecChannel, void @Height_c18_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %Height_c18, i16 %Height_c18" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 72 'specchannel' 'empty_67' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 73 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %Height_c18, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 73 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 74 [1/1] (0.00ns)   --->   "%empty_68 = specchannel i32 @_ssdm_op_SpecChannel, void @Height_c17_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %Height_c17, i16 %Height_c17" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 74 'specchannel' 'empty_68' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 75 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %Height_c17, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 75 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 76 [1/1] (0.00ns)   --->   "%empty_69 = specchannel i32 @_ssdm_op_SpecChannel, void @Height_c_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %Height_c, i16 %Height_c" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 76 'specchannel' 'empty_69' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 77 [1/1] (0.00ns)   --->   "%specinterface_ln134 = specinterface void @_ssdm_op_SpecInterface, i16 %Height_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 77 'specinterface' 'specinterface_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 78 [1/1] (0.00ns)   --->   "%specdataflowpipeline_ln134 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @empty_25" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134]   --->   Operation 78 'specdataflowpipeline' 'specdataflowpipeline_ln134' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 79 [1/1] (0.00ns)   --->   "%spectopmodule_ln66 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_8" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:66]   --->   Operation 79 'spectopmodule' 'spectopmodule_ln66' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 80 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, void @empty_26, i32 1, i32 1, void @empty_27, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 80 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 81 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i24 %s_axis_video_V_data_V"   --->   Operation 81 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 82 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %s_axis_video_V_keep_V"   --->   Operation 82 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 83 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %s_axis_video_V_strb_V"   --->   Operation 83 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 84 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %s_axis_video_V_user_V"   --->   Operation 84 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 85 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %s_axis_video_V_last_V"   --->   Operation 85 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 86 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %s_axis_video_V_id_V"   --->   Operation 86 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 87 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %s_axis_video_V_dest_V"   --->   Operation 87 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 88 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %Height"   --->   Operation 88 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 89 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %Height, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_28, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 89 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 90 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %Height, void @empty_24, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 90 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 91 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %WidthIn"   --->   Operation 91 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 92 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthIn, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_15, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 92 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 93 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthIn, void @empty_24, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 93 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 94 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %WidthOut"   --->   Operation 94 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 95 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthOut, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 95 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 96 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %WidthOut, void @empty_24, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 96 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 97 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %ColorMode"   --->   Operation 97 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 98 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %ColorMode, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_0, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 98 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 99 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %ColorMode, void @empty_24, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 99 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 100 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %PixelRate"   --->   Operation 100 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 101 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %PixelRate, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_22, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 101 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 102 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %PixelRate, void @empty_24, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 102 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 103 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %ColorModeOut"   --->   Operation 103 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 104 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %ColorModeOut, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_1, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 104 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 105 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %ColorModeOut, void @empty_24, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 105 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 106 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %hfltCoeff, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_18, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 106 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 107 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %hfltCoeff, void @empty_17, i32 0, i32 0, void @empty_25, i32 1, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 107 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 108 [1/1] (0.00ns)   --->   "%specmemcore_ln0 = specmemcore void @_ssdm_op_SpecMemCore, i16 %hfltCoeff, i64 666, i64 207, i64 1"   --->   Operation 108 'specmemcore' 'specmemcore_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 109 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %hfltCoeff"   --->   Operation 109 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 110 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i9 %phasesH, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_29, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 110 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 111 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i9 %phasesH, void @empty_17, i32 0, i32 0, void @empty_25, i32 1, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 111 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 112 [1/1] (0.00ns)   --->   "%specmemcore_ln0 = specmemcore void @_ssdm_op_SpecMemCore, i9 %phasesH, i64 666, i64 207, i64 1"   --->   Operation 112 'specmemcore' 'specmemcore_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 113 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i9 %phasesH"   --->   Operation 113 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 114 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %m_axis_video_V_data_V, i3 %m_axis_video_V_keep_V, i3 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V, void @empty_26, i32 1, i32 1, void @empty_27, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 114 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 115 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i24 %m_axis_video_V_data_V"   --->   Operation 115 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 116 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %m_axis_video_V_keep_V"   --->   Operation 116 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 117 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %m_axis_video_V_strb_V"   --->   Operation 117 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 118 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %m_axis_video_V_user_V"   --->   Operation 118 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 119 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %m_axis_video_V_last_V"   --->   Operation 119 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 120 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %m_axis_video_V_id_V"   --->   Operation 120 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 121 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %m_axis_video_V_dest_V"   --->   Operation 121 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 122 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_31, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_30, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 122 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 123 [1/1] (0.00ns)   --->   "%empty_70 = specchannel i32 @_ssdm_op_SpecChannel, void @stream_in_str, i32 1, void @p_str, void @p_str, i32 16, i32 16, i24 %stream_in, i24 %stream_in"   --->   Operation 123 'specchannel' 'empty_70' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 124 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %stream_in, void @empty_14, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 124 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 125 [1/1] (0.00ns)   --->   "%empty_71 = specchannel i32 @_ssdm_op_SpecChannel, void @stream_upsampled_str, i32 1, void @p_str, void @p_str, i32 16, i32 16, i24 %stream_upsampled, i24 %stream_upsampled"   --->   Operation 125 'specchannel' 'empty_71' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 126 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %stream_upsampled, void @empty_14, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 126 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 127 [1/1] (0.00ns)   --->   "%empty_72 = specchannel i32 @_ssdm_op_SpecChannel, void @stream_scaled_str, i32 1, void @p_str, void @p_str, i32 16, i32 16, i24 %stream_scaled, i24 %stream_scaled"   --->   Operation 127 'specchannel' 'empty_72' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 128 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %stream_scaled, void @empty_14, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 128 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 129 [1/1] (0.00ns)   --->   "%empty_73 = specchannel i32 @_ssdm_op_SpecChannel, void @stream_scaled_csc_str, i32 1, void @p_str, void @p_str, i32 16, i32 16, i24 %stream_scaled_csc, i24 %stream_scaled_csc"   --->   Operation 129 'specchannel' 'empty_73' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 130 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %stream_scaled_csc, void @empty_14, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 130 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 131 [1/1] (0.00ns)   --->   "%empty_74 = specchannel i32 @_ssdm_op_SpecChannel, void @stream_out_422_str, i32 1, void @p_str, void @p_str, i32 16, i32 16, i24 %stream_out_422, i24 %stream_out_422"   --->   Operation 131 'specchannel' 'empty_74' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 132 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %stream_out_422, void @empty_14, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 132 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 133 [1/1] (0.00ns)   --->   "%empty_75 = specchannel i32 @_ssdm_op_SpecChannel, void @stream_out_420_str, i32 1, void @p_str, void @p_str, i32 16, i32 16, i24 %stream_out_420, i24 %stream_out_420"   --->   Operation 133 'specchannel' 'empty_75' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 134 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %stream_out_420, void @empty_14, i32 0, i32 0, void @empty_25, i32 0, i32 0, void @empty_25, void @empty_25, void @empty_25, i32 0, i32 0, i32 0, i32 0, void @empty_25, void @empty_25, i32 4294967295, i32 0"   --->   Operation 134 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 135 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln110 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i24 %m_axis_video_V_data_V, i3 %m_axis_video_V_keep_V, i3 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V, void @empty_3" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:110]   --->   Operation 135 'specaxissidechannel' 'specaxissidechannel_ln110' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 136 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln110 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, void @empty_7" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:110]   --->   Operation 136 'specaxissidechannel' 'specaxissidechannel_ln110' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 137 [1/1] (0.00ns)   --->   "%ret_ln187 = ret" [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:187]   --->   Operation 137 'ret' 'ret_ln187' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 1.35ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 1.83ns
+The critical path consists of the following:
+	'call' operation ('call_ln144', /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:144) to 'AXIvideo2MultiPixStream' [130]  (1.83 ns)
+
+ <State 3>: 0ns
+The critical path consists of the following:
+
+ <State 4>: 3.65ns
+The critical path consists of the following:
+	'call' operation ('call_ret', /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:134) to 'Block_entry1_proc' [125]  (1.83 ns)
+	'call' operation ('call_ln147', /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:147) to 'v_hcresampler_core' [131]  (1.83 ns)
+
+ <State 5>: 0ns
+The critical path consists of the following:
+
+ <State 6>: 2.29ns
+The critical path consists of the following:
+	'call' operation ('call_ln158', /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:158) to 'hscale_core_polyphase' [132]  (2.29 ns)
+
+ <State 7>: 0ns
+The critical path consists of the following:
+
+ <State 8>: 1.83ns
+The critical path consists of the following:
+	'call' operation ('call_ln166', /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:166) to 'v_csc_core' [133]  (1.83 ns)
+
+ <State 9>: 0ns
+The critical path consists of the following:
+
+ <State 10>: 1.83ns
+The critical path consists of the following:
+	'call' operation ('call_ln173', /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:173) to 'v_hcresampler_core.1' [134]  (1.83 ns)
+
+ <State 11>: 0ns
+The critical path consists of the following:
+
+ <State 12>: 2.97ns
+The critical path consists of the following:
+	'call' operation ('call_ln180', /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.cpp:180) to 'v_vcresampler_core' [135]  (2.97 ns)
+
+ <State 13>: 0ns
+The critical path consists of the following:
+
+ <State 14>: 0ns
+The critical path consists of the following:
+
+ <State 15>: 0ns
+The critical path consists of the following:
+
+ <State 16>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

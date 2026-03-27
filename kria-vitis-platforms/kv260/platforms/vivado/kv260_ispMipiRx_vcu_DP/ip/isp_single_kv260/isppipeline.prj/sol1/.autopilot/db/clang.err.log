@@ -1,0 +1,14 @@
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:17:
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_types.h:31:
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_bpc.hpp:21:
+In file included from ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_utility.hpp:22:
+../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_video_mem.hpp:759:47: warning: 'factor' in '#pragma HLS array_reshape' is ignored [-Wextra-tokens]
+#pragma HLS ARRAY_RESHAPE variable=val factor=RESHAPE_FACTOR dim=1
+                                              ^
+../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:422:33: warning: extra token before variable expression is ignored [-Wextra-tokens]
+#pragma HLS INTERFACE axis port=&s_axis_video register
+                                ^
+../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:423:33: warning: extra token before variable expression is ignored [-Wextra-tokens]
+#pragma HLS INTERFACE axis port=&m_axis_video register
+                                ^
+3 warnings generated.

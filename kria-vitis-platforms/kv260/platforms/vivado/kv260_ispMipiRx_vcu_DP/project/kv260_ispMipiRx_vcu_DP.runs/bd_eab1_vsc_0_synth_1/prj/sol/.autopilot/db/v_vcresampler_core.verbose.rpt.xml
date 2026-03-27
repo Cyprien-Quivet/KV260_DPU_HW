@@ -1,0 +1,217 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'v_vcresampler_core'" level="0">
+<item name = "Date">Fri Mar  6 02:15:20 2026
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 3.650 ns, 1.35 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">2, 1073872893, 10.000 ns, 5.369 sec, 2, 1073872893, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1012_2_fu_176">v_vcresampler_core_Pipeline_VITIS_LOOP_1012_2, 3, 32771, 15.000 ns, 0.164 ms, 3, 32771, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_1010_1">0, 1073872891, 5 ~ 32773, -, -, 0 ~ 32767, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 150, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 195, 392, -</column>
+<column name="Memory">5, -, 0, 0, 0</column>
+<column name="Multiplexer">-, -, -, 125, -</column>
+<column name="Register">-, -, 116, -, -</column>
+<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
+<specialColumn name="Utilization (%)">1, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1012_2_fu_176">v_vcresampler_core_Pipeline_VITIS_LOOP_1012_2, 0, 0, 195, 392, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="linebuf_c_val_V_2_U">v_vcresampler_core_linebuf_c_val_V_2_RAM_AUTO_1R1W, 1, 0, 0, 0, 1920, 8, 1, 15360</column>
+<column name="linebuf_y_val_V_1_U">v_vcresampler_core_linebuf_y_val_V_1_RAM_AUTO_1R1W, 1, 0, 0, 0, 1920, 8, 1, 15360</column>
+<column name="linebuf_y_val_V_U">v_vcresampler_core_linebuf_y_val_V_RAM_AUTO_1R1W, 1, 0, 0, 0, 1920, 8, 1, 15360</column>
+<column name="linebuf_c_val_V_U">v_vcresampler_core_linebuf_y_val_V_RAM_AUTO_1R1W, 1, 0, 0, 0, 1920, 8, 1, 15360</column>
+<column name="linebuf_c_val_V_1_U">v_vcresampler_core_linebuf_y_val_V_RAM_AUTO_1R1W, 1, 0, 0, 0, 1920, 8, 1, 15360</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln1010_1_fu_257_p2">+, 0, 0, 19, 12, 12</column>
+<column name="add_ln1010_fu_276_p2">+, 0, 0, 19, 12, 1</column>
+<column name="out_y_fu_290_p2">-, 0, 0, 20, 13, 13</column>
+<column name="sel_tmp1_fu_333_p2">and, 0, 0, 2, 1, 1</column>
+<column name="sel_tmp4_fu_345_p2">and, 0, 0, 2, 1, 1</column>
+<column name="sel_tmp6_fu_351_p2">and, 0, 0, 2, 1, 1</column>
+<column name="spec_select_fu_327_p2">and, 0, 0, 2, 1, 1</column>
+<column name="cmp104_fu_305_p2">icmp, 0, 0, 12, 12, 1</column>
+<column name="cmp287_fu_216_p2">icmp, 0, 0, 11, 8, 2</column>
+<column name="cmp36_fu_299_p2">icmp, 0, 0, 12, 12, 12</column>
+<column name="icmp_ln1010_fu_271_p2">icmp, 0, 0, 12, 12, 12</column>
+<column name="icmp_ln995_fu_204_p2">icmp, 0, 0, 11, 8, 8</column>
+<column name="icmp_ln999_fu_210_p2">icmp, 0, 0, 11, 8, 2</column>
+<column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
+<column name="or_ln995_fu_234_p2">or, 0, 0, 2, 1, 1</column>
+<column name="select_ln995_fu_227_p3">select, 0, 0, 3, 1, 1</column>
+<column name="yOffset_fu_238_p3">select, 0, 0, 2, 1, 2</column>
+<column name="rev_fu_320_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="sel_tmp3_fu_339_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="sel_tmp_fu_263_p2">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ColorMode_vcr_c_blk_n">9, 2, 1, 2</column>
+<column name="HwReg_HeightIn_c_blk_n">9, 2, 1, 2</column>
+<column name="HwReg_Width_c16_blk_n">9, 2, 1, 2</column>
+<column name="SrcYUV422_write">9, 2, 1, 2</column>
+<column name="SrcYUV_read">9, 2, 1, 2</column>
+<column name="ap_NS_fsm">26, 5, 1, 5</column>
+<column name="ap_done">9, 2, 1, 2</column>
+<column name="height_blk_n">9, 2, 1, 2</column>
+<column name="inColorMode_blk_n">9, 2, 1, 2</column>
+<column name="outColorMode_blk_n">9, 2, 1, 2</column>
+<column name="width_blk_n">9, 2, 1, 2</column>
+<column name="y_fu_104">9, 2, 12, 24</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="add_ln1010_1_reg_435">12, 0, 12, 0</column>
+<column name="ap_CS_fsm">4, 0, 4, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="cmp104_reg_453">1, 0, 1, 0</column>
+<column name="cmp287_reg_417">1, 0, 1, 0</column>
+<column name="cmp36_reg_448">1, 0, 1, 0</column>
+<column name="grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1012_2_fu_176_ap_start_reg">1, 0, 1, 0</column>
+<column name="height_read_reg_399">11, 0, 11, 0</column>
+<column name="icmp_ln995_reg_404">1, 0, 1, 0</column>
+<column name="icmp_ln999_reg_411">1, 0, 1, 0</column>
+<column name="loopWidth_reg_394">11, 0, 11, 0</column>
+<column name="p_0_0_0_0_0423871_lcssa899_fu_84">8, 0, 8, 0</column>
+<column name="p_0_0_0_0_0423877_lcssa908_fu_96">8, 0, 8, 0</column>
+<column name="p_0_1_0_0_0873_lcssa902_fu_88">8, 0, 8, 0</column>
+<column name="p_0_1_0_0_0879_lcssa911_fu_100">8, 0, 8, 0</column>
+<column name="p_0_2_0_0_0875_lcssa905_fu_92">8, 0, 8, 0</column>
+<column name="rev_reg_458">1, 0, 1, 0</column>
+<column name="sel_tmp1_reg_468">1, 0, 1, 0</column>
+<column name="sel_tmp4_reg_473">1, 0, 1, 0</column>
+<column name="sel_tmp6_reg_478">1, 0, 1, 0</column>
+<column name="sel_tmp_reg_440">1, 0, 1, 0</column>
+<column name="spec_select_reg_463">1, 0, 1, 0</column>
+<column name="y_fu_104">12, 0, 12, 0</column>
+<column name="zext_ln1008_reg_430">11, 0, 12, 1</column>
+<column name="zext_ln971_reg_425">2, 0, 13, 11</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, v_vcresampler_core, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, v_vcresampler_core, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, v_vcresampler_core, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, v_vcresampler_core, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, v_vcresampler_core, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, v_vcresampler_core, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, v_vcresampler_core, return value</column>
+<column name="SrcYUV_dout">in, 24, ap_fifo, SrcYUV, pointer</column>
+<column name="SrcYUV_num_data_valid">in, 5, ap_fifo, SrcYUV, pointer</column>
+<column name="SrcYUV_fifo_cap">in, 5, ap_fifo, SrcYUV, pointer</column>
+<column name="SrcYUV_empty_n">in, 1, ap_fifo, SrcYUV, pointer</column>
+<column name="SrcYUV_read">out, 1, ap_fifo, SrcYUV, pointer</column>
+<column name="height_dout">in, 11, ap_fifo, height, pointer</column>
+<column name="height_num_data_valid">in, 2, ap_fifo, height, pointer</column>
+<column name="height_fifo_cap">in, 2, ap_fifo, height, pointer</column>
+<column name="height_empty_n">in, 1, ap_fifo, height, pointer</column>
+<column name="height_read">out, 1, ap_fifo, height, pointer</column>
+<column name="width_dout">in, 11, ap_fifo, width, pointer</column>
+<column name="width_num_data_valid">in, 2, ap_fifo, width, pointer</column>
+<column name="width_fifo_cap">in, 2, ap_fifo, width, pointer</column>
+<column name="width_empty_n">in, 1, ap_fifo, width, pointer</column>
+<column name="width_read">out, 1, ap_fifo, width, pointer</column>
+<column name="inColorMode_dout">in, 8, ap_fifo, inColorMode, pointer</column>
+<column name="inColorMode_num_data_valid">in, 2, ap_fifo, inColorMode, pointer</column>
+<column name="inColorMode_fifo_cap">in, 2, ap_fifo, inColorMode, pointer</column>
+<column name="inColorMode_empty_n">in, 1, ap_fifo, inColorMode, pointer</column>
+<column name="inColorMode_read">out, 1, ap_fifo, inColorMode, pointer</column>
+<column name="outColorMode_dout">in, 8, ap_fifo, outColorMode, pointer</column>
+<column name="outColorMode_num_data_valid">in, 2, ap_fifo, outColorMode, pointer</column>
+<column name="outColorMode_fifo_cap">in, 2, ap_fifo, outColorMode, pointer</column>
+<column name="outColorMode_empty_n">in, 1, ap_fifo, outColorMode, pointer</column>
+<column name="outColorMode_read">out, 1, ap_fifo, outColorMode, pointer</column>
+<column name="SrcYUV422_din">out, 24, ap_fifo, SrcYUV422, pointer</column>
+<column name="SrcYUV422_num_data_valid">in, 5, ap_fifo, SrcYUV422, pointer</column>
+<column name="SrcYUV422_fifo_cap">in, 5, ap_fifo, SrcYUV422, pointer</column>
+<column name="SrcYUV422_full_n">in, 1, ap_fifo, SrcYUV422, pointer</column>
+<column name="SrcYUV422_write">out, 1, ap_fifo, SrcYUV422, pointer</column>
+<column name="HwReg_HeightIn_c_din">out, 11, ap_fifo, HwReg_HeightIn_c, pointer</column>
+<column name="HwReg_HeightIn_c_num_data_valid">in, 2, ap_fifo, HwReg_HeightIn_c, pointer</column>
+<column name="HwReg_HeightIn_c_fifo_cap">in, 2, ap_fifo, HwReg_HeightIn_c, pointer</column>
+<column name="HwReg_HeightIn_c_full_n">in, 1, ap_fifo, HwReg_HeightIn_c, pointer</column>
+<column name="HwReg_HeightIn_c_write">out, 1, ap_fifo, HwReg_HeightIn_c, pointer</column>
+<column name="HwReg_Width_c16_din">out, 11, ap_fifo, HwReg_Width_c16, pointer</column>
+<column name="HwReg_Width_c16_num_data_valid">in, 2, ap_fifo, HwReg_Width_c16, pointer</column>
+<column name="HwReg_Width_c16_fifo_cap">in, 2, ap_fifo, HwReg_Width_c16, pointer</column>
+<column name="HwReg_Width_c16_full_n">in, 1, ap_fifo, HwReg_Width_c16, pointer</column>
+<column name="HwReg_Width_c16_write">out, 1, ap_fifo, HwReg_Width_c16, pointer</column>
+<column name="ColorMode_vcr_c_din">out, 8, ap_fifo, ColorMode_vcr_c, pointer</column>
+<column name="ColorMode_vcr_c_num_data_valid">in, 3, ap_fifo, ColorMode_vcr_c, pointer</column>
+<column name="ColorMode_vcr_c_fifo_cap">in, 3, ap_fifo, ColorMode_vcr_c, pointer</column>
+<column name="ColorMode_vcr_c_full_n">in, 1, ap_fifo, ColorMode_vcr_c, pointer</column>
+<column name="ColorMode_vcr_c_write">out, 1, ap_fifo, ColorMode_vcr_c, pointer</column>
+</table>
+</item>
+</section>
+</profile>

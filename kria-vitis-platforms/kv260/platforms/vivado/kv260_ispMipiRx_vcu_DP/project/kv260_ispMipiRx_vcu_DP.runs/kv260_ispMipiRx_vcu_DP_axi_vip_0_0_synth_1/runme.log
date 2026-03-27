@@ -1,0 +1,348 @@
+
+*** Running vivado
+    with args -log kv260_ispMipiRx_vcu_DP_axi_vip_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_ispMipiRx_vcu_DP_axi_vip_0_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source kv260_ispMipiRx_vcu_DP_axi_vip_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: kv260_ispMipiRx_vcu_DP_axi_vip_0_0
+Command: synth_design -top kv260_ispMipiRx_vcu_DP_axi_vip_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 97170
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2435.348 ; gain = 234.832 ; free physical = 2854 ; free virtual = 8810
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3448.566; parent = 2441.289; children = 1007.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kv260_ispMipiRx_vcu_DP_axi_vip_0_0' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_vip_0_0/synth/kv260_ispMipiRx_vcu_DP_axi_vip_0_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_vip_v1_1_13_top' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ffc2/hdl/axi_vip_v1_1_vlsyn_rfs.sv:60]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vip_v1_1_13_top' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ffc2/hdl/axi_vip_v1_1_vlsyn_rfs.sv:60]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_ispMipiRx_vcu_DP_axi_vip_0_0' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_vip_0_0/synth/kv260_ispMipiRx_vcu_DP_axi_vip_0_0.sv:53]
+WARNING: [Synth 8-7129] Port aclk in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[15] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[14] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[13] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[12] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[11] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[10] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[9] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[8] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[7] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[6] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[5] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[4] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[3] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[31] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[30] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[29] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[28] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[27] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[26] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[25] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[24] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[23] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[22] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[21] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[20] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[19] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[18] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[17] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[16] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[15] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[14] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[13] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[12] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[11] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[10] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[9] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[8] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[7] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[6] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[5] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[4] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[3] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[7] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[6] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[5] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[4] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[3] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlock[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[3] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awprot[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awprot[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awprot[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[3] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[15] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[14] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[13] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[12] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[11] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[10] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[9] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[8] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[7] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[6] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[5] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[4] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[3] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[2] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[1] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awvalid in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[15] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[14] in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[13] in module axi_vip_v1_1_13_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2507.254 ; gain = 306.738 ; free physical = 2758 ; free virtual = 8715
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3514.535; parent = 2507.258; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2522.098 ; gain = 321.582 ; free physical = 2742 ; free virtual = 8716
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3529.379; parent = 2522.102; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2522.098 ; gain = 321.582 ; free physical = 2750 ; free virtual = 8706
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3529.379; parent = 2522.102; children = 1007.277
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2522.098 ; gain = 0.000 ; free physical = 2750 ; free virtual = 8706
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+WARNING: [Designutils 20-1758] instance inst wraps a black box. Constraint reading is skipped for elaborated designs in this case. Skipping constraint file '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_vip_0_0/kv260_ispMipiRx_vcu_DP_axi_vip_0_0_ooc.xdc'.
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2568.957 ; gain = 0.000 ; free physical = 2482 ; free virtual = 8438
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2568.957 ; gain = 0.000 ; free physical = 2482 ; free virtual = 8438
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2568.957 ; gain = 368.441 ; free physical = 2335 ; free virtual = 8292
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3576.238; parent = 2568.961; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2568.957 ; gain = 368.441 ; free physical = 2335 ; free virtual = 8292
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3576.238; parent = 2568.961; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2568.957 ; gain = 368.441 ; free physical = 2335 ; free virtual = 8292
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3576.238; parent = 2568.961; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2568.957 ; gain = 368.441 ; free physical = 2335 ; free virtual = 8293
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3576.238; parent = 2568.961; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2568.957 ; gain = 368.441 ; free physical = 2274 ; free virtual = 8236
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1807.438; parent = 1621.351; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3576.238; parent = 2568.961; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3060.082 ; gain = 859.566 ; free physical = 1595 ; free virtual = 7561
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2319.355; parent = 2147.409; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4067.363; parent = 3060.086; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3060.082 ; gain = 859.566 ; free physical = 1592 ; free virtual = 7558
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2319.414; parent = 2147.468; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4067.363; parent = 3060.086; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3079.113 ; gain = 878.598 ; free physical = 1586 ; free virtual = 7551
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2319.932; parent = 2147.985; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4086.395; parent = 3079.117; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3085.051 ; gain = 884.535 ; free physical = 1433 ; free virtual = 7399
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2320.072; parent = 2148.126; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4092.332; parent = 3085.055; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3085.051 ; gain = 884.535 ; free physical = 1430 ; free virtual = 7396
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2320.088; parent = 2148.142; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4092.332; parent = 3085.055; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3085.051 ; gain = 884.535 ; free physical = 1419 ; free virtual = 7384
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2320.104; parent = 2148.157; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4092.332; parent = 3085.055; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3085.051 ; gain = 884.535 ; free physical = 1422 ; free virtual = 7388
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2320.119; parent = 2148.173; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4092.332; parent = 3085.055; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3085.051 ; gain = 884.535 ; free physical = 1420 ; free virtual = 7386
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2320.119; parent = 2148.173; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4092.332; parent = 3085.055; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3085.051 ; gain = 884.535 ; free physical = 1417 ; free virtual = 7383
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2320.135; parent = 2148.188; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4092.332; parent = 3085.055; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3085.051 ; gain = 884.535 ; free physical = 1415 ; free virtual = 7380
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2320.166; parent = 2148.220; children = 186.088
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4092.332; parent = 3085.055; children = 1007.277
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 325 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 3085.051 ; gain = 837.676 ; free physical = 1448 ; free virtual = 7414
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 3085.059 ; gain = 884.535 ; free physical = 1434 ; free virtual = 7400
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3085.059 ; gain = 0.000 ; free physical = 1431 ; free virtual = 7396
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3118.738 ; gain = 0.000 ; free physical = 1447 ; free virtual = 7413
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: f3e22600
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 3132.676 ; gain = 1808.863 ; free physical = 1631 ; free virtual = 7597
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1/kv260_ispMipiRx_vcu_DP_axi_vip_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP kv260_ispMipiRx_vcu_DP_axi_vip_0_0, cache-ID = 4398845b5fd5a398
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1/kv260_ispMipiRx_vcu_DP_axi_vip_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file kv260_ispMipiRx_vcu_DP_axi_vip_0_0_utilization_synth.rpt -pb kv260_ispMipiRx_vcu_DP_axi_vip_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  6 02:22:02 2026...

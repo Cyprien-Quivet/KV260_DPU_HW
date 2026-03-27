@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar  5 08:44:29 2026
+# Process ID: 67699
+# Current directory: /home/user/Documents/kria-vitis-platforms/kv260
+# Command line: vivado
+# Log file: /home/user/Documents/kria-vitis-platforms/kv260/vivado.log
+# Journal file: /home/user/Documents/kria-vitis-platforms/kv260/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2803.212 MHz, CPU Physical cores: 4, Host memory: 16728 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xpr
+update_compile_order -fileset sources_1
+source capture_pipeline_raspi.tcl
+source capture_pipeline_raspi.tcl
+source capture_pipeline_raspi.tcl
+open_bd_design {/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd}
+create_hier_cell_capture_pipeline_raspi ./ raspi_pipeline
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+get_ipdefs *mipi_csi2*
+create_hier_cell_capture_pipeline_raspi ./ raspi_pipeline
+source capture_pipeline_raspi.tcl
+create_hier_cell_capture_pipeline_raspi ./ raspi_pipeline
+current_bd_instance
+save_bd_design

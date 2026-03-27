@@ -1,0 +1,9 @@
+variable templates are a C++14 extension
+variable templates are a C++14 extension
+the argument to '__builtin_assume' has side effects that will be discarded
+the argument to '__builtin_assume' has side effects that will be discarded
+the argument to '__builtin_assume' has side effects that will be discarded
+the argument to '__builtin_assume' has side effects that will be discarded
+Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region
+Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region
+8 warnings generated.

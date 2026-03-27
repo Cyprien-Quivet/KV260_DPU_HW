@@ -1,0 +1,5 @@
+3 warnings and 29 errors generated.
+Error while processing /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_hsc_0_synth_1/prj/sol/.autopilot/db/v_hscaler.pp.0.cpp.
+clang-tidy applied 382 of 382 suggested fixes.
+Suppressed 135 warnings (132 in non-user code, 3 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

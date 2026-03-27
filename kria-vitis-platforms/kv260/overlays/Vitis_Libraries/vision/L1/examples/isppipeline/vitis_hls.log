@@ -1,0 +1,31 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+  **** SW Build 3670227 on Oct 13 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2022.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'user' on host 'ubuntu' (Linux_x86_64 version 5.15.0-139-generic) on Thu Mar 05 08:21:45 PST 2026
+INFO: [HLS 200-10] On os Ubuntu 20.04.6 LTS
+INFO: [HLS 200-10] In directory '/home/user/Documents/kria-vitis-platforms/kv260/overlays/Vitis_Libraries/vision/L1/examples/isppipeline'
+Sourcing Tcl script 'run_hls.tcl'
+INFO: [HLS 200-1510] Running: source run_hls.tcl
+INFO: [HLS 200-1510] Running: source settings.tcl
+settings.tcl can't be opened.
+couldn't read file "settings.tcl": no such file or directory
+    while executing
+"source settings.tcl"
+    (file "run_hls.tcl" line 17)
+    invoked from within
+"source run_hls.tcl"
+    invoked from within
+"hls::main run_hls.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 0.5 seconds. Total CPU system time: 0.05 seconds. Total elapsed time: 0.41 seconds; peak allocated memory: 99.121 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Thu Mar  5 08:21:45 2026...

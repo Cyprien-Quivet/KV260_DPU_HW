@@ -1,0 +1,252 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'hscale_polyphase'" level="0">
+<item name = "Date">Fri Mar  6 02:17:03 2026
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 1.855 ns, 1.35 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">9, 9, 45.000 ns, 45.000 ns, 1, 1, yes</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, 18, -, -, -</column>
+<column name="Expression">-, -, 0, 84, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 0, 774, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, -, -</column>
+<column name="Register">-, -, 1016, 416, -</column>
+<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
+<specialColumn name="Utilization (%)">0, 1, ~0, 1, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="mux_83_8_1_1_U100">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U101">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U102">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U103">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U104">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U105">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U106">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U107">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U108">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U109">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U110">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U111">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U112">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U113">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U114">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U115">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U116">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+<column name="mux_83_8_1_1_U117">mux_83_8_1_1, 0, 0, 0, 43, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+<column name="mac_muladd_8ns_16s_12ns_24_4_1_U118">mac_muladd_8ns_16s_12ns_24_4_1, i0 * i1 + i2</column>
+<column name="mac_muladd_8ns_16s_12ns_24_4_1_U119">mac_muladd_8ns_16s_12ns_24_4_1, i0 * i1 + i2</column>
+<column name="mac_muladd_8ns_16s_12ns_24_4_1_U120">mac_muladd_8ns_16s_12ns_24_4_1, i0 * i1 + i2</column>
+<column name="mac_muladd_8ns_16s_24s_25_4_1_U121">mac_muladd_8ns_16s_24s_25_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_24s_25_4_1_U122">mac_muladd_8ns_16s_24s_25_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_24s_25_4_1_U123">mac_muladd_8ns_16s_24s_25_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_25s_26_4_1_U124">mac_muladd_8ns_16s_25s_26_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_25s_26_4_1_U125">mac_muladd_8ns_16s_25s_26_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_25s_26_4_1_U126">mac_muladd_8ns_16s_25s_26_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_26s_26_4_1_U127">mac_muladd_8ns_16s_26s_26_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_26s_26_4_1_U128">mac_muladd_8ns_16s_26s_26_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_26s_26_4_1_U129">mac_muladd_8ns_16s_26s_26_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_26s_27_4_1_U130">mac_muladd_8ns_16s_26s_27_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_26s_27_4_1_U131">mac_muladd_8ns_16s_26s_27_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_26s_27_4_1_U132">mac_muladd_8ns_16s_26s_27_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_27s_27_4_1_U133">mac_muladd_8ns_16s_27s_27_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_27s_27_4_1_U134">mac_muladd_8ns_16s_27s_27_4_1, i0 + i1 * i2</column>
+<column name="mac_muladd_8ns_16s_27s_27_4_1_U135">mac_muladd_8ns_16s_27s_27_4_1, i0 + i1 * i2</column>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln186_fu_355_p2">+, 0, 0, 10, 3, 1</column>
+<column name="icmp_ln968_1_fu_937_p2">icmp, 0, 0, 10, 7, 1</column>
+<column name="icmp_ln968_2_fu_996_p2">icmp, 0, 0, 10, 7, 1</column>
+<column name="icmp_ln968_fu_878_p2">icmp, 0, 0, 10, 7, 1</column>
+<column name="or_ln214_1_fu_966_p2">or, 0, 0, 2, 1, 1</column>
+<column name="or_ln214_2_fu_1025_p2">or, 0, 0, 2, 1, 1</column>
+<column name="or_ln214_fu_907_p2">or, 0, 0, 2, 1, 1</column>
+<column name="select_ln214_3_fu_972_p3">select, 0, 0, 8, 1, 8</column>
+<column name="select_ln214_4_fu_1031_p3">select, 0, 0, 8, 1, 8</column>
+<column name="select_ln214_5_fu_899_p3">select, 0, 0, 2, 1, 2</column>
+<column name="select_ln214_6_fu_958_p3">select, 0, 0, 2, 1, 2</column>
+<column name="select_ln214_7_fu_1017_p3">select, 0, 0, 2, 1, 2</column>
+<column name="select_ln214_fu_913_p3">select, 0, 0, 8, 1, 8</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln214_1_fu_952_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln214_2_fu_1011_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln214_fu_893_p2">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter5">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter6">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter7">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter8">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter9">1, 0, 1, 0</column>
+<column name="idxprom8_reg_1219">6, 0, 64, 58</column>
+<column name="lhs_2_reg_1238">8, 0, 8, 0</column>
+<column name="lhs_2_reg_1238_pp0_iter1_reg">8, 0, 8, 0</column>
+<column name="lhs_3_reg_1243">8, 0, 8, 0</column>
+<column name="lhs_4_reg_1248">8, 0, 8, 0</column>
+<column name="lhs_5_reg_1253">8, 0, 8, 0</column>
+<column name="lhs_6_reg_1258">8, 0, 8, 0</column>
+<column name="lhs_reg_1233">8, 0, 8, 0</column>
+<column name="tmp_10_reg_1313">8, 0, 8, 0</column>
+<column name="tmp_11_reg_1318">8, 0, 8, 0</column>
+<column name="tmp_1_reg_1293">8, 0, 8, 0</column>
+<column name="tmp_2_reg_1298">8, 0, 8, 0</column>
+<column name="tmp_2_reg_1298_pp0_iter1_reg">8, 0, 8, 0</column>
+<column name="tmp_3_reg_1303">8, 0, 8, 0</column>
+<column name="tmp_4_reg_1263">8, 0, 8, 0</column>
+<column name="tmp_5_reg_1268">8, 0, 8, 0</column>
+<column name="tmp_5_reg_1268_pp0_iter1_reg">8, 0, 8, 0</column>
+<column name="tmp_6_reg_1273">8, 0, 8, 0</column>
+<column name="tmp_7_reg_1278">8, 0, 8, 0</column>
+<column name="tmp_8_reg_1283">8, 0, 8, 0</column>
+<column name="tmp_9_reg_1308">8, 0, 8, 0</column>
+<column name="tmp_s_reg_1288">8, 0, 8, 0</column>
+<column name="idxprom8_reg_1219">64, 32, 64, 58</column>
+<column name="lhs_3_reg_1243">64, 32, 8, 0</column>
+<column name="lhs_4_reg_1248">64, 32, 8, 0</column>
+<column name="lhs_5_reg_1253">64, 32, 8, 0</column>
+<column name="lhs_6_reg_1258">64, 32, 8, 0</column>
+<column name="tmp_10_reg_1313">64, 32, 8, 0</column>
+<column name="tmp_11_reg_1318">64, 32, 8, 0</column>
+<column name="tmp_3_reg_1303">64, 32, 8, 0</column>
+<column name="tmp_6_reg_1273">64, 32, 8, 0</column>
+<column name="tmp_7_reg_1278">64, 32, 8, 0</column>
+<column name="tmp_8_reg_1283">64, 32, 8, 0</column>
+<column name="tmp_9_reg_1308">64, 32, 8, 0</column>
+<column name="tmp_s_reg_1288">64, 32, 8, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_ce">in, 1, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_return_0">out, 8, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_return_1">out, 8, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="ap_return_2">out, 8, ap_ctrl_hs, hscale_polyphase, return value</column>
+<column name="FiltCoeff_0_address0">out, 6, ap_memory, FiltCoeff_0, array</column>
+<column name="FiltCoeff_0_ce0">out, 1, ap_memory, FiltCoeff_0, array</column>
+<column name="FiltCoeff_0_q0">in, 16, ap_memory, FiltCoeff_0, array</column>
+<column name="FiltCoeff_1_address0">out, 6, ap_memory, FiltCoeff_1, array</column>
+<column name="FiltCoeff_1_ce0">out, 1, ap_memory, FiltCoeff_1, array</column>
+<column name="FiltCoeff_1_q0">in, 16, ap_memory, FiltCoeff_1, array</column>
+<column name="FiltCoeff_2_address0">out, 6, ap_memory, FiltCoeff_2, array</column>
+<column name="FiltCoeff_2_ce0">out, 1, ap_memory, FiltCoeff_2, array</column>
+<column name="FiltCoeff_2_q0">in, 16, ap_memory, FiltCoeff_2, array</column>
+<column name="FiltCoeff_3_address0">out, 6, ap_memory, FiltCoeff_3, array</column>
+<column name="FiltCoeff_3_ce0">out, 1, ap_memory, FiltCoeff_3, array</column>
+<column name="FiltCoeff_3_q0">in, 16, ap_memory, FiltCoeff_3, array</column>
+<column name="FiltCoeff_4_address0">out, 6, ap_memory, FiltCoeff_4, array</column>
+<column name="FiltCoeff_4_ce0">out, 1, ap_memory, FiltCoeff_4, array</column>
+<column name="FiltCoeff_4_q0">in, 16, ap_memory, FiltCoeff_4, array</column>
+<column name="FiltCoeff_5_address0">out, 6, ap_memory, FiltCoeff_5, array</column>
+<column name="FiltCoeff_5_ce0">out, 1, ap_memory, FiltCoeff_5, array</column>
+<column name="FiltCoeff_5_q0">in, 16, ap_memory, FiltCoeff_5, array</column>
+<column name="p_read">in, 8, ap_none, p_read, scalar</column>
+<column name="p_read1">in, 8, ap_none, p_read1, scalar</column>
+<column name="p_read2">in, 8, ap_none, p_read2, scalar</column>
+<column name="p_read3">in, 8, ap_none, p_read3, scalar</column>
+<column name="p_read4">in, 8, ap_none, p_read4, scalar</column>
+<column name="p_read5">in, 8, ap_none, p_read5, scalar</column>
+<column name="p_read6">in, 8, ap_none, p_read6, scalar</column>
+<column name="p_read7">in, 8, ap_none, p_read7, scalar</column>
+<column name="p_read8">in, 8, ap_none, p_read8, scalar</column>
+<column name="p_read9">in, 8, ap_none, p_read9, scalar</column>
+<column name="p_read10">in, 8, ap_none, p_read10, scalar</column>
+<column name="p_read11">in, 8, ap_none, p_read11, scalar</column>
+<column name="p_read12">in, 8, ap_none, p_read12, scalar</column>
+<column name="p_read13">in, 8, ap_none, p_read13, scalar</column>
+<column name="p_read14">in, 8, ap_none, p_read14, scalar</column>
+<column name="p_read15">in, 8, ap_none, p_read15, scalar</column>
+<column name="p_read16">in, 8, ap_none, p_read16, scalar</column>
+<column name="p_read17">in, 8, ap_none, p_read17, scalar</column>
+<column name="p_read18">in, 8, ap_none, p_read18, scalar</column>
+<column name="p_read19">in, 8, ap_none, p_read19, scalar</column>
+<column name="p_read20">in, 8, ap_none, p_read20, scalar</column>
+<column name="p_read21">in, 8, ap_none, p_read21, scalar</column>
+<column name="p_read22">in, 8, ap_none, p_read22, scalar</column>
+<column name="p_read23">in, 8, ap_none, p_read23, scalar</column>
+<column name="PhasesH_0_read">in, 6, ap_none, PhasesH_0_read, scalar</column>
+<column name="p_read2425">in, 2, ap_none, p_read2425, scalar</column>
+</table>
+</item>
+</section>
+</profile>

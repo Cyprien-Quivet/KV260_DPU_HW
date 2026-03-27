@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar  5 07:30:05 2026
+# Process ID: 45857
+# Current directory: /home/user/Documents/kria-vitis-platforms/kv260
+# Command line: vivado
+# Log file: /home/user/Documents/kria-vitis-platforms/kv260/vivado.log
+# Journal file: /home/user/Documents/kria-vitis-platforms/kv260/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2803.212 MHz, CPU Physical cores: 4, Host memory: 16728 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xpr
+update_compile_order -fileset sources_1
+update_ip_catalog -rebuild
+source capture_pipeline_raspi.tcl
+update_ip_catalog -rebuild
+update_ip_catalog -rebuild -repo_path /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip

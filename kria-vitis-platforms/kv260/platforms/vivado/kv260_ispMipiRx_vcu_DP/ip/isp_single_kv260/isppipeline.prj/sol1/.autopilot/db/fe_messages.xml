@@ -1,0 +1,6 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-812" msg_severity="ERROR" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h:39:10" msg_body="'features.h' file not found">
+        <args/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

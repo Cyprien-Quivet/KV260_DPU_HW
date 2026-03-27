@@ -1,0 +1,43 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-247,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port csirxss_s_axi -pg 1 -lvl 0 -x -110 -y 40 -defaultsOSRD
+preplace port m_axi_mm_video -pg 1 -lvl 2 -x 420 -y 20 -defaultsOSRD
+preplace port mipi_phy_if -pg 1 -lvl 0 -x -110 -y 60 -defaultsOSRD
+preplace port s_axi_ctrl_dem -pg 1 -lvl 0 -x -110 -y 180 -defaultsOSRD
+preplace port s_axi_ctrl_frmbuf -pg 1 -lvl 0 -x -110 -y 200 -defaultsOSRD
+preplace port s_axi_ctrl_vpss -pg 1 -lvl 0 -x -110 -y 220 -defaultsOSRD
+preplace port port-id_aclk -pg 1 -lvl 0 -x -110 -y 80 -defaultsOSRD
+preplace port port-id_aresetn -pg 1 -lvl 0 -x -110 -y 100 -defaultsOSRD
+preplace port port-id_csirxss_csi_irq -pg 1 -lvl 2 -x 420 -y 40 -defaultsOSRD
+preplace port port-id_dem_irq -pg 1 -lvl 2 -x 420 -y 60 -defaultsOSRD
+preplace port port-id_dphy_clk_200M -pg 1 -lvl 0 -x -110 -y 120 -defaultsOSRD
+preplace port port-id_frm_buf_irq -pg 1 -lvl 2 -x 420 -y 80 -defaultsOSRD
+preplace port port-id_lite_aclk -pg 1 -lvl 0 -x -110 -y 140 -defaultsOSRD
+preplace port port-id_lite_aresetn -pg 1 -lvl 0 -x -110 -y 160 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x -110 -y 20 -defaultsOSRD
+preplace inst raspi_pipeline -pg 1 -lvl 1 -x 190 -y 310 -defaultsOSRD
+preplace netloc lite_aclk_1 1 0 1 -80 140n
+preplace netloc Din_1 1 0 1 -10 20n
+preplace netloc lite_aresetn_1 1 0 1 -90 160n
+preplace netloc aclk_1 1 0 1 -20 80n
+preplace netloc dphy_clk_200M_1 1 0 1 -60 120n
+preplace netloc aresetn_1 1 0 1 -40 100n
+preplace netloc raspi_pipeline_csirxss_csi_irq 1 1 1 370 40n
+preplace netloc raspi_pipeline_dem_irq 1 1 1 380 60n
+preplace netloc raspi_pipeline_frm_buf_irq 1 1 1 390 80n
+preplace netloc raspi_pipeline_m_axi_mm_video 1 1 1 360 20n
+preplace netloc s_axi_ctrl_vpss_1 1 0 1 -70 220n
+preplace netloc s_axi_ctrl_frmbuf_1 1 0 1 -50 200n
+preplace netloc s_axi_ctrl_dem_1 1 0 1 -30 180n
+preplace netloc mipi_phy_if_1 1 0 1 0 60n
+preplace netloc csirxss_s_axi_1 1 0 1 10 40n
+levelinfo -pg 1 -110 190 420
+pagesize -pg 1 -db -bbox -sgen -290 -20 600 460
+"
+}
+0

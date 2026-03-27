@@ -1,0 +1,203 @@
+
+
+================================================================
+== Vitis HLS Report for 'AWBNormalizationkernel_Pipeline_Col_Loop1'
+================================================================
+* Date:           Thu Mar  5 08:43:07 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        isppipeline.prj
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  3.30 ns|  1.529 ns|     0.89 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+------+------+---------+
+    |  Latency (cycles) |  Latency (absolute) |   Interval  | Pipeline|
+    |   min   |   max   |    min   |    max   |  min |  max |   Type  |
+    +---------+---------+----------+----------+------+------+---------+
+    |     1928|     1928|  6.362 us|  6.362 us|  1928|  1928|       no|
+    +---------+---------+----------+----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- Col_Loop1  |     1926|     1926|         8|          1|          1|  1920|       yes|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     3|       -|       -|    -|
+|Expression       |        -|     -|       0|     421|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|      54|    -|
+|Register         |        -|     -|     295|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     3|     295|     475|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|    ~0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    +-----------------------------+------------------------+-----------+
+    |           Instance          |         Module         | Expression|
+    +-----------------------------+------------------------+-----------+
+    |mul_mul_26s_18s_44_4_1_U291  |mul_mul_26s_18s_44_4_1  |    i0 * i1|
+    |mul_mul_26s_18s_44_4_1_U292  |mul_mul_26s_18s_44_4_1  |    i0 * i1|
+    |mul_mul_26s_18s_44_4_1_U293  |mul_mul_26s_18s_44_4_1  |    i0 * i1|
+    +-----------------------------+------------------------+-----------+
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------+----------+----+---+----+------------+------------+
+    |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |col_V_4_fu_187_p2          |         +|   0|  0|  20|          13|           1|
+    |r_V_14_fu_315_p2           |         -|   0|  0|  56|          49|          49|
+    |r_V_17_fu_394_p2           |         -|   0|  0|  56|          49|          49|
+    |r_V_20_fu_473_p2           |         -|   0|  0|  56|          49|          49|
+    |value_V_1_fu_253_p2        |         -|   0|  0|  25|          18|          18|
+    |value_V_2_fu_273_p2        |         -|   0|  0|  25|          18|          18|
+    |value_V_fu_233_p2          |         -|   0|  0|  25|          18|          18|
+    |icmp_ln1027_fu_181_p2      |      icmp|   0|  0|  13|          16|          16|
+    |icmp_ln44_1_fu_531_p2      |      icmp|   0|  0|  12|          15|           1|
+    |icmp_ln44_2_fu_543_p2      |      icmp|   0|  0|  12|          15|           1|
+    |icmp_ln44_fu_519_p2        |      icmp|   0|  0|  12|          15|           1|
+    |ap_block_pp0_stage0_01001  |        or|   0|  0|   2|           1|           1|
+    |dstval_V_2_fu_418_p3       |    select|   0|  0|  25|           1|           1|
+    |dstval_V_3_fu_497_p3       |    select|   0|  0|  25|           1|           1|
+    |dstval_V_fu_339_p3         |    select|   0|  0|  25|           1|           1|
+    |select_ln214_3_fu_536_p3   |    select|   0|  0|  10|           1|           2|
+    |select_ln214_4_fu_548_p3   |    select|   0|  0|  10|           1|           2|
+    |select_ln214_fu_524_p3     |    select|   0|  0|  10|           1|           2|
+    |ap_enable_pp0              |       xor|   0|  0|   2|           1|           2|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |Total                      |          |   0|  0| 421|         283|         233|
+    +---------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------+----+-----------+-----+-----------+
+    |           Name           | LUT| Input Size| Bits| Total Bits|
+    +--------------------------+----+-----------+-----+-----------+
+    |ap_done_int               |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1   |   9|          2|    1|          2|
+    |ap_sig_allocacmp_col_V_3  |   9|          2|   13|         26|
+    |col_V_fu_98               |   9|          2|   13|         26|
+    |impop_data1_blk_n         |   9|          2|    1|          2|
+    |ltm_in_data217_blk_n      |   9|          2|    1|          2|
+    +--------------------------+----+-----------+-----+-----------+
+    |Total                     |  54|         12|   30|         60|
+    +--------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------+----+----+-----+-----------+
+    |               Name               | FF | LUT| Bits| Const Bits|
+    +----------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                         |   1|   0|    1|          0|
+    |ap_done_reg                       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter6           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter7           |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter2_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter3_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter4_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter5_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter6_reg  |   1|   0|    1|          0|
+    |col_V_fu_98                       |  13|   0|   13|          0|
+    |conv7_i178_1_cast_reg_608         |  44|   0|   44|          0|
+    |conv7_i178_2_cast_reg_603         |  44|   0|   44|          0|
+    |conv7_i178_cast_reg_613           |  44|   0|   44|          0|
+    |select_ln214_3_reg_687            |  10|   0|   10|          0|
+    |select_ln214_4_reg_692            |  10|   0|   10|          0|
+    |select_ln214_reg_682              |  10|   0|   10|          0|
+    |tmp_13_reg_627                    |  10|   0|   10|          0|
+    |tmp_15_reg_632                    |  10|   0|   10|          0|
+    |tmp_61_reg_652                    |  15|   0|   15|          0|
+    |tmp_63_reg_662                    |  15|   0|   15|          0|
+    |tmp_65_reg_672                    |  15|   0|   15|          0|
+    |trunc_ln214_5_reg_667             |  10|   0|   10|          0|
+    |trunc_ln214_6_reg_677             |  10|   0|   10|          0|
+    |trunc_ln214_reg_657               |  10|   0|   10|          0|
+    |trunc_ln813_reg_622               |  10|   0|   10|          0|
+    +----------------------------------+----+----+-----+-----------+
+    |Total                             | 295|   0|  295|          0|
+    +----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------------------+-----+-----+------------+-------------------------------------------+--------------+
+|           RTL Ports           | Dir | Bits|  Protocol  |               Source Object               |    C Type    |
++-------------------------------+-----+-----+------------+-------------------------------------------+--------------+
+|ap_clk                         |   in|    1|  ap_ctrl_hs|  AWBNormalizationkernel_Pipeline_Col_Loop1|  return value|
+|ap_rst                         |   in|    1|  ap_ctrl_hs|  AWBNormalizationkernel_Pipeline_Col_Loop1|  return value|
+|ap_start                       |   in|    1|  ap_ctrl_hs|  AWBNormalizationkernel_Pipeline_Col_Loop1|  return value|
+|ap_done                        |  out|    1|  ap_ctrl_hs|  AWBNormalizationkernel_Pipeline_Col_Loop1|  return value|
+|ap_idle                        |  out|    1|  ap_ctrl_hs|  AWBNormalizationkernel_Pipeline_Col_Loop1|  return value|
+|ap_ready                       |  out|    1|  ap_ctrl_hs|  AWBNormalizationkernel_Pipeline_Col_Loop1|  return value|
+|impop_data1_dout               |   in|   30|     ap_fifo|                                impop_data1|       pointer|
+|impop_data1_num_data_valid     |   in|    3|     ap_fifo|                                impop_data1|       pointer|
+|impop_data1_fifo_cap           |   in|    3|     ap_fifo|                                impop_data1|       pointer|
+|impop_data1_empty_n            |   in|    1|     ap_fifo|                                impop_data1|       pointer|
+|impop_data1_read               |  out|    1|     ap_fifo|                                impop_data1|       pointer|
+|ltm_in_data217_din             |  out|   30|     ap_fifo|                             ltm_in_data217|       pointer|
+|ltm_in_data217_num_data_valid  |   in|    3|     ap_fifo|                             ltm_in_data217|       pointer|
+|ltm_in_data217_fifo_cap        |   in|    3|     ap_fifo|                             ltm_in_data217|       pointer|
+|ltm_in_data217_full_n          |   in|    1|     ap_fifo|                             ltm_in_data217|       pointer|
+|ltm_in_data217_write           |  out|    1|     ap_fifo|                             ltm_in_data217|       pointer|
+|p_read1                        |   in|   16|     ap_none|                                    p_read1|        scalar|
+|empty_102                      |   in|   18|     ap_none|                                  empty_102|        scalar|
+|conv7_i178                     |   in|   26|     ap_none|                                 conv7_i178|        scalar|
+|empty_103                      |   in|   18|     ap_none|                                  empty_103|        scalar|
+|conv7_i178_1                   |   in|   26|     ap_none|                               conv7_i178_1|        scalar|
+|empty                          |   in|   18|     ap_none|                                      empty|        scalar|
+|conv7_i178_2                   |   in|   26|     ap_none|                               conv7_i178_2|        scalar|
++-------------------------------+-----+-----+------------+-------------------------------------------+--------------+
+

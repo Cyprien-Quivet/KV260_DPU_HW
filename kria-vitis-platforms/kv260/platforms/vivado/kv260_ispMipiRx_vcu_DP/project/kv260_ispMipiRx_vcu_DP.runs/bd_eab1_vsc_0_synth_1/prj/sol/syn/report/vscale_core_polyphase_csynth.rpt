@@ -1,0 +1,291 @@
+
+
+================================================================
+== Vitis HLS Report for 'vscale_core_polyphase'
+================================================================
+* Date:           Fri Mar  6 02:15:21 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+-----------+-----+---------+---------+
+    |  Latency (cycles) |  Latency (absolute)  |    Interval   | Pipeline|
+    |   min   |   max   |    min   |    max    | min |   max   |   Type  |
+    +---------+---------+----------+-----------+-----+---------+---------+
+    |      388|  2099863|  1.940 us|  10.499 ms|  388|  2099863|       no|
+    +---------+---------+----------+-----------+-----+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------+---------+-----------+----------+-----+------+---------+
+        |                                                                                     |                                                                          |  Latency (cycles) |  Latency (absolute)  |  Interval  | Pipeline|
+        |                                       Instance                                      |                                  Module                                  |   min   |   max   |    min    |    max   | min |  max |   Type  |
+        +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------+---------+-----------+----------+-----+------+---------+
+        |grp_vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_229  |vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap  |      386|      386|   1.930 us|  1.930 us|  386|   386|       no|
+        |grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247                     |vscale_core_polyphase_Pipeline_loop_width_for_procpix                     |        8|     1932|  40.000 ns|  9.660 us|    8|  1932|       no|
+        +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------+---------+-----------+----------+-----+------+---------+
+
+        * Loop: 
+        +---------------+---------+---------+-----------+-----------+-----------+----------+----------+
+        |               |  Latency (cycles) | Iteration |  Initiation Interval  |   Trip   |          |
+        |   Loop Name   |   min   |   max   |  Latency  |  achieved |   target  |   Count  | Pipelined|
+        +---------------+---------+---------+-----------+-----------+-----------+----------+----------+
+        |- loop_height  |        0|  2099475|  11 ~ 1935|          -|          -|  0 ~ 1085|        no|
+        +---------------+---------+---------+-----------+-----------+-----------+----------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|     536|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|    18|    1139|    1004|    -|
+|Memory           |       18|     -|      96|      96|    0|
+|Multiplexer      |        -|     -|       -|     397|    -|
+|Register         |        -|     -|     260|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |       18|    18|    1495|    2033|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        6|     1|      ~0|       1|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------+----+------+-----+-----+
+    |                                       Instance                                      |                                  Module                                  | BRAM_18K| DSP|  FF  | LUT | URAM|
+    +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------+----+------+-----+-----+
+    |grp_vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_229  |vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap  |        0|   0|    32|  179|    0|
+    |grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247                     |vscale_core_polyphase_Pipeline_loop_width_for_procpix                     |        0|  18|  1107|  825|    0|
+    +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------+----+------+-----+-----+
+    |Total                                                                                |                                                                          |        0|  18|  1139| 1004|    0|
+    +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------+----+------+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    +-------------------+-----------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |       Memory      |                        Module                       | BRAM_18K| FF | LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +-------------------+-----------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |FiltCoeff_U        |vscale_core_polyphase_FiltCoeff_RAM_1P_LUTRAM_1R1W   |        0|  16|  16|    0|    64|   16|     1|         1024|
+    |FiltCoeff_1_U      |vscale_core_polyphase_FiltCoeff_RAM_1P_LUTRAM_1R1W   |        0|  16|  16|    0|    64|   16|     1|         1024|
+    |FiltCoeff_2_U      |vscale_core_polyphase_FiltCoeff_RAM_1P_LUTRAM_1R1W   |        0|  16|  16|    0|    64|   16|     1|         1024|
+    |FiltCoeff_3_U      |vscale_core_polyphase_FiltCoeff_RAM_1P_LUTRAM_1R1W   |        0|  16|  16|    0|    64|   16|     1|         1024|
+    |FiltCoeff_4_U      |vscale_core_polyphase_FiltCoeff_RAM_1P_LUTRAM_1R1W   |        0|  16|  16|    0|    64|   16|     1|         1024|
+    |FiltCoeff_5_U      |vscale_core_polyphase_FiltCoeff_RAM_1P_LUTRAM_1R1W   |        0|  16|  16|    0|    64|   16|     1|         1024|
+    |LineBuf_val_V_1_U  |vscale_core_polyphase_LineBuf_val_V_1_RAM_AUTO_1R1W  |        3|   0|   0|    0|  1920|   24|     1|        46080|
+    |LineBuf_val_V_2_U  |vscale_core_polyphase_LineBuf_val_V_1_RAM_AUTO_1R1W  |        3|   0|   0|    0|  1920|   24|     1|        46080|
+    |LineBuf_val_V_3_U  |vscale_core_polyphase_LineBuf_val_V_1_RAM_AUTO_1R1W  |        3|   0|   0|    0|  1920|   24|     1|        46080|
+    |LineBuf_val_V_4_U  |vscale_core_polyphase_LineBuf_val_V_1_RAM_AUTO_1R1W  |        3|   0|   0|    0|  1920|   24|     1|        46080|
+    |LineBuf_val_V_5_U  |vscale_core_polyphase_LineBuf_val_V_1_RAM_AUTO_1R1W  |        3|   0|   0|    0|  1920|   24|     1|        46080|
+    |LineBuf_val_V_U    |vscale_core_polyphase_LineBuf_val_V_RAM_AUTO_1R1W    |        3|   0|   0|    0|  1920|   24|     1|        46080|
+    +-------------------+-----------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |Total              |                                                     |       18|  96|  96|    0| 11904|  240|    12|       282624|
+    +-------------------+-----------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------+----------+----+---+----+------------+------------+
+    |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |PixArrayLoc_1_fu_388_p2    |         +|   0|  0|  23|          16|           1|
+    |WriteLocNext_fu_448_p2     |         +|   0|  0|  39|          32|           1|
+    |YLoopSize_fu_312_p2        |         +|   0|  0|  18|          11|           2|
+    |add117_fu_540_p2           |         +|   0|  0|  24|          17|           2|
+    |offset_1_fu_394_p2         |         +|   0|  0|  39|          32|          18|
+    |offset_3_fu_443_p2         |         +|   0|  0|  39|          32|          32|
+    |y_2_fu_334_p2              |         +|   0|  0|  18|          11|           1|
+    |OutputWriteEn_1_fu_502_p2  |       and|   0|  0|   2|           1|           1|
+    |OutputWriteEn_fu_437_p2    |       and|   0|  0|   2|           1|           1|
+    |GetNewLine_1_fu_382_p2     |      icmp|   0|  0|  13|          16|           1|
+    |cmp119_fu_546_p2           |      icmp|   0|  0|  13|          17|          17|
+    |cmp159_fu_551_p2           |      icmp|   0|  0|  11|          11|           1|
+    |icmp126_fu_526_p2          |      icmp|   0|  0|  11|           9|           1|
+    |icmp_ln180_fu_298_p2       |      icmp|   0|  0|  11|          11|          11|
+    |icmp_ln214_fu_329_p2       |      icmp|   0|  0|  11|          11|          11|
+    |icmp_ln222_fu_352_p2       |      icmp|   0|  0|  11|          11|           2|
+    |icmp_ln241_1_fu_432_p2     |      icmp|   0|  0|  20|          32|          32|
+    |icmp_ln241_fu_426_p2       |      icmp|   0|  0|  13|          16|           1|
+    |ap_block_state1            |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2            |        or|   0|  0|   2|           1|           1|
+    |brmerge_fu_557_p2          |        or|   0|  0|   2|           1|           1|
+    |GetNewLine_2_fu_508_p3     |    select|   0|  0|   2|           1|           1|
+    |PhaseV_1_fu_486_p3         |    select|   0|  0|   8|           1|           8|
+    |PixArrayLoc_2_fu_408_p3    |    select|   0|  0|  16|           1|          16|
+    |PixArrayLoc_3_fu_494_p3    |    select|   0|  0|  16|           1|          16|
+    |TotalLines_fu_304_p3       |    select|   0|  0|  10|           1|          11|
+    |WriteLocNext_1_fu_454_p3   |    select|   0|  0|  32|           1|          32|
+    |WriteLocNext_2_fu_470_p3   |    select|   0|  0|  32|           1|          32|
+    |offset_2_fu_400_p3         |    select|   0|  0|  32|           1|          32|
+    |offset_4_fu_462_p3         |    select|   0|  0|  32|           1|          32|
+    |offset_5_fu_478_p3         |    select|   0|  0|  32|           1|          32|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |Total                      |          |   0|  0| 536|         300|         351|
+    +---------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |FiltCoeff_1_address0     |  14|          3|    6|         18|
+    |FiltCoeff_1_ce0          |  14|          3|    1|          3|
+    |FiltCoeff_1_we0          |   9|          2|    1|          2|
+    |FiltCoeff_2_address0     |  14|          3|    6|         18|
+    |FiltCoeff_2_ce0          |  14|          3|    1|          3|
+    |FiltCoeff_2_we0          |   9|          2|    1|          2|
+    |FiltCoeff_3_address0     |  14|          3|    6|         18|
+    |FiltCoeff_3_ce0          |  14|          3|    1|          3|
+    |FiltCoeff_3_we0          |   9|          2|    1|          2|
+    |FiltCoeff_4_address0     |  14|          3|    6|         18|
+    |FiltCoeff_4_ce0          |  14|          3|    1|          3|
+    |FiltCoeff_4_we0          |   9|          2|    1|          2|
+    |FiltCoeff_5_address0     |  14|          3|    6|         18|
+    |FiltCoeff_5_ce0          |  14|          3|    1|          3|
+    |FiltCoeff_5_we0          |   9|          2|    1|          2|
+    |FiltCoeff_address0       |  14|          3|    6|         18|
+    |FiltCoeff_ce0            |  14|          3|    1|          3|
+    |FiltCoeff_we0            |   9|          2|    1|          2|
+    |GetNewLine_reg_218       |   9|          2|    1|          2|
+    |HeightIn_blk_n           |   9|          2|    1|          2|
+    |HeightOut_blk_n          |   9|          2|    1|          2|
+    |HwReg_HeightOut_c_blk_n  |   9|          2|    1|          2|
+    |HwReg_Width_c_blk_n      |   9|          2|    1|          2|
+    |LineRate_blk_n           |   9|          2|    1|          2|
+    |OutYUV_write             |   9|          2|    1|          2|
+    |PhaseV_fu_118            |   9|          2|    8|         16|
+    |PixArrayLoc_fu_122       |   9|          2|   16|         32|
+    |SrcYUV422_read           |   9|          2|    1|          2|
+    |Width_blk_n              |   9|          2|    1|          2|
+    |WriteLoc_fu_110          |   9|          2|   32|         64|
+    |ap_NS_fsm                |  31|          6|    1|          6|
+    |ap_done                  |   9|          2|    1|          2|
+    |offset_fu_114            |   9|          2|   32|         64|
+    |real_start               |   9|          2|    1|          2|
+    |y_fu_126                 |   9|          2|   11|         22|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    | 397|         86|  159|        364|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------------------------------------------------------------------+----+----+-----+-----------+
+    |                                               Name                                               | FF | LUT| Bits| Const Bits|
+    +--------------------------------------------------------------------------------------------------+----+----+-----+-----------+
+    |GetNewLine_2_reg_664                                                                              |   1|   0|    1|          0|
+    |GetNewLine_reg_218                                                                                |   1|   0|    1|          0|
+    |InLines_cast_reg_636                                                                              |  11|   0|   17|          6|
+    |InPixels_reg_621                                                                                  |  11|   0|   11|          0|
+    |OutputWriteEn_1_reg_659                                                                           |   1|   0|    1|          0|
+    |PhaseV_fu_118                                                                                     |   8|   0|    8|          0|
+    |PixArrayLoc_fu_122                                                                                |  16|   0|   16|          0|
+    |Rate_reg_626                                                                                      |  32|   0|   32|          0|
+    |WriteLocNext_2_reg_649                                                                            |  32|   0|   32|          0|
+    |WriteLoc_fu_110                                                                                   |  32|   0|   32|          0|
+    |YLoopSize_reg_631                                                                                 |  11|   0|   11|          0|
+    |ap_CS_fsm                                                                                         |   5|   0|    5|          0|
+    |ap_done_reg                                                                                       |   1|   0|    1|          0|
+    |brmerge_reg_684                                                                                   |   1|   0|    1|          0|
+    |cmp119_reg_674                                                                                    |   1|   0|    1|          0|
+    |cmp159_reg_679                                                                                    |   1|   0|    1|          0|
+    |conv45_reg_641                                                                                    |  11|   0|   32|         21|
+    |empty_reg_669                                                                                     |   6|   0|    6|          0|
+    |grp_vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_229_ap_start_reg  |   1|   0|    1|          0|
+    |grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247_ap_start_reg                     |   1|   0|    1|          0|
+    |offset_5_reg_654                                                                                  |  32|   0|   32|          0|
+    |offset_fu_114                                                                                     |  32|   0|   32|          0|
+    |start_once_reg                                                                                    |   1|   0|    1|          0|
+    |y_fu_126                                                                                          |  11|   0|   11|          0|
+    +--------------------------------------------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                                                             | 260|   0|  287|         27|
+    +--------------------------------------------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------------+-----+-----+------------+-----------------------+--------------+
+|             RTL Ports            | Dir | Bits|  Protocol  |     Source Object     |    C Type    |
++----------------------------------+-----+-----+------------+-----------------------+--------------+
+|ap_clk                            |   in|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|ap_rst                            |   in|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|ap_start                          |   in|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|start_full_n                      |   in|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|ap_done                           |  out|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|ap_continue                       |   in|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|ap_idle                           |  out|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|ap_ready                          |  out|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|start_out                         |  out|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|start_write                       |  out|    1|  ap_ctrl_hs|  vscale_core_polyphase|  return value|
+|SrcYUV422_dout                    |   in|   24|     ap_fifo|              SrcYUV422|       pointer|
+|SrcYUV422_num_data_valid          |   in|    5|     ap_fifo|              SrcYUV422|       pointer|
+|SrcYUV422_fifo_cap                |   in|    5|     ap_fifo|              SrcYUV422|       pointer|
+|SrcYUV422_empty_n                 |   in|    1|     ap_fifo|              SrcYUV422|       pointer|
+|SrcYUV422_read                    |  out|    1|     ap_fifo|              SrcYUV422|       pointer|
+|HeightIn_dout                     |   in|   11|     ap_fifo|               HeightIn|       pointer|
+|HeightIn_num_data_valid           |   in|    2|     ap_fifo|               HeightIn|       pointer|
+|HeightIn_fifo_cap                 |   in|    2|     ap_fifo|               HeightIn|       pointer|
+|HeightIn_empty_n                  |   in|    1|     ap_fifo|               HeightIn|       pointer|
+|HeightIn_read                     |  out|    1|     ap_fifo|               HeightIn|       pointer|
+|Width_dout                        |   in|   11|     ap_fifo|                  Width|       pointer|
+|Width_num_data_valid              |   in|    2|     ap_fifo|                  Width|       pointer|
+|Width_fifo_cap                    |   in|    2|     ap_fifo|                  Width|       pointer|
+|Width_empty_n                     |   in|    1|     ap_fifo|                  Width|       pointer|
+|Width_read                        |  out|    1|     ap_fifo|                  Width|       pointer|
+|HeightOut_dout                    |   in|   11|     ap_fifo|              HeightOut|       pointer|
+|HeightOut_num_data_valid          |   in|    2|     ap_fifo|              HeightOut|       pointer|
+|HeightOut_fifo_cap                |   in|    2|     ap_fifo|              HeightOut|       pointer|
+|HeightOut_empty_n                 |   in|    1|     ap_fifo|              HeightOut|       pointer|
+|HeightOut_read                    |  out|    1|     ap_fifo|              HeightOut|       pointer|
+|LineRate_dout                     |   in|   32|     ap_fifo|               LineRate|       pointer|
+|LineRate_num_data_valid           |   in|    2|     ap_fifo|               LineRate|       pointer|
+|LineRate_fifo_cap                 |   in|    2|     ap_fifo|               LineRate|       pointer|
+|LineRate_empty_n                  |   in|    1|     ap_fifo|               LineRate|       pointer|
+|LineRate_read                     |  out|    1|     ap_fifo|               LineRate|       pointer|
+|vfltCoeff_address0                |  out|    9|   ap_memory|              vfltCoeff|         array|
+|vfltCoeff_ce0                     |  out|    1|   ap_memory|              vfltCoeff|         array|
+|vfltCoeff_q0                      |   in|   16|   ap_memory|              vfltCoeff|         array|
+|OutYUV_din                        |  out|   24|     ap_fifo|                 OutYUV|       pointer|
+|OutYUV_num_data_valid             |   in|    5|     ap_fifo|                 OutYUV|       pointer|
+|OutYUV_fifo_cap                   |   in|    5|     ap_fifo|                 OutYUV|       pointer|
+|OutYUV_full_n                     |   in|    1|     ap_fifo|                 OutYUV|       pointer|
+|OutYUV_write                      |  out|    1|     ap_fifo|                 OutYUV|       pointer|
+|HwReg_Width_c_din                 |  out|   11|     ap_fifo|          HwReg_Width_c|       pointer|
+|HwReg_Width_c_num_data_valid      |   in|    2|     ap_fifo|          HwReg_Width_c|       pointer|
+|HwReg_Width_c_fifo_cap            |   in|    2|     ap_fifo|          HwReg_Width_c|       pointer|
+|HwReg_Width_c_full_n              |   in|    1|     ap_fifo|          HwReg_Width_c|       pointer|
+|HwReg_Width_c_write               |  out|    1|     ap_fifo|          HwReg_Width_c|       pointer|
+|HwReg_HeightOut_c_din             |  out|   11|     ap_fifo|      HwReg_HeightOut_c|       pointer|
+|HwReg_HeightOut_c_num_data_valid  |   in|    2|     ap_fifo|      HwReg_HeightOut_c|       pointer|
+|HwReg_HeightOut_c_fifo_cap        |   in|    2|     ap_fifo|      HwReg_HeightOut_c|       pointer|
+|HwReg_HeightOut_c_full_n          |   in|    1|     ap_fifo|      HwReg_HeightOut_c|       pointer|
+|HwReg_HeightOut_c_write           |  out|    1|     ap_fifo|      HwReg_HeightOut_c|       pointer|
++----------------------------------+-----+-----+------------+-----------------------+--------------+
+

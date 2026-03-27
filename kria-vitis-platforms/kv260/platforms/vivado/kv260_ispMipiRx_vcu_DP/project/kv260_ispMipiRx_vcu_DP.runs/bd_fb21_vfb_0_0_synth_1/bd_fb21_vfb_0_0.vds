@@ -1,0 +1,729 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar  5 01:43:37 2026
+# Process ID: 33686
+# Current directory: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1
+# Command line: vivado -log bd_fb21_vfb_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_fb21_vfb_0_0.tcl
+# Log file: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1/bd_fb21_vfb_0_0.vds
+# Journal file: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2803.212 MHz, CPU Physical cores: 4, Host memory: 16728 MB
+#-----------------------------------------------------------
+source bd_fb21_vfb_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_fb21_vfb_0_0
+Command: synth_design -top bd_fb21_vfb_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33784
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'i_axis_tlast', assumed default net type 'wire' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_YUV420_vc16_demux.v:337]
+INFO: [Synth 8-11241] undeclared symbol 'odd_lines_hold', assumed default net type 'wire' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:610]
+INFO: [Synth 8-11241] undeclared symbol 's_yuv_detector_vc13', assumed default net type 'wire' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0_core.v:1211]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2432.555 ; gain = 234.832 ; free physical = 9218 ; free virtual = 11914
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3449.734; parent = 2442.465; children = 1007.270
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0.v:52]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_core' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0_core.v:52]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_YUV420_DT_Demux' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_YUV420_DT_Demux.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_YUV420_DT_Demux' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_YUV420_DT_Demux.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_21_rst_gen' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:125]
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_21_rst_gen' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:125]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_fifo_yuv' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:47]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_axis' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2349]
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter FIFO_MEMORY_TYPE bound to: distributed - type: string 
+	Parameter PACKET_FIFO bound to: false - type: string 
+	Parameter FIFO_DEPTH bound to: 16 - type: integer 
+	Parameter TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter RELATED_CLOCKS bound to: 0 - type: integer 
+	Parameter USE_ADV_FEATURES bound to: 1000 - type: string 
+	Parameter WR_DATA_COUNT_WIDTH bound to: 1 - type: integer 
+	Parameter RD_DATA_COUNT_WIDTH bound to: 1 - type: integer 
+	Parameter PROG_FULL_THRESH bound to: 4091 - type: integer 
+	Parameter PROG_EMPTY_THRESH bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1058]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1058]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:55]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1207]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1274]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1296]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_bit' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1907]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_bit' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1907]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_rst' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1619]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_rst' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1619]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized1' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized2' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:55]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_axis' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2349]
+WARNING: [Synth 8-7071] port 's_axis_tstrb' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 's_axis_tid' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'm_axis_tstrb' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'm_axis_tid' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'prog_full_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'wr_data_count_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'almost_full_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'prog_empty_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'rd_data_count_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'almost_empty_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'injectsbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'injectdbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'sbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7071] port 'dbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_yuv_lines' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+WARNING: [Synth 8-7023] instance 'fifo_yuv_lines' of module 'xpm_fifo_axis' has 31 connections declared, but only 17 given [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:83]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_fifo_yuv' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_yuv.v:47]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_axis_ycomp_dconverter' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_ycomp_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_21_line_detector' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:534]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:575]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:586]
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_21_line_detector' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:534]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_21_ydconverter' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:736]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+WARNING: [Synth 8-6104] Input port 'm_axis_tkeep' has an internal driver [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:924]
+WARNING: [Synth 8-6104] Input port 'm_axis_tdest' has an internal driver [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:925]
+WARNING: [Synth 8-6104] Input port 'm_axis_tuser' has an internal driver [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:926]
+WARNING: [Synth 8-6104] Input port 'm_axis_tlast' has an internal driver [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:927]
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_21_ydconverter' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:736]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_axis_ycomp_dconverter' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_ycomp_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:47]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_axis__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2349]
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
+	Parameter PACKET_FIFO bound to: false - type: string 
+	Parameter FIFO_DEPTH bound to: 1024 - type: integer 
+	Parameter TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter RELATED_CLOCKS bound to: 0 - type: integer 
+	Parameter USE_ADV_FEATURES bound to: 1008 - type: string 
+	Parameter WR_DATA_COUNT_WIDTH bound to: 1 - type: integer 
+	Parameter RD_DATA_COUNT_WIDTH bound to: 1 - type: integer 
+	Parameter PROG_FULL_THRESH bound to: 1019 - type: integer 
+	Parameter PROG_EMPTY_THRESH bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:55]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized3' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized3' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1207]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1274]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1296]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized4' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized4' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized5' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized5' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized6' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized6' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1859]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:55]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_axis__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2349]
+WARNING: [Synth 8-7071] port 's_axis_tstrb' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 's_axis_tid' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'm_axis_tstrb' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'm_axis_tid' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'prog_full_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'wr_data_count_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'prog_empty_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'rd_data_count_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'almost_empty_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'injectsbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'injectdbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'sbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7071] port 'dbiterr_axis' of module 'xpm_fifo_axis' is unconnected for instance 'fifo_ycomp' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+WARNING: [Synth 8-7023] instance 'fifo_ycomp' of module 'xpm_fifo_axis' has 31 connections declared, but only 18 given [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_fifo_ycomp' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_fifo_ycomp.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_21_line_selector' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:239]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_21_line_selector' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:239]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_YUV420_DT_Mux' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_YUV420_DT_Mux.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_YUV420_DT_Mux' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_YUV420_DT_Mux.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_21_reorder' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:985]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 32 - type: integer 
+	Parameter VFB_DATA_TYPE bound to: 24 - type: integer 
+	Parameter VFB_VC bound to: 0 - type: integer 
+	Parameter VFB_FILTER_VC bound to: 1 - type: integer 
+	Parameter VFB_REQ_BUFFER bound to: 0 - type: integer 
+	Parameter VFB_REQ_REORDER bound to: 1 - type: integer 
+	Parameter VFB_FIFO_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_DCONV_TUW bound to: 24 - type: integer 
+	Parameter VFB_4PXL_W bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_21_reorder' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:985]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_axis_dconverter' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'bd_fb21_vfb_0_0_axis_converter' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/synth/bd_fb21_vfb_0_0_axis_converter.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_downsizer' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_downsizer' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized0' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized0' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized0' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized0' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_axis_converter' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/synth/bd_fb21_vfb_0_0_axis_converter.v:53]
+WARNING: [Synth 8-689] width (3) of port connection 'm_axis_tuser' does not match port width (12) of module 'bd_fb21_vfb_0_0_axis_converter' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_dconverter.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_axis_dconverter' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_21_op_inf' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:3841]
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_PXL_W bound to: 16 - type: integer 
+	Parameter VFB_PXL_W_BB bound to: 16 - type: integer 
+	Parameter VFB_DCONV_OWIDTH bound to: 32 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 32 - type: integer 
+	Parameter VFB_OP_PIXELS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_21_op_inf' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:3841]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0_core' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0_core.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'bd_fb21_vfb_0_0' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0.v:52]
+WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_doutb_pipe.enb_pipe_reg[0] was removed.  [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:3017]
+WARNING: [Synth 8-6014] Unused sequential element gdvld.data_valid_std_reg was removed.  [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:537]
+WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1391]
+WARNING: [Synth 8-6014] Unused sequential element tl_on_reg was removed.  [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:559]
+WARNING: [Synth 8-6014] Unused sequential element yuv_detect_reg_reg was removed.  [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:571]
+WARNING: [Synth 8-6014] Unused sequential element odd_line_reg_reg was removed.  [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:582]
+WARNING: [Synth 8-6014] Unused sequential element tlast_r_reg was removed.  [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:623]
+WARNING: [Synth 8-3848] Net m_odd_tkeep in module/entity bd_fb21_vfb_0_0_axis_ycomp_dconverter does not have driver. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_ycomp_dconverter.v:79]
+WARNING: [Synth 8-3848] Net m_odd_tdest in module/entity bd_fb21_vfb_0_0_axis_ycomp_dconverter does not have driver. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_ycomp_dconverter.v:80]
+WARNING: [Synth 8-3848] Net m_odd_tuser in module/entity bd_fb21_vfb_0_0_axis_ycomp_dconverter does not have driver. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_ycomp_dconverter.v:81]
+WARNING: [Synth 8-3848] Net m_odd_tlast in module/entity bd_fb21_vfb_0_0_axis_ycomp_dconverter does not have driver. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0/src/verilog/bd_fb21_vfb_0_0_axis_ycomp_dconverter.v:82]
+WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_doutb_pipe.enb_pipe_reg[0] was removed.  [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:3017]
+WARNING: [Synth 8-6014] Unused sequential element gdvld.data_valid_std_reg was removed.  [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:537]
+WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1391]
+WARNING: [Synth 8-6014] Unused sequential element first_beat_rcvd_reg was removed.  [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/7e76/hdl/vfb_v1_0_syn_rfs.v:3673]
+WARNING: [Synth 8-3848] Net m_axis_tdest in module/entity bd_fb21_vfb_0_0_core does not have driver. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0_core.v:138]
+WARNING: [Synth 8-7129] Port s_axis_tid[31] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[30] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[29] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[28] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[27] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[26] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[25] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[24] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[23] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[22] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[21] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[20] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[19] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[18] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[17] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[16] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[15] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[14] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[13] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[12] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[11] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[10] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[31] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[30] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[29] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[28] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[27] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[26] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[25] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[24] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[23] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[22] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[21] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[20] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[19] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[18] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[17] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[16] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[15] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[14] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[13] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[12] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[11] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[10] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[9] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[8] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[7] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[6] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[5] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[4] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[3] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[2] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[1] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[0] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[2] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[1] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[3] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[2] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[1] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[0] in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sband_te in module vfb_v1_0_21_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[7] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[6] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[5] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[4] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_aclk in module bd_fb21_vfb_0_0_YUV420_DT_Mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_aresetn in module bd_fb21_vfb_0_0_YUV420_DT_Mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_yuv_detect in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_odd_lines in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port core_men in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tlast in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tkeep[3] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tkeep[2] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tkeep[1] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tkeep[0] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tuser[95] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tuser[94] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tuser[93] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tuser[92] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tuser[91] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tuser[90] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s2_axis_tuser[89] in module vfb_v1_0_21_line_selector is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2525.430 ; gain = 327.707 ; free physical = 9293 ; free virtual = 11990
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3532.703; parent = 2525.434; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2543.242 ; gain = 345.520 ; free physical = 9293 ; free virtual = 11990
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3550.516; parent = 2543.246; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2543.242 ; gain = 345.520 ; free physical = 9293 ; free virtual = 11990
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3550.516; parent = 2543.246; children = 1007.270
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2543.242 ; gain = 0.000 ; free physical = 9289 ; free virtual = 11986
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_fb21_vfb_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst_axis.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_fb21_vfb_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_fb21_vfb_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 4 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2683.914 ; gain = 0.000 ; free physical = 9200 ; free virtual = 11897
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2683.914 ; gain = 0.000 ; free physical = 9200 ; free virtual = 11897
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2683.914 ; gain = 486.191 ; free physical = 9279 ; free virtual = 11976
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3691.188; parent = 2683.918; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2683.914 ; gain = 486.191 ; free physical = 9279 ; free virtual = 11976
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3691.188; parent = 2683.918; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axis_dconverter/axis_conv_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\VFB_YUV420.YUV420 /fifo_yuv_lines/\gaxis_rst_sync.xpm_cdc_sync_rst_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\VFB_YUV420_FXD_VC.ycomp_odd /fifo_ycomp/\gaxis_rst_sync.xpm_cdc_sync_rst_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\VFB_YUV420.YUV420 /fifo_yuv_lines. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\VFB_YUV420_FXD_VC.ycomp_odd /fifo_ycomp. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2683.914 ; gain = 486.191 ; free physical = 9279 ; free virtual = 11976
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3691.188; parent = 2683.918; children = 1007.270
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gen_fwft.curr_fwft_state_reg' in module 'xpm_fifo_base'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_fwft.curr_fwft_state_reg' in module 'xpm_fifo_base__parameterized0'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               01 |                               10
+       both_stages_valid |                               10 |                               11
+            stage2_valid |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base'
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 36 for RAM "xpm_memory_base__parameterized0:/gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 36 for RAM "xpm_memory_base__parameterized0:/gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 36 for RAM "xpm_memory_base__parameterized0:/gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 34 for RAM "xpm_memory_base__parameterized0:/gen_wr_a.gen_word_narrow.mem_reg"
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               01 |                               10
+       both_stages_valid |                               10 |                               11
+            stage2_valid |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base__parameterized0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2683.914 ; gain = 486.191 ; free physical = 9267 ; free virtual = 11965
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3691.188; parent = 2683.918; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input   11 Bit       Adders := 2     
+	   4 Input   10 Bit       Adders := 4     
+	   4 Input    5 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   4 Input    4 Bit       Adders := 3     
+	   8 Input    4 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   4 Input    2 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	              182 Bit    Registers := 2     
+	              180 Bit    Registers := 2     
+	              142 Bit    Registers := 2     
+	               96 Bit    Registers := 2     
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 8     
+	               24 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 6     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 11    
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 57    
++---RAMs : 
+	             142K Bit	(1024 X 142 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input  180 Bit        Muxes := 4     
+	   4 Input  176 Bit        Muxes := 2     
+	   2 Input   96 Bit        Muxes := 6     
+	   2 Input   64 Bit        Muxes := 5     
+	   2 Input   32 Bit        Muxes := 6     
+	   4 Input   32 Bit        Muxes := 2     
+	   4 Input   24 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 8     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 68    
+	   4 Input    2 Bit        Muxes := 14    
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 63    
+	   4 Input    1 Bit        Muxes := 4     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 36 for RAM "inst/\VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst /gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 36 for RAM "inst/\VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst /gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 36 for RAM "inst/\VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst /gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 34 for RAM "inst/\VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst /gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2683.914 ; gain = 486.191 ; free physical = 9237 ; free virtual = 11942
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.256; parent = 1661.701; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3691.188; parent = 2683.918; children = 1007.270
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++---------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name                                                                                        | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++---------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|inst/\VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 1 K x 142(NO_CHANGE)   | W |   | 1 K x 142(NO_CHANGE)   |   | R | Port A and B     | 0      | 4      | 1,1,1,1         | 
++---------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++---------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                  | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++---------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/\VFB_YUV420.YUV420/fifo_yuv_lines /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 16 x 182             | RAM32M16 x 13  | 
++---------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 3090.664 ; gain = 892.941 ; free physical = 8674 ; free virtual = 11379
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2456.955; parent = 2248.427; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4097.938; parent = 3090.668; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8612 ; free virtual = 11317
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2504.477; parent = 2295.948; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++---------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name                                                                                        | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++---------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|inst/\VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 1 K x 142(NO_CHANGE)   | W |   | 1 K x 142(NO_CHANGE)   |   | R | Port A and B     | 0      | 4      | 1,1,1,1         | 
++---------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+
+Distributed RAM: Final Mapping Report
++---------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                  | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++---------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/\VFB_YUV420.YUV420/fifo_yuv_lines /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 16 x 182             | RAM32M16 x 13  | 
++---------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8611 ; free virtual = 11316
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.047; parent = 2296.519; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tstrb[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420.YUV420/fifo_yuv_lines:s_axis_tid[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp:s_axis_tstrb[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp:s_axis_tstrb[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp:s_axis_tstrb[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp:s_axis_tstrb[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin VFB_YUV420_FXD_VC.ycomp_odd/fifo_ycomp:s_axis_tid[0] to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8642 ; free virtual = 11347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.760; parent = 2297.214; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8642 ; free virtual = 11347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.822; parent = 2297.276; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8642 ; free virtual = 11347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.834; parent = 2297.288; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8642 ; free virtual = 11347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.838; parent = 2297.292; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8642 ; free virtual = 11347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.838; parent = 2297.292; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8642 ; free virtual = 11347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.838; parent = 2297.292; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |    13|
+|2     |LUT2     |   222|
+|3     |LUT3     |   238|
+|4     |LUT4     |   132|
+|5     |LUT5     |    88|
+|6     |LUT6     |   179|
+|7     |RAM32M16 |    13|
+|8     |RAMB36E2 |     4|
+|10    |FDRE     |  1177|
+|11    |FDSE     |    18|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.422 ; gain = 974.699 ; free physical = 8642 ; free virtual = 11347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2505.869; parent = 2297.323; children = 209.555
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4179.695; parent = 3172.426; children = 1007.270
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 342 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3172.422 ; gain = 834.027 ; free physical = 8682 ; free virtual = 11387
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3172.430 ; gain = 974.699 ; free physical = 8682 ; free virtual = 11387
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3180.422 ; gain = 0.000 ; free physical = 8774 ; free virtual = 11479
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3195.297 ; gain = 0.000 ; free physical = 8719 ; free virtual = 11424
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 13 instances
+
+Synth Design complete, checksum: d3b16bbd
+INFO: [Common 17-83] Releasing license: Synthesis
+157 Infos, 153 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 3195.297 ; gain = 1897.129 ; free physical = 8944 ; free virtual = 11649
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1/bd_fb21_vfb_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_fb21_vfb_0_0, cache-ID = 6c67c0c3dc5fba71
+INFO: [Coretcl 2-1174] Renamed 29 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1/bd_fb21_vfb_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_fb21_vfb_0_0_utilization_synth.rpt -pb bd_fb21_vfb_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  5 01:44:25 2026...

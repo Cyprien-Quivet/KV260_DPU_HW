@@ -1,6 +1,0 @@
-Time resolution is 1 ps
-WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-WARNING in tb_wrapper_dma_test.DUT.udata_ram.inst at time                 5100 ns: 
-Reading from out-of-range address. Max address in tb_wrapper_dma_test.DUT.udata_ram.inst is          63
-Note: >>> Lancement transfert...
-Time: 100 ns  Iteration: 0  Process: /tb_wrapper_dma_test/stim  File: /home/user/Documents/dma_test/prj/Vivado/hw/prj/KR260.srcs/sim_1/new/benchtest.vhd

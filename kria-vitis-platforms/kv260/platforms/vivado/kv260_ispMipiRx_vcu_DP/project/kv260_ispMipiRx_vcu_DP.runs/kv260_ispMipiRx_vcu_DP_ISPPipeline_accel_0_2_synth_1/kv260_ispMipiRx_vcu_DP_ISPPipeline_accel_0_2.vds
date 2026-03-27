@@ -1,0 +1,851 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar  6 02:24:06 2026
+# Process ID: 97992
+# Current directory: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1
+# Command line: vivado -log kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.tcl
+# Log file: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.vds
+# Journal file: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2803.212 MHz, CPU Physical cores: 4, Host memory: 16728 MB
+#-----------------------------------------------------------
+source kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2
+Command: synth_design -top kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 98061
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2438.219 ; gain = 236.801 ; free physical = 3748 ; free virtual = 9724
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.808; parent = 1676.281; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3460.344; parent = 2453.066; children = 1007.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2/synth/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.v:53]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_p_ZL9hist0_awb_0_RAM_AUTO_1R1W' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_p_ZL9hist0_awb_0_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-3876] $readmem data file './ISPPipeline_accel_p_ZL9hist0_awb_0_RAM_AUTO_1R1W.dat' is read successfully [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_p_ZL9hist0_awb_0_RAM_AUTO_1R1W.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_p_ZL9hist0_awb_0_RAM_AUTO_1R1W' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_p_ZL9hist0_awb_0_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_ISPpipeline' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_ISPpipeline.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_entry_proc' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_entry_proc.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_entry_proc' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_entry_proc.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_ISPpipeline_Block_entry2_proc' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_ISPpipeline_Block_entry2_proc.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/ip/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip.v:53]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [/tools/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:78971]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (0#1) [/tools/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:78971]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/ip/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/ip/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/ip/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_ISPpipeline_Block_entry2_proc' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_ISPpipeline_Block_entry2_proc.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_start_hunt' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_start_hunt.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_flow_control_loop_pipe_sequential_init' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_flow_control_loop_pipe_sequential_init' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_start_hunt' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_start_hunt.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_col_zxi2mat' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_col_zxi2mat.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_col_zxi2mat' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_col_zxi2mat.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_last_hunt' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_last_hunt.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_last_hunt' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_Pipeline_loop_last_hunt.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AXIVideo2BayerMat_13_1080_1920_1_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_blackLevelCorrection_13_1080_1920_1_16_15_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_blackLevelCorrection_13_1080_1920_1_16_15_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_blackLevelCorrection_Pipeline_VITIS_LOOP_93_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_blackLevelCorrection_Pipeline_VITIS_LOOP_93_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1_DSP48_0' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1_DSP48_0' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_16ns_26_4_1.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_blackLevelCorrection_Pipeline_VITIS_LOOP_93_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_blackLevelCorrection_Pipeline_VITIS_LOOP_93_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1_DSP48_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1_DSP48_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_blackLevelCorrection_13_1080_1920_1_16_15_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_blackLevelCorrection_13_1080_1920_1_16_15_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_Pipeline_ColLoop' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_Pipeline_ColLoop.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1_DSP48_2' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1_DSP48_2' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_16ns_10ns_26_4_1.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_Pipeline_ColLoop' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_Pipeline_ColLoop.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s_linebuffer_V_RAM_T2P_BRAM_1R1W' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s_linebuffer_V_RAM_T2P_BRAM_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s_linebuffer_V_RAM_T2P_BRAM_1R1W' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s_linebuffer_V_RAM_T2P_BRAM_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_demosaicing_Pipeline_LineBuffer_VITIS_LOOP_278_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_Pipeline_LineBuffer_VITIS_LOOP_278_1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_demosaicing_Pipeline_LineBuffer_VITIS_LOOP_278_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_Pipeline_LineBuffer_VITIS_LOOP_278_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Zero' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Zero.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Zero' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Zero.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Col_Loop' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Col_Loop.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_rb_kernel_ap_uint_10_5_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_rb_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_rb_kernel_ap_uint_10_5_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_rb_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_g_kernel_ap_uint_10_5_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_g_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_g_kernel_ap_uint_10_5_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_g_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_rgb_bgr_kernel_ap_uint_10_5_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_rgb_bgr_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_rgb_bgr_kernel_ap_uint_10_5_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_rgb_bgr_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_rgr_bgb_kernel_ap_uint_10_5_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_rgr_bgb_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_rgr_bgb_kernel_ap_uint_10_5_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_rgr_bgb_kernel_ap_uint_10_5_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mux_42_10_1_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mux_42_10_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mux_42_10_1_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mux_42_10_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Col_Loop' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Col_Loop.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_function_awb_17_17_1080_1920_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_function_awb_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_Pipeline_Col_Loop' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_Pipeline_Col_Loop.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_Pipeline_Col_Loop' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_Pipeline_Col_Loop.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_copy_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_awb_17_17_1080_1920_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_awb_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBhistogram_17_17_1080_1920_1_1_1024_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogram_17_17_1080_1920_1_1_1024_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_tmp_hist_V_RAM_T2P_BRAM_bkb' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_tmp_hist_V_RAM_T2P_BRAM_bkb.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_tmp_hist_V_RAM_T2P_BRAM_bkb' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_tmp_hist_V_RAM_T2P_BRAM_bkb.v:7]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_Pipeline_INITIALIZE_HIST' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_INITIALIZE_HIST.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_Pipeline_INITIALIZE_HIST' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_INITIALIZE_HIST.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_Pipeline_HIST_INITIALIZE_LOOP' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_HIST_INITIALIZE_LOOP.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_Pipeline_HIST_INITIALIZE_LOOP' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_HIST_INITIALIZE_LOOP.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_Pipeline_COL_LOOP' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_Pipeline_COL_LOOP.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_Pipeline_COL_LOOP' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_Pipeline_COL_LOOP.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_Pipeline_MERGE_HIST_LOOP' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_MERGE_HIST_LOOP.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_Pipeline_MERGE_HIST_LOOP' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_MERGE_HIST_LOOP.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBhistogram_17_17_1080_1920_1_1_1024_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogram_17_17_1080_1920_1_1_1024_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBNormalization_17_17_1080_1920_1_1_1024_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalization_17_17_1080_1920_1_1_1024_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_332_3' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_332_3.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mux_32_32_1_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mux_32_32_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mux_32_32_1_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mux_32_32_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mux_32_18_1_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mux_32_18_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mux_32_18_1_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mux_32_18_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_332_3' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_332_3.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_342_4' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_342_4.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_342_4' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_VITIS_LOOP_342_4.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_Pipeline_Col_Loop1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_Col_Loop1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_26s_18s_44_4_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_26s_18s_44_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_26s_18s_44_4_1_DSP48_3' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_26s_18s_44_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_26s_18s_44_4_1_DSP48_3' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_26s_18s_44_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_26s_18s_44_4_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_26s_18s_44_4_1.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_Pipeline_Col_Loop1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_Col_Loop1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/ip/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/ip/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_32ns_18s_50_2_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_32ns_18s_50_2_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_32ns_18s_50_2_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_32ns_18s_50_2_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_50s_52ns_101_5_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_50s_52ns_101_5_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_50s_52ns_101_5_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_50s_52ns_101_5_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_32ns_21ns_53_2_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_32ns_21ns_53_2_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_32ns_21ns_53_2_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_32ns_21ns_53_2_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_53ns_55ns_106_5_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_53ns_55ns_106_5_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_53ns_55ns_106_5_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_53ns_55ns_106_5_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1.v:88]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1_divseq' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1_divseq' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_AWBNormalization_17_17_1080_1920_1_1_1024_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalization_17_17_1080_1920_1_1_1024_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w30_d3_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w30_d3_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w30_d3_S_ShiftReg' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w30_d3_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w30_d3_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w30_d3_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w30_d3_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w30_d3_S.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_awb_17_17_1080_1920_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_awb_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_function_awb_17_17_1080_1920_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_function_awb_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_10ns_30ns_39_2_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_10ns_30ns_39_2_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_10ns_30ns_39_2_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_10ns_30ns_39_2_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_10ns_29s_39_2_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_10ns_29s_39_2_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_10ns_29s_39_2_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_10ns_29s_39_2_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_26s_36_4_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_26s_36_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_26s_36_4_1_DSP48_4' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_26s_36_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_26s_36_4_1_DSP48_4' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_26s_36_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_26s_36_4_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_26s_36_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_23s_33_4_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_23s_33_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_23s_33_4_1_DSP48_5' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_23s_33_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_23s_33_4_1_DSP48_5' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_23s_33_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_23s_33_4_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_23s_33_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_24s_34_4_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_24s_34_4_1.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_mul_mul_10ns_24s_34_4_1_DSP48_6' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_24s_34_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_24s_34_4_1_DSP48_6' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_24s_34_4_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_mul_mul_10ns_24s_34_4_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_mul_10ns_24s_34_4_1.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s_offset_buffer_V_RAM_Ahbi' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s_offset_buffer_V_RAM_Ahbi.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s_offset_buffer_V_RAM_Ahbi' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s_offset_buffer_V_RAM_Ahbi.v:7]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_Pipeline_VITIS_LOOP_118_1' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_Pipeline_VITIS_LOOP_118_1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_Pipeline_VITIS_LOOP_118_1' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_Pipeline_VITIS_LOOP_118_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s_lut_p_RAM_AUTO_1R1W' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s_lut_p_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s_lut_p_RAM_AUTO_1R1W' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s_lut_p_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_gammacorrection_Pipeline_VITIS_LOOP_57_2_VITIS_LOOP_58_3' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_Pipeline_VITIS_LOOP_57_2_VITIS_LOOP_58_3.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_gammacorrection_Pipeline_VITIS_LOOP_57_2_VITIS_LOOP_58_3' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_Pipeline_VITIS_LOOP_57_2_VITIS_LOOP_58_3.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d5_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d5_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d5_S_ShiftReg' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d5_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d5_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d5_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d5_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d5_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d6_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d6_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d6_S_ShiftReg' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d6_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d6_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d6_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d6_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d6_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d2_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d2_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d2_S_ShiftReg' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d2_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d2_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d2_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d2_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d2_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w32_d6_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w32_d6_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w32_d6_S_ShiftReg' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w32_d6_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w32_d6_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w32_d6_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w32_d6_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w32_d6_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d9_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d9_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d9_S_ShiftReg' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d9_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d9_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d9_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d9_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d9_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d10_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d10_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d10_S_ShiftReg' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d10_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d10_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d10_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d10_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d10_S.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ISPPipeline_accel_fifo_w16_d8_S' [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d8_S.v:10]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d8_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d8_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d8_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d8_S.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d4_S_ShiftReg' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d4_S.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'ISPPipeline_accel_fifo_w16_d4_S' (0#1) [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_fifo_w16_d4_S.v:10]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-155] case statement is not full and has no default [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_CTRL_s_axi.v:285]
+WARNING: [Synth 8-6014] Unused sequential element remd_reg was removed.  [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1.v:172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'select_ln44_reg_261_pp0_iter2_reg_reg' and it is trimmed from '9' to '8' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_Pipeline_VITIS_LOOP_57_2_VITIS_LOOP_58_3.v:238]
+WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_CTRL_s_axi.v:369]
+WARNING: [Synth 8-7129] Port we0[3] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port we0[2] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port we0[1] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port we0[0] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[31] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[30] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[29] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[28] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[27] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[26] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[25] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[24] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[23] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[22] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[21] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[20] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[19] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[18] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[17] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[16] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[15] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[14] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[13] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[12] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[11] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[10] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[9] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[8] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[7] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[6] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[5] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[4] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[3] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[2] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[1] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port d0[0] in module ISPPipeline_accel_CTRL_s_axi_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[2] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[1] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[0] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[2] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[1] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[0] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_Pipeline_loop_col_mat2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[2] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[1] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[0] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[2] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[1] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[0] in module ISPPipeline_accel_ColorMat2AXIvideo_9_1080_1920_1_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_Pipeline_colLoop is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s_lut_p_RAM_AUTO_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_num_data_valid[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[2] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[1] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p_dst_data219_fifo_cap[0] in module ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module ISPPipeline_accel_mul_mul_16ns_16ns_32_4_1_DSP48_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_num_data_valid[2] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_num_data_valid[1] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_num_data_valid[0] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_fifo_cap[2] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_fifo_cap[1] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_fifo_cap[0] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[2] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[1] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[0] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[2] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[1] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[0] in module ISPPipeline_accel_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s_offset_buffer_V_RAM_Ahbi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_num_data_valid[2] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_num_data_valid[1] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_num_data_valid[0] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_fifo_cap[2] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_fifo_cap[1] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lsc_out_data218_fifo_cap[0] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[2] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[1] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_num_data_valid[0] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[2] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[1] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aecin_data220_fifo_cap[0] in module ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module ISPPipeline_accel_mul_mul_10ns_26s_36_4_1_DSP48_4 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2664.000 ; gain = 462.582 ; free physical = 3465 ; free virtual = 9444
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3671.281; parent = 2664.004; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2681.812 ; gain = 480.395 ; free physical = 3449 ; free virtual = 9428
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3689.094; parent = 2681.816; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2681.812 ; gain = 480.395 ; free physical = 3449 ; free virtual = 9428
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3689.094; parent = 2681.816; children = 1007.277
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2687.750 ; gain = 0.000 ; free physical = 3429 ; free virtual = 9408
+INFO: [Netlist 29-17] Analyzing 121 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2/constraints/ISPPipeline_accel_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2/constraints/ISPPipeline_accel_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2800.516 ; gain = 0.000 ; free physical = 2551 ; free virtual = 8530
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  FDE => FDRE: 19 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.42 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2800.516 ; gain = 0.000 ; free physical = 2511 ; free virtual = 8490
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2800.516 ; gain = 599.098 ; free physical = 2053 ; free virtual = 8032
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3807.797; parent = 2800.520; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2800.516 ; gain = 599.098 ; free physical = 2050 ; free virtual = 8030
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3807.797; parent = 2800.520; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2800.516 ; gain = 599.098 ; free physical = 2049 ; free virtual = 8028
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3807.797; parent = 2800.520; children = 1007.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-3936] Found unconnected internal register 'zext_ln278_reg_285_reg' and it is trimmed from '16' to '11' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_Pipeline_LineBuffer_VITIS_LOOP_278_1.v:224]
+WARNING: [Synth 8-3936] Found unconnected internal register 'col_1_reg_1235_pp0_iter2_reg_reg' and it is trimmed from '16' to '11' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Col_Loop.v:992]
+WARNING: [Synth 8-3936] Found unconnected internal register 'col_1_reg_1235_reg' and it is trimmed from '16' to '11' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_Pipeline_Col_Loop.v:980]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-3936] Found unconnected internal register 'zext_ln1027_reg_237_pp0_iter1_reg_reg' and it is trimmed from '11' to '10' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_MERGE_HIST_LOOP.v:221]
+WARNING: [Synth 8-3936] Found unconnected internal register 'zext_ln1027_reg_237_reg' and it is trimmed from '11' to '10' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBhistogramkernel_Pipeline_MERGE_HIST_LOOP.v:227]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-3936] Found unconnected internal register 'remd_tmp_reg' and it is trimmed from '32' to '31' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_sdiv_32ns_18s_26_36_seq_1.v:43]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-3936] Found unconnected internal register 'select_ln44_reg_261_pp0_iter1_reg_reg' and it is trimmed from '9' to '8' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_gammacorrection_Pipeline_VITIS_LOOP_57_2_VITIS_LOOP_58_3.v:230]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ISPPipeline_accel_p_ZL9hist0_awb_0_RAM_AUTO_1R1W:/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 10 for RAM "ISPPipeline_accel_demosaicing_3_13_17_1080_1920_1_false_3_3_s_linebuffer_V_RAM_T2P_BRAM_1R1W:/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "ISPPipeline_accel_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_tmp_hist_V_RAM_T2P_BRAM_bkb:/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 9 for RAM "ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s_offset_buffer_V_RAM_Ahbi:/ram_reg"
+INFO: [Synth 8-6904] The RAM "ISPPipeline_accel_gammacorrection_9_9_1080_1920_1_3_3_s_lut_p_RAM_AUTO_1R1W:/ram_reg" of size (depth=256 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 2800.516 ; gain = 599.098 ; free physical = 2117 ; free virtual = 8099
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3807.797; parent = 2800.520; children = 1007.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/uitofp_32ns_32_7_no_dsp_1_U6/ISPPipeline_accel_uitofp_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/fpext_32ns_64_2_no_dsp_1_U304/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/fpext_32ns_64_2_no_dsp_1_U304/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/fpext_32ns_64_2_no_dsp_1_U304/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/fpext_32ns_64_2_no_dsp_1_U304/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/fpext_32ns_64_2_no_dsp_1_U304/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/fpext_32ns_64_2_no_dsp_1_U304/ISPPipeline_accel_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'conv7_i178_2_cast_reg_603_reg' and it is trimmed from '44' to '26' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_Col_Loop1.v:367]
+WARNING: [Synth 8-3936] Found unconnected internal register 'conv7_i178_1_cast_reg_608_reg' and it is trimmed from '44' to '26' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_Col_Loop1.v:366]
+WARNING: [Synth 8-3936] Found unconnected internal register 'conv7_i178_cast_reg_613_reg' and it is trimmed from '44' to '26' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_AWBNormalizationkernel_Pipeline_Col_Loop1.v:368]
+WARNING: [Synth 8-3936] Found unconnected internal register 'grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_29s_39_2_1_U368/dout_reg' and it is trimmed from '48' to '13' bits. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1687/hdl/verilog/ISPPipeline_accel_mul_10ns_29s_39_2_1.v:27]
+INFO: [Synth 8-6904] The RAM "inst/grp_ISPpipeline_fu_195/gammacorrection_9_9_1080_1920_1_3_3_U0/lut_p_U/ram_reg" of size (depth=256 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/grp_ISPpipeline_fu_195/gammacorrection_9_9_1080_1920_1_3_3_U0/lut_p_1_U/ram_reg" of size (depth=256 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/grp_ISPpipeline_fu_195/gammacorrection_9_9_1080_1920_1_3_3_U0/lut_p_2_U/ram_reg" of size (depth=256 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM ("inst/p_ZL9hist0_awb_0_U/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/p_ZL9hist0_awb_0_U/ram_reg"
+RAM ("inst/p_ZL9hist0_awb_1_U/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/p_ZL9hist0_awb_1_U/ram_reg"
+RAM ("inst/p_ZL9hist0_awb_2_U/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/p_ZL9hist0_awb_2_U/ram_reg"
+RAM ("inst/p_ZL9hist1_awb_0_U/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/p_ZL9hist1_awb_0_U/ram_reg"
+RAM ("inst/p_ZL9hist1_awb_1_U/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/p_ZL9hist1_awb_1_U/ram_reg"
+RAM ("inst/p_ZL9hist1_awb_2_U/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/p_ZL9hist1_awb_2_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 10 for RAM "inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 10 for RAM "inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_1_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 10 for RAM "inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_2_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 10 for RAM "inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_3_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist_V_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist_V_1_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist_V_2_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist1_V_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist1_V_1_U/ram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist1_V_2_U/ram_reg"
+INFO: [Synth 8-7124] RAM ("inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_U/ram_reg") is implemented using BRAM instead of URAM. Memory would be severely underutilized if URAMs are used
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 9 for RAM "inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_U/ram_reg"
+INFO: [Synth 8-7124] RAM ("inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_1_U/ram_reg") is implemented using BRAM instead of URAM. Memory would be severely underutilized if URAMs are used
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 9 for RAM "inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_1_U/ram_reg"
+INFO: [Synth 8-7124] RAM ("inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_2_U/ram_reg") is implemented using BRAM instead of URAM. Memory would be severely underutilized if URAMs are used
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 9 for RAM "inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_2_U/ram_reg"
+INFO: [Synth 8-6904] The RAM "inst/grp_ISPpipeline_fu_195/gammacorrection_9_9_1080_1920_1_3_3_U0/lut_p_U/ram_reg" of size (depth=256 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/grp_ISPpipeline_fu_195/gammacorrection_9_9_1080_1920_1_3_3_U0/lut_p_1_U/ram_reg" of size (depth=256 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/grp_ISPpipeline_fu_195/gammacorrection_9_9_1080_1920_1_3_3_U0/lut_p_2_U/ram_reg" of size (depth=256 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM ("inst/CTRL_s_axi_U/int_gamma_lut/mem_reg") is too shallow (depth = 192) to use URAM. Choosing BRAM instead of URAM 
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[47]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[46]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[45]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[44]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[43]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[42]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[41]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[40]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[39]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[38]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[37]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[36]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[35]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[34]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[33]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[32]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[31]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[30]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[29]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[28]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[27]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[26]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[25]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[24]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[23]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[22]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[21]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[20]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[19]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[18]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_18s_50_2_1_U305/dout_reg[17]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[47]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[46]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[45]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[44]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[43]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[42]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[41]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[40]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[39]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[38]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[37]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[36]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[35]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[34]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[33]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[32]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[31]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[30]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[29]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[28]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[27]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[26]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[25]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[24]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[23]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[22]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[21]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[20]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[19]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[18]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[17]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[47]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[46]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[45]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[44]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[43]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[42]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[41]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[40]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[39]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[38]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[37]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[36]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[35]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[34]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[33]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[32]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[31]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[30]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[29]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[28]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[27]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[26]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[25]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[24]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[23]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[22]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[21]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[20]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[19]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[18]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_50s_52ns_101_5_1_U306/buff1_reg[17]__0) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_21ns_53_2_1_U307/dout_reg[47]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_21ns_53_2_1_U307/dout_reg[46]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_21ns_53_2_1_U307/dout_reg[45]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_21ns_53_2_1_U307/dout_reg[44]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_21ns_53_2_1_U307/dout_reg[43]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_21ns_53_2_1_U307/dout_reg[42]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+WARNING: [Synth 8-3332] Sequential element (mul_32ns_21ns_53_2_1_U307/dout_reg[41]) is unused and will be removed from module ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:19 . Memory (MB): peak = 2800.516 ; gain = 599.098 ; free physical = 3346 ; free virtual = 9367
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1990.580; parent = 1803.377; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3807.797; parent = 2800.520; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:24 ; elapsed = 00:01:31 . Memory (MB): peak = 3160.320 ; gain = 958.902 ; free physical = 2608 ; free virtual = 8634
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2466.743; parent = 2279.317; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4167.602; parent = 3160.324; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 3293.969 ; gain = 1092.551 ; free physical = 2376 ; free virtual = 8404
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2583.197; parent = 2395.804; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4301.250; parent = 3293.973; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/p_ZL9hist0_awb_0_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/p_ZL9hist0_awb_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/p_ZL9hist0_awb_2_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/p_ZL9hist1_awb_0_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/p_ZL9hist1_awb_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/p_ZL9hist1_awb_2_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_2_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_ISPpipeline_fu_195/demosaicing_3_13_17_1080_1920_1_false_3_3_U0/linebuffer_V_3_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist_V_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist_V_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist_V_2_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist1_V_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist1_V_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBhistogram_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBhistogramkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_64/tmp_hist1_V_2_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/offset_buffer_V_2_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/CTRL_s_axi_U/int_gamma_lut/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/CTRL_s_axi_U/int_gamma_lut/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:45 ; elapsed = 00:01:53 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2030 ; free virtual = 8058
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2583.197; parent = 2395.804; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:51 ; elapsed = 00:01:59 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2405 ; free virtual = 8433
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2585.219; parent = 2397.830; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:51 ; elapsed = 00:01:59 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2394 ; free virtual = 8422
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2585.242; parent = 2397.854; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:54 ; elapsed = 00:02:02 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2428 ; free virtual = 8456
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2588.953; parent = 2401.564; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:54 ; elapsed = 00:02:02 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2396 ; free virtual = 8424
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2588.953; parent = 2401.564; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:54 ; elapsed = 00:02:03 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2362 ; free virtual = 8390
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2588.953; parent = 2401.564; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:54 ; elapsed = 00:02:03 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2345 ; free virtual = 8373
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2588.953; parent = 2401.564; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++---------------------------------------------------------------------------+-----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                                | DSP Mapping           | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------------------------------------------------------------+-----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|dsp48e1_wrapper                                                            | ((A'*B')')'           | 24     | 0      | -      | -      | 41     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp48e1_wrapper__parameterized0                                            | (PCIN>>17+(A'*B'')')' | 0      | 7      | -      | -      | 31     | 1    | 2    | -    | -    | -     | 1    | 1    | 
+|dsp48e1_wrapper__parameterized1                                            | (PCIN+A:B+C')'        | 22     | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_blackLevelCorrection_13_1080_1920_1_16_15_1_3_3_s        | ((A'*B)')'            | 10     | 16     | -      | -      | 26     | 1    | 0    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_blackLevelCorrection_13_1080_1920_1_16_15_1_3_3_s        | ((A'*B')')'           | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | (A*B')'               | 26     | 10     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | (A*B')'               | 26     | 10     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | (A*B')'               | 26     | 10     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | (A*B'')'              | 25     | 10     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | ((A*B')')'            | 30     | 10     | -      | -      | 33     | 0    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | ((A*B')')'            | 30     | 10     | -      | -      | 34     | 0    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | ((A*B')')'            | 30     | 10     | -      | -      | 36     | 0    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | ((A*B')')'            | 30     | 10     | -      | -      | 36     | 0    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_s          | ((A*B')')'            | 30     | 10     | -      | -      | 36     | 0    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_mul_mul_26s_18s_44_4_1_DSP48_3                           | ((A''*B')')'          | 30     | 18     | -      | -      | 44     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_mul_mul_26s_18s_44_4_1_DSP48_3                           | ((A''*B')')'          | 30     | 18     | -      | -      | 44     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_mul_mul_26s_18s_44_4_1_DSP48_3                           | ((A''*B')')'          | 30     | 18     | -      | -      | 44     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | A'*B'                 | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN>>17+A'*B')'     | 30     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (D+A)'*B'             | 30     | 17     | -      | 27     | 48     | 0    | 1    | -    | 1    | 1     | 0    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN>>17+(D+A)'*B')' | 30     | 15     | -      | 27     | 48     | 0    | 1    | -    | 1    | 1     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (A*B'')'              | 17     | 17     | -      | -      | 0      | 0    | 2    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | PCIN+(A*B'')'         | 14     | 18     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 1    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN>>17+(A*B'')')'  | 17     | 18     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (A*B'')'              | 17     | 17     | -      | -      | 0      | 0    | 2    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | PCIN+(A''*B)'         | 17     | 14     | -      | -      | 0      | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN+(A*B'')')'      | 17     | 18     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (A''*B)'              | 17     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | PCIN>>17+(A''*B)'     | 17     | 14     | -      | -      | 0      | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN+(A''*B)')'      | 17     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (A*B'')'              | 20     | 17     | -      | -      | 0      | 0    | 2    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | PCIN+(A''*B)'         | 19     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN>>17+(A*B'')')'  | 20     | 17     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (A*B'')'              | 20     | 17     | -      | -      | 0      | 0    | 2    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | PCIN+(A''*B)'         | 17     | 17     | -      | -      | 0      | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN+(A''*B)')'      | 19     | 14     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (A''*B)'              | 17     | 14     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | PCIN>>17+(A''*B)'     | 17     | 17     | -      | -      | 0      | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | (PCIN+(A''*B)')'      | 17     | 14     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s | ((A'*B')')'           | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_s                       | ((A''*B')')'          | 16     | 10     | -      | -      | 26     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_gaincontrol_3_13_1080_1920_1_3_3_s                       | ((A''*B')')'          | 16     | 10     | -      | -      | 26     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|ISPPipeline_accel_xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_s  | ((A'*B')')'           | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
++---------------------------------------------------------------------------+-----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |CARRY8          |   378|
+|2     |DSP48E1         |     3|
+|3     |DSP_ALU         |    40|
+|5     |DSP_A_B_DATA    |    40|
+|11    |DSP_C_DATA      |    40|
+|13    |DSP_MULTIPLIER  |    40|
+|15    |DSP_M_DATA      |    40|
+|17    |DSP_OUTPUT      |    40|
+|19    |DSP_PREADD      |    40|
+|20    |DSP_PREADD_DATA |    40|
+|22    |LUT1            |   474|
+|23    |LUT2            |  1620|
+|24    |LUT3            |  1395|
+|25    |LUT4            |  1157|
+|26    |LUT5            |  1179|
+|27    |LUT6            |  1724|
+|28    |MUXCY           |    66|
+|29    |MUXF7           |     1|
+|30    |RAM256X1S       |    24|
+|31    |RAMB18E2        |     3|
+|32    |RAMB36E2        |    17|
+|35    |SRL16E          |   535|
+|36    |SRLC32E         |     3|
+|37    |XORCY           |    33|
+|38    |FDE             |    19|
+|39    |FDRE            |  7637|
+|40    |FDSE            |   335|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:54 ; elapsed = 00:02:03 . Memory (MB): peak = 3330.750 ; gain = 1129.332 ; free physical = 2333 ; free virtual = 8361
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2588.953; parent = 2401.564; children = 209.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4338.031; parent = 3330.754; children = 1007.277
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1110 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:45 ; elapsed = 00:01:54 . Memory (MB): peak = 3330.750 ; gain = 1010.629 ; free physical = 2358 ; free virtual = 8386
+Synthesis Optimization Complete : Time (s): cpu = 00:01:54 ; elapsed = 00:02:03 . Memory (MB): peak = 3330.758 ; gain = 1129.332 ; free physical = 2351 ; free virtual = 8379
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.18 . Memory (MB): peak = 3330.758 ; gain = 0.000 ; free physical = 2362 ; free virtual = 8391
+INFO: [Netlist 29-17] Analyzing 564 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3345.594 ; gain = 0.000 ; free physical = 2410 ; free virtual = 8439
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 98 instances were transformed.
+  (CARRY4) => CARRY8: 12 instances
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 40 instances
+  FDE => FDRE: 19 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 24 instances
+
+Synth Design complete, checksum: d2f3eacf
+INFO: [Common 17-83] Releasing license: Synthesis
+320 Infos, 215 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:08 ; elapsed = 00:02:14 . Memory (MB): peak = 3345.594 ; gain = 2018.879 ; free physical = 2612 ; free virtual = 8640
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2, cache-ID = deb2e2c3a0a9a22b
+INFO: [Coretcl 2-1174] Renamed 337 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_synth_1/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_utilization_synth.rpt -pb kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  6 02:26:39 2026...

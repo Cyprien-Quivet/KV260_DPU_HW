@@ -1,0 +1,4 @@
+3 warnings and 28 errors generated.
+Error while processing /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.pp.0.cpp.
+clang-tidy applied 372 of 372 suggested fixes.
+Suppressed 3 warnings (3 with check filters).

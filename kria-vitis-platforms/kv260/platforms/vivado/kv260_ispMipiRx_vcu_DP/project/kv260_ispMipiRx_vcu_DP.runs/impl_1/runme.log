@@ -1,0 +1,1106 @@
+
+*** Running vivado
+    with args -log kv260_ispMipiRx_vcu_DP_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source kv260_ispMipiRx_vcu_DP_wrapper.tcl -notrace
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source kv260_ispMipiRx_vcu_DP_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1348.500 ; gain = 22.812 ; free physical = 4795 ; free virtual = 10930
+Command: link_design -top kv260_ispMipiRx_vcu_DP_wrapper -part xck26-sfvc784-2LV-c
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_PS_0_0/kv260_ispMipiRx_vcu_DP_PS_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/PS_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_iic_0_0/kv260_ispMipiRx_vcu_DP_axi_iic_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_iic_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_vip_0_0/kv260_ispMipiRx_vcu_DP_axi_vip_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_vip_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_100MHz'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_300MHz'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_600MHz'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_12/kv260_ispMipiRx_vcu_DP_s00_regslice_12.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_accel_ctrl/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_13/kv260_ispMipiRx_vcu_DP_s00_regslice_13.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_audio_mcu/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_xbar_1/kv260_ispMipiRx_vcu_DP_xbar_1.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_ctrl_100/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_auto_pc_0/kv260_ispMipiRx_vcu_DP_auto_pc_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_ctrl_100/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_14/kv260_ispMipiRx_vcu_DP_s00_regslice_14.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_ctrl_100/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_xbar_4/kv260_ispMipiRx_vcu_DP_xbar_4.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_ctrl_300/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_auto_pc_1/kv260_ispMipiRx_vcu_DP_auto_pc_1.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_ctrl_300/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2/kv260_ispMipiRx_vcu_DP_ISPPipeline_accel_0_2.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1/kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_reg_slice_vmcu'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_vcu_0_0/kv260_ispMipiRx_vcu_DP_vcu_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/vcu_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_xbar_2/kv260_ispMipiRx_vcu_DP_xbar_2.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_6/kv260_ispMipiRx_vcu_DP_m00_regslice_6.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/m00_couplers/m00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_15/kv260_ispMipiRx_vcu_DP_s00_regslice_15.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_6/kv260_ispMipiRx_vcu_DP_s01_regslice_6.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/s01_couplers/s01_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_xbar_3/kv260_ispMipiRx_vcu_DP_xbar_3.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_7/kv260_ispMipiRx_vcu_DP_m00_regslice_7.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/m00_couplers/m00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_16/kv260_ispMipiRx_vcu_DP_s00_regslice_16.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_7/kv260_ispMipiRx_vcu_DP_s01_regslice_7.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/s01_couplers/s01_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/bd_3be0_r_sync_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/r_sync'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_3be0_rx_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_4/bd_3be0_vfb_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/vfb_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_0/bd_3be0_xbar_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_7/bd_eab1_axis_fifo_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/axis_fifo'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_6/bd_eab1_axis_register_slice_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/axis_register_slice_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_2/bd_eab1_hsc_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_3/bd_eab1_input_size_set_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/input_size_set'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_5/bd_eab1_reset_sel_axis_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/reset_sel_axis'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_4/bd_eab1_rst_axis_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/rst_axis'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_0/bd_eab1_smartconnect_0_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/bd_eab1_vsc_0.dcp' for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc'
+Netlist sorting complete. Time (s): cpu = 00:00:00.64 ; elapsed = 00:00:00.64 . Memory (MB): peak = 2332.172 ; gain = 0.000 ; free physical = 3827 ; free virtual = 9962
+INFO: [Netlist 29-17] Analyzing 1136 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/bd_3be0_r_sync_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/bd_3be0_r_sync_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_5/bd_eab1_reset_sel_axis_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/reset_sel_axis/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_5/bd_eab1_reset_sel_axis_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/reset_sel_axis/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_5/bd_eab1_reset_sel_axis_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/reset_sel_axis/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_5/bd_eab1_reset_sel_axis_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/reset_sel_axis/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_4/bd_eab1_rst_axis_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/rst_axis/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_4/bd_eab1_rst_axis_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/rst_axis/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_4/bd_eab1_rst_axis_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/rst_axis/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_4/bd_eab1_rst_axis_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/rst_axis/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_1/ip/ip_1/bd_a669_psr_aclk_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_1/ip/ip_1/bd_a669_psr_aclk_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_1/ip/ip_1/bd_a669_psr_aclk_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_1/ip/ip_1/bd_a669_psr_aclk_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst'
+WARNING: [Constraints 18-1039] DIFF_TERM is not supported in Ultrascale.  Automatically translating to DIFF_TERM_ADV=TERM_100. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc:3]
+WARNING: [Constraints 18-1039] DIFF_TERM is not supported in Ultrascale.  Automatically translating to DIFF_TERM_ADV=TERM_100. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc:4]
+WARNING: [Constraints 18-1039] DIFF_TERM is not supported in Ultrascale.  Automatically translating to DIFF_TERM_ADV=TERM_100. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc:5]
+WARNING: [Constraints 18-1039] DIFF_TERM is not supported in Ultrascale.  Automatically translating to DIFF_TERM_ADV=TERM_100. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc:7]
+WARNING: [Constraints 18-1039] DIFF_TERM is not supported in Ultrascale.  Automatically translating to DIFF_TERM_ADV=TERM_100. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc:9]
+WARNING: [Constraints 18-1039] DIFF_TERM is not supported in Ultrascale.  Automatically translating to DIFF_TERM_ADV=TERM_100. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc:11]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/ip_0/bd_3be0_phy_0_hssio_rx.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.bd_3be0_phy_0_rx_hssio_i/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/ip_0/bd_3be0_phy_0_hssio_rx.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.bd_3be0_phy_0_rx_hssio_i/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_3be0_rx_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_3be0_rx_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_PS_0_0/kv260_ispMipiRx_vcu_DP_PS_0_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/PS_0/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_PS_0_0/kv260_ispMipiRx_vcu_DP_PS_0_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/PS_0/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/bd_3be0_r_sync_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/bd_3be0_r_sync_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_600MHz/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_600MHz/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_600MHz/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_600MHz/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_300MHz/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_300MHz/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_300MHz/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_300MHz/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_100MHz/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_100MHz/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_100MHz/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_100MHz/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/clk_wiz_0/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/clk_wiz_0/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_iic_0_0/kv260_ispMipiRx_vcu_DP_axi_iic_0_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_iic_0/U0'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_iic_0_0/kv260_ispMipiRx_vcu_DP_axi_iic_0_0_board.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_iic_0/U0'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_tx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mclk_out_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_rx'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.srcs/constrs_1/imports/xdc/pin.xdc]
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_12/kv260_ispMipiRx_vcu_DP_s00_regslice_12_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_accel_ctrl/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_12/kv260_ispMipiRx_vcu_DP_s00_regslice_12_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_12/kv260_ispMipiRx_vcu_DP_s00_regslice_12_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_accel_ctrl/s00_couplers/s00_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_13/kv260_ispMipiRx_vcu_DP_s00_regslice_13_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_audio_mcu/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_13/kv260_ispMipiRx_vcu_DP_s00_regslice_13_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_13/kv260_ispMipiRx_vcu_DP_s00_regslice_13_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_audio_mcu/s00_couplers/s00_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_14/kv260_ispMipiRx_vcu_DP_s00_regslice_14_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_ctrl_100/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_14/kv260_ispMipiRx_vcu_DP_s00_regslice_14_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_14/kv260_ispMipiRx_vcu_DP_s00_regslice_14_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/axi_ic_ctrl_100/s00_couplers/s00_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_15/kv260_ispMipiRx_vcu_DP_s00_regslice_15_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_15/kv260_ispMipiRx_vcu_DP_s00_regslice_15_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_15/kv260_ispMipiRx_vcu_DP_s00_regslice_15_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/s00_couplers/s00_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_6/kv260_ispMipiRx_vcu_DP_s01_regslice_6_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/s01_couplers/s01_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_6/kv260_ispMipiRx_vcu_DP_s01_regslice_6_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_6/kv260_ispMipiRx_vcu_DP_s01_regslice_6_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/s01_couplers/s01_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_6/kv260_ispMipiRx_vcu_DP_m00_regslice_6_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/m00_couplers/m00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_6/kv260_ispMipiRx_vcu_DP_m00_regslice_6_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_6/kv260_ispMipiRx_vcu_DP_m00_regslice_6_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/m00_couplers/m00_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_16/kv260_ispMipiRx_vcu_DP_s00_regslice_16_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_16/kv260_ispMipiRx_vcu_DP_s00_regslice_16_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s00_regslice_16/kv260_ispMipiRx_vcu_DP_s00_regslice_16_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/s00_couplers/s00_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_7/kv260_ispMipiRx_vcu_DP_s01_regslice_7_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/s01_couplers/s01_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_7/kv260_ispMipiRx_vcu_DP_s01_regslice_7_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s01_regslice_7/kv260_ispMipiRx_vcu_DP_s01_regslice_7_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/s01_couplers/s01_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_7/kv260_ispMipiRx_vcu_DP_m00_regslice_7_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/m00_couplers/m00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_7/kv260_ispMipiRx_vcu_DP_m00_regslice_7_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_m00_regslice_7/kv260_ispMipiRx_vcu_DP_m00_regslice_7_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/m00_couplers/m00_regslice/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_reg_slice_vmcu/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_clocks.xdc:10]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/axi_reg_slice_vmcu/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_vcu_0_0/constraints/vcu.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/vcu_0/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_vcu_0_0/constraints/vcu.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/vcu/vcu_0/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+WARNING: [Vivado 12-508] No pins matched '*en_hs_datapath_reg/C'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0_clocks.xdc:74]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-11' -from list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0_clocks.xdc:74]
+WARNING: [Vivado 12-508] No pins matched '*init_done_reg/C'. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0_clocks.xdc:75]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-11' -from list should not be empty. [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0_clocks.xdc:75]
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_3be0_phy_0_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_impl.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_1_impl.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1/kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1/kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_1.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/bd_eab1_vsc_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/bd_eab1_vsc_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_2/bd_eab1_hsc_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_2/bd_eab1_hsc_0.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst'
+Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_6/bd_eab1_axis_register_slice_0_0_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/axis_register_slice_0/inst'
+Finished Parsing XDC File [/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_6/bd_eab1_axis_register_slice_0_0_clocks.xdc] for cell 'kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/axis_register_slice_0/inst'
+INFO: [Project 1-1714] 269 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 20 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3042.738 ; gain = 0.000 ; free physical = 3414 ; free virtual = 9550
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 316 instances were transformed.
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 85 instances
+  IBUFDS_DPHY => IBUFDS_DPHY (DPHY_DIFFINBUF, IBUFCTRL): 3 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 2 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 24 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 7 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 192 instances
+
+53 Infos, 52 Warnings, 32 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:37 . Memory (MB): peak = 3042.738 ; gain = 1694.238 ; free physical = 3414 ; free virtual = 9550
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3058.723 ; gain = 15.984 ; free physical = 3403 ; free virtual = 9540
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 22d3ef030
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 3058.723 ; gain = 0.000 ; free physical = 3338 ; free virtual = 9475
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/grp_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL_fu_64/ap_enable_reg_pp0_iter1_i_2__2 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/xf_QuatizationDithering_17_9_1080_1920_256_1024_1_3_3_U0/grp_xf_QuatizationDithering_Pipeline_LOOP_ROW_LOOP_COL_fu_64/flow_control_loop_pipe_sequential_init_U/ram_reg_bram_0_i_29__9, which resulted in an inversion of 23 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[12]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[12]_i_2, which resulted in an inversion of 6 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[16]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[16]_i_2, which resulted in an inversion of 6 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[4]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[4]_i_2, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[8]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_csi_rx_clk_lane.dphy_rx_clk_lane/en_init_to_reg.init_to_r[8]_i_2, which resulted in an inversion of 6 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/two_lane_hs_rx_timeout.hs_wait_count[15]_i_2 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/two_lane_hs_rx_timeout.hs_wait_count[15]_i_4, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/AXI_LITE.reg_inf/isr_i[31]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/AXI_LITE.reg_inf/isr_i[55]_i_4, which resulted in an inversion of 28 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/phecc/diwc_valid_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/phecc/diwc_valid_i_2, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_166/Bytes2AXIMMvideo_U0/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1117_1_fu_204/raddr[8]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_166/Bytes2AXIMMvideo_U0/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1117_1_fu_204/mem_reg_i_68, which resulted in an inversion of 15 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_166/Bytes2AXIMMvideo_U0/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1127_2_fu_214/mem_reg_i_68__0 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_166/Bytes2AXIMMvideo_U0/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1127_2_fu_214/mem_reg_i_69__0, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/CTRL_s_axi_U/ap_return_0_preg[0]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/CTRL_s_axi_U/ap_return_0_preg[0]_i_3, which resulted in an inversion of 27 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/flow_control_loop_pipe_sequential_init_U/i_fu_86[4]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/flow_control_loop_pipe_sequential_init_U/mem_reg_i_24, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/flow_control_loop_pipe_sequential_init_U/select_ln624_1_reg_358[5]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_246/flow_control_loop_pipe_sequential_init_U/indvar_flatten_fu_90[8]_i_3, which resulted in an inversion of 9 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/tmp_reg_938_pp0_iter1_reg[0]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/v_hcresampler_core_1_U0/grp_v_hcresampler_core_1_Pipeline_VITIS_LOOP_1636_2_fu_198/flow_control_loop_pipe_sequential_init_U/x_fu_150[14]_i_4, which resulted in an inversion of 21 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1012_2_fu_176/out_x_reg_602[10]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/v_vcresampler_core_U0/grp_v_vcresampler_core_Pipeline_VITIS_LOOP_1012_2_fu_176/flow_control_loop_pipe_sequential_init_U/ram_reg_bram_0_i_4, which resulted in an inversion of 21 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_229/flow_control_loop_pipe_sequential_init_U/i_fu_86[3]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_229/flow_control_loop_pipe_sequential_init_U/mem_reg_i_31, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_229/flow_control_loop_pipe_sequential_init_U/select_ln204_1_reg_358[5]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_init_coeff_phase_loop_init_coeff_tap_fu_229/flow_control_loop_pipe_sequential_init_U/indvar_flatten_fu_90[8]_i_3, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1__0 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2__0, which resulted in an inversion of 15 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1__1 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2__1, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.si_transactor_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1__2 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2__2, which resulted in an inversion of 15 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1__0 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2__0, which resulted in an inversion of 15 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1__1 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2__1, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.si_transactor_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_1__2 into driver instance kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_multi_thread.gen_thread_loop[15].active_target[120]_i_2__2, which resulted in an inversion of 15 pins
+INFO: [Opt 31-138] Pushed 142 inverter(s) to 9452 load pin(s).
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_24s_25_4_1_U121/bd_eab1_hsc_0_mac_muladd_8ns_16s_24s_25_4_1_DSP48_1_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_24s_25_4_1_U122/bd_eab1_hsc_0_mac_muladd_8ns_16s_24s_25_4_1_DSP48_1_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_24s_25_4_1_U123/bd_eab1_hsc_0_mac_muladd_8ns_16s_24s_25_4_1_DSP48_1_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_25s_26_4_1_U124/bd_eab1_hsc_0_mac_muladd_8ns_16s_25s_26_4_1_DSP48_2_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_25s_26_4_1_U125/bd_eab1_hsc_0_mac_muladd_8ns_16s_25s_26_4_1_DSP48_2_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_25s_26_4_1_U126/bd_eab1_hsc_0_mac_muladd_8ns_16s_25s_26_4_1_DSP48_2_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_26s_27_4_1_U130/bd_eab1_hsc_0_mac_muladd_8ns_16s_26s_27_4_1_DSP48_4_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_26s_27_4_1_U131/bd_eab1_hsc_0_mac_muladd_8ns_16s_26s_27_4_1_DSP48_4_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/hscale_core_polyphase_U0/grp_hscale_core_polyphase_Pipeline_loop_width_fu_264/grp_hscale_polyphase_fu_226/mac_muladd_8ns_16s_26s_27_4_1_U132/bd_eab1_hsc_0_mac_muladd_8ns_16s_26s_27_4_1_DSP48_4_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_24s_25_4_1_U115/bd_eab1_vsc_0_mac_muladd_16s_8ns_24s_25_4_1_DSP48_1_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_24s_25_4_1_U116/bd_eab1_vsc_0_mac_muladd_16s_8ns_24s_25_4_1_DSP48_1_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_24s_25_4_1_U117/bd_eab1_vsc_0_mac_muladd_16s_8ns_24s_25_4_1_DSP48_1_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_25s_26_4_1_U118/bd_eab1_vsc_0_mac_muladd_16s_8ns_25s_26_4_1_DSP48_2_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_25s_26_4_1_U119/bd_eab1_vsc_0_mac_muladd_16s_8ns_25s_26_4_1_DSP48_2_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_25s_26_4_1_U120/bd_eab1_vsc_0_mac_muladd_16s_8ns_25s_26_4_1_DSP48_2_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_26s_27_4_1_U124/bd_eab1_vsc_0_mac_muladd_16s_8ns_26s_27_4_1_DSP48_4_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_26s_27_4_1_U125/bd_eab1_vsc_0_mac_muladd_16s_8ns_26s_27_4_1_DSP48_4_U/p_reg_reg
+INFO: [Opt 31-925] Fixed cascade connection for DSP: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/vsc/inst/vscale_core_polyphase_U0/grp_vscale_core_polyphase_Pipeline_loop_width_for_procpix_fu_247/mac_muladd_16s_8ns_26s_27_4_1_U126/bd_eab1_vsc_0_mac_muladd_16s_8ns_26s_27_4_1_DSP48_4_U/p_reg_reg
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 256009f3d
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3173 ; free virtual = 9310
+INFO: [Opt 31-389] Phase Retarget created 252 cells and removed 1604 cells
+INFO: [Opt 31-1021] In phase Retarget, 188 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+Phase 2 Constant propagation | Checksum: 1e7940ae6
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3173 ; free virtual = 9310
+INFO: [Opt 31-389] Phase Constant propagation created 348 cells and removed 1201 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 254 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1aa0ba25f
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3173 ; free virtual = 9310
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 5327 cells
+INFO: [Opt 31-1021] In phase Sweep, 380 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+INFO: [Opt 31-274] Optimized connectivity to 1 cascaded buffer cells
+Phase 4 BUFG optimization | Checksum: 188da022f
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3166 ; free virtual = 9303
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 1 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 18fd371a1
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3166 ; free virtual = 9303
+INFO: [Opt 31-389] Phase Shift Register Optimization created 1 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 2400fb925
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3166 ; free virtual = 9303
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 212 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             252  |            1604  |                                            188  |
+|  Constant propagation         |             348  |            1201  |                                            254  |
+|  Sweep                        |               0  |            5327  |                                            380  |
+|  BUFG optimization            |               0  |               1  |                                              0  |
+|  Shift Register Optimization  |               1  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                            212  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3166 ; free virtual = 9303
+Ending Logic Optimization Task | Checksum: 13822dd8b
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3293.676 ; gain = 0.000 ; free physical = 3166 ; free virtual = 9303
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 48 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 1 WE to EN ports
+Number of BRAM Ports augmented: 18 newly gated: 2 Total Ports: 96
+Ending PowerOpt Patch Enables Task | Checksum: 1a3918f40
+
+Time (s): cpu = 00:00:00.39 ; elapsed = 00:00:00.41 . Memory (MB): peak = 4188.953 ; gain = 0.000 ; free physical = 2683 ; free virtual = 8825
+Ending Power Optimization Task | Checksum: 1a3918f40
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:21 . Memory (MB): peak = 4188.953 ; gain = 895.277 ; free physical = 2741 ; free virtual = 8883
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 23f9dbfda
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 4188.953 ; gain = 0.000 ; free physical = 2758 ; free virtual = 8900
+Ending Final Cleanup Task | Checksum: 23f9dbfda
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 4188.953 ; gain = 0.000 ; free physical = 2758 ; free virtual = 8900
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4188.953 ; gain = 0.000 ; free physical = 2758 ; free virtual = 8900
+Ending Netlist Obfuscation Task | Checksum: 23f9dbfda
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4188.953 ; gain = 0.000 ; free physical = 2758 ; free virtual = 8900
+INFO: [Common 17-83] Releasing license: Implementation
+125 Infos, 56 Warnings, 32 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:24 ; elapsed = 00:00:48 . Memory (MB): peak = 4188.953 ; gain = 1146.215 ; free physical = 2758 ; free virtual = 8900
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.14 . Memory (MB): peak = 4188.953 ; gain = 0.000 ; free physical = 2666 ; free virtual = 8820
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 4199.969 ; gain = 11.016 ; free physical = 2630 ; free virtual = 8791
+INFO: [runtcl-4] Executing : report_drc -file kv260_ispMipiRx_vcu_DP_wrapper_drc_opted.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_drc_opted.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_drc_opted.rpx
+Command: report_drc -file kv260_ispMipiRx_vcu_DP_wrapper_drc_opted.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_drc_opted.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 4666.121 ; gain = 466.152 ; free physical = 1948 ; free virtual = 8241
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1943 ; free virtual = 8236
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1aef5fedc
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.06 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1943 ; free virtual = 8236
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1943 ; free virtual = 8236
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 458a4067
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1981 ; free virtual = 8278
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: d52cf4a2
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1902 ; free virtual = 8200
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: d52cf4a2
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1902 ; free virtual = 8200
+Phase 1 Placer Initialization | Checksum: d52cf4a2
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:16 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1902 ; free virtual = 8201
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: e79e84c6
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:29 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1843 ; free virtual = 8143
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: e79e84c6
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:30 . Memory (MB): peak = 4666.121 ; gain = 0.000 ; free physical = 1837 ; free virtual = 8139
+
+Phase 2.1.1.3 PBP: Compute Congestion
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: e79e84c6
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:31 . Memory (MB): peak = 4688.480 ; gain = 22.359 ; free physical = 1799 ; free virtual = 8153
+
+Phase 2.1.1.4 PBP: UpdateTiming
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 4f4b099f
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:33 . Memory (MB): peak = 4720.496 ; gain = 54.375 ; free physical = 1781 ; free virtual = 8135
+
+Phase 2.1.1.5 PBP: Add part constraints
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 4f4b099f
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:33 . Memory (MB): peak = 4720.496 ; gain = 54.375 ; free physical = 1781 ; free virtual = 8135
+Phase 2.1.1 Partition Driven Placement | Checksum: 4f4b099f
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:33 . Memory (MB): peak = 4720.496 ; gain = 54.375 ; free physical = 1781 ; free virtual = 8135
+Phase 2.1 Floorplanning | Checksum: 4f4b099f
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:33 . Memory (MB): peak = 4720.496 ; gain = 54.375 ; free physical = 1781 ; free virtual = 8135
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 4f4b099f
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:33 . Memory (MB): peak = 4720.496 ; gain = 54.375 ; free physical = 1781 ; free virtual = 8135
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 4f4b099f
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:33 . Memory (MB): peak = 4720.496 ; gain = 54.375 ; free physical = 1781 ; free virtual = 8135
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: fa89d0a7
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:01:02 . Memory (MB): peak = 4721.500 ; gain = 55.379 ; free physical = 1771 ; free virtual = 8126
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 1265 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 542 nets or LUTs. Breaked 0 LUT, combined 542 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 5 candidate driver sets for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 5 nets.  Re-placed 11 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 5 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 11 existing cells
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 4721.500 ; gain = 0.000 ; free physical = 1763 ; free virtual = 8120
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4721.500 ; gain = 0.000 ; free physical = 1763 ; free virtual = 8120
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            542  |                   542  |           0  |           1  |  00:00:01  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |              0  |                     5  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            542  |                   547  |           0  |           5  |  00:00:02  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 2323bface
+
+Time (s): cpu = 00:02:11 ; elapsed = 00:01:08 . Memory (MB): peak = 4721.500 ; gain = 55.379 ; free physical = 1758 ; free virtual = 8115
+Phase 2.4 Global Placement Core | Checksum: 18ba89ea8
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:10 . Memory (MB): peak = 4721.500 ; gain = 55.379 ; free physical = 1756 ; free virtual = 8114
+Phase 2 Global Placement | Checksum: 18ba89ea8
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:10 . Memory (MB): peak = 4721.500 ; gain = 55.379 ; free physical = 1772 ; free virtual = 8130
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 175c073b6
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:12 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1758 ; free virtual = 8116
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1f7e54ea7
+
+Time (s): cpu = 00:02:26 ; elapsed = 00:01:15 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1758 ; free virtual = 8116
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: 1c041862a
+
+Time (s): cpu = 00:02:28 ; elapsed = 00:01:17 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1729 ; free virtual = 8087
+
+Phase 3.3.2 Flow Legalize Slice Clusters
+Phase 3.3.2 Flow Legalize Slice Clusters | Checksum: 2268bf1d7
+
+Time (s): cpu = 00:02:28 ; elapsed = 00:01:17 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1728 ; free virtual = 8086
+
+Phase 3.3.3 Slice Area Swap
+
+Phase 3.3.3.1 Slice Area Swap Initial
+Phase 3.3.3.1 Slice Area Swap Initial | Checksum: 1d86bc63f
+
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:25 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1707 ; free virtual = 8065
+Phase 3.3.3 Slice Area Swap | Checksum: 1d86bc63f
+
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:26 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1711 ; free virtual = 8069
+Phase 3.3 Small Shape DP | Checksum: 1977e022f
+
+Time (s): cpu = 00:02:49 ; elapsed = 00:01:30 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1725 ; free virtual = 8083
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 1bd983236
+
+Time (s): cpu = 00:02:51 ; elapsed = 00:01:33 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1725 ; free virtual = 8083
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 1b617b7c6
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:01:33 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1725 ; free virtual = 8083
+Phase 3 Detail Placement | Checksum: 1b617b7c6
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:01:33 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1725 ; free virtual = 8083
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: e8a1f834
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 4 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.609 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1b607df18
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1717 ; free virtual = 8075
+INFO: [Place 46-35] Processed net kv260_ispMipiRx_vcu_DP_i/vcu/vcu_0/inst/softip_regs/vcu_reset_encClk_f3, inserted BUFG to drive 1318 loads.
+INFO: [Place 46-35] Processed net kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_300MHz/U0/peripheral_aresetn[0], inserted BUFG to drive 1078 loads.
+INFO: [Place 46-45] Replicated bufg driver kv260_ispMipiRx_vcu_DP_i/proc_sys_reset_300MHz/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N_replica
+INFO: [Place 46-35] Processed net kv260_ispMipiRx_vcu_DP_i/PS_0/inst/emio_gpio_o[6], inserted BUFG to drive 1072 loads.
+INFO: [Place 46-35] Processed net kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/aresetn_d, inserted BUFG to drive 1086 loads.
+INFO: [Place 46-45] Replicated bufg driver kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_dec/xbar/inst/gen_samd.crossbar_samd/aresetn_d_reg_replica
+INFO: [Place 46-35] Processed net kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/aresetn_d, inserted BUFG to drive 1086 loads.
+INFO: [Place 46-45] Replicated bufg driver kv260_ispMipiRx_vcu_DP_i/vcu/axi_ic_vcu_enc/xbar/inst/gen_samd.crossbar_samd/aresetn_d_reg_replica
+INFO: [Place 46-56] BUFG insertion identified 5 candidate nets. Inserted BUFG: 5, Replicated BUFG Driver: 3, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: f677af26
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1713 ; free virtual = 8072
+Phase 4.1.1.1 BUFG Insertion | Checksum: 9f92667e
+
+Time (s): cpu = 00:03:37 ; elapsed = 00:01:52 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1713 ; free virtual = 8072
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.609. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 182e6c7ea
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:01:52 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1713 ; free virtual = 8072
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:01:52 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1713 ; free virtual = 8072
+Phase 4.1 Post Commit Optimization | Checksum: 182e6c7ea
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:01:53 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1713 ; free virtual = 8072
+Netlist sorting complete. Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.13 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1708 ; free virtual = 8067
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1f91ea621
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:01:57 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1709 ; free virtual = 8068
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                2x2|                1x1|                1x1|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                4x4|                1x1|
+|___________|___________________|___________________|___________________|
+|       East|                1x1|                1x1|                2x2|
+|___________|___________________|___________________|___________________|
+|       West|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1f91ea621
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:01:57 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1709 ; free virtual = 8068
+Phase 4.3 Placer Reporting | Checksum: 1f91ea621
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:01:57 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1709 ; free virtual = 8068
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1709 ; free virtual = 8068
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:01:57 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1709 ; free virtual = 8068
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 26aeea60f
+
+Time (s): cpu = 00:03:44 ; elapsed = 00:01:57 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1709 ; free virtual = 8068
+Ending Placer Task | Checksum: 17ce7196c
+
+Time (s): cpu = 00:03:44 ; elapsed = 00:01:58 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1709 ; free virtual = 8068
+INFO: [Common 17-83] Releasing license: Implementation
+171 Infos, 56 Warnings, 32 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:03:51 ; elapsed = 00:02:00 . Memory (MB): peak = 4753.516 ; gain = 87.395 ; free physical = 1817 ; free virtual = 8175
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1724 ; free virtual = 8166
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1759 ; free virtual = 8145
+INFO: [runtcl-4] Executing : report_io -file kv260_ispMipiRx_vcu_DP_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.27 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1739 ; free virtual = 8125
+INFO: [runtcl-4] Executing : report_utilization -file kv260_ispMipiRx_vcu_DP_wrapper_utilization_placed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file kv260_ispMipiRx_vcu_DP_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.33 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1752 ; free virtual = 8140
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:09 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1732 ; free virtual = 8119
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+180 Infos, 56 Warnings, 32 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:09 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1732 ; free virtual = 8119
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1647 ; free virtual = 8118
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1695 ; free virtual = 8109
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 597a5dad ConstDB: 0 ShapeSum: ad34dd88 RouteDB: 7637de37
+Nodegraph reading from file.  Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:00.63 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1555 ; free virtual = 7973
+Post Restoration Checksum: NetGraph: 505236cd NumContArr: 8bee37f5 Constraints: 5de8e788 Timing: 0
+Phase 1 Build RT Design | Checksum: 13a29564a
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:14 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1562 ; free virtual = 7980
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 13a29564a
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:14 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1537 ; free virtual = 7956
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 13a29564a
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:14 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1537 ; free virtual = 7956
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: f98aca26
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:16 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1523 ; free virtual = 7942
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1b747d641
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:27 . Memory (MB): peak = 4753.516 ; gain = 0.000 ; free physical = 1514 ; free virtual = 7933
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.745  | TNS=0.000  | WHS=-0.074 | THS=-13.670|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 18ef398e0
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:00:45 . Memory (MB): peak = 4769.785 ; gain = 16.270 ; free physical = 1496 ; free virtual = 7916
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.745  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 1d61c5b58
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:00:46 . Memory (MB): peak = 4769.785 ; gain = 16.270 ; free physical = 1495 ; free virtual = 7915
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 55187
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 47998
+  Number of Partially Routed Nets     = 7189
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1060e8086
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:00:47 . Memory (MB): peak = 4797.074 ; gain = 43.559 ; free physical = 1500 ; free virtual = 7919
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1060e8086
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:00:47 . Memory (MB): peak = 4797.074 ; gain = 43.559 ; free physical = 1500 ; free virtual = 7919
+Phase 3 Initial Routing | Checksum: 1e1f39ffb
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:00:56 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1471 ; free virtual = 7891
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 8933
+ Number of Nodes with overlaps = 741
+ Number of Nodes with overlaps = 82
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.637  | TNS=0.000  | WHS=-0.041 | THS=-0.599 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 195a09385
+
+Time (s): cpu = 00:04:10 ; elapsed = 00:01:56 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1460 ; free virtual = 7879
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.637  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 26e67a64a
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:02:01 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1460 ; free virtual = 7879
+Phase 4 Rip-up And Reroute | Checksum: 26e67a64a
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:02:01 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1460 ; free virtual = 7879
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 274d74941
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:02:11 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1471 ; free virtual = 7891
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.637  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+
+Phase 5.1.2 Update Timing
+Phase 5.1.2 Update Timing | Checksum: 2b96d00be
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:02:17 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1465 ; free virtual = 7884
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.637  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: 1f0e4337d
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:02:17 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1468 ; free virtual = 7888
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1f0e4337d
+
+Time (s): cpu = 00:04:56 ; elapsed = 00:02:17 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1468 ; free virtual = 7888
+Phase 5 Delay and Skew Optimization | Checksum: 1f0e4337d
+
+Time (s): cpu = 00:04:56 ; elapsed = 00:02:17 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1468 ; free virtual = 7888
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1bd998411
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:02:23 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1463 ; free virtual = 7882
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.637  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 2a88c3e17
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:02:24 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1461 ; free virtual = 7881
+Phase 6 Post Hold Fix | Checksum: 2a88c3e17
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:02:24 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1461 ; free virtual = 7881
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 5.82275 %
+  Global Horizontal Routing Utilization  = 5.86288 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 21a04a106
+
+Time (s): cpu = 00:05:10 ; elapsed = 00:02:24 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1460 ; free virtual = 7880
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 21a04a106
+
+Time (s): cpu = 00:05:10 ; elapsed = 00:02:24 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1459 ; free virtual = 7879
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 21a04a106
+
+Time (s): cpu = 00:05:15 ; elapsed = 00:02:28 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1459 ; free virtual = 7879
+
+Phase 10 Resolve XTalk
+Phase 10 Resolve XTalk | Checksum: 21a04a106
+
+Time (s): cpu = 00:05:16 ; elapsed = 00:02:29 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1459 ; free virtual = 7879
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.637  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 21a04a106
+
+Time (s): cpu = 00:05:23 ; elapsed = 00:02:31 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1459 ; free virtual = 7879
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:05:23 ; elapsed = 00:02:31 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1505 ; free virtual = 7925
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+198 Infos, 56 Warnings, 32 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:05:42 ; elapsed = 00:02:38 . Memory (MB): peak = 4807.074 ; gain = 53.559 ; free physical = 1505 ; free virtual = 7925
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 4823.082 ; gain = 8.004 ; free physical = 1417 ; free virtual = 7929
+report_design_analysis: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 4823.082 ; gain = 0.000 ; free physical = 1384 ; free virtual = 7896
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:16 . Memory (MB): peak = 4823.082 ; gain = 16.008 ; free physical = 1441 ; free virtual = 7891
+INFO: [runtcl-4] Executing : report_drc -file kv260_ispMipiRx_vcu_DP_wrapper_drc_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_drc_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_drc_routed.rpx
+Command: report_drc -file kv260_ispMipiRx_vcu_DP_wrapper_drc_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_drc_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:42 ; elapsed = 00:00:13 . Memory (MB): peak = 4888.012 ; gain = 64.930 ; free physical = 1412 ; free virtual = 7862
+INFO: [runtcl-4] Executing : report_methodology -file kv260_ispMipiRx_vcu_DP_wrapper_methodology_drc_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_methodology_drc_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file kv260_ispMipiRx_vcu_DP_wrapper_methodology_drc_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_methodology_drc_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 4 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:44 ; elapsed = 00:00:15 . Memory (MB): peak = 4888.012 ; gain = 0.000 ; free physical = 1410 ; free virtual = 7860
+INFO: [runtcl-4] Executing : report_power -file kv260_ispMipiRx_vcu_DP_wrapper_power_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_power_summary_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_power_routed.rpx
+Command: report_power -file kv260_ispMipiRx_vcu_DP_wrapper_power_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_power_summary_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCVCUINT for the family zynquplus. Ignoring the voltage setting.
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+211 Infos, 61 Warnings, 32 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:36 ; elapsed = 00:00:18 . Memory (MB): peak = 4936.047 ; gain = 48.035 ; free physical = 1306 ; free virtual = 7774
+INFO: [runtcl-4] Executing : report_route_status -file kv260_ispMipiRx_vcu_DP_wrapper_route_status.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file kv260_ispMipiRx_vcu_DP_wrapper_timing_summary_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_timing_summary_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file kv260_ispMipiRx_vcu_DP_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file kv260_ispMipiRx_vcu_DP_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4936.047 ; gain = 0.000 ; free physical = 1263 ; free virtual = 7738
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file kv260_ispMipiRx_vcu_DP_wrapper_bus_skew_routed.rpt -pb kv260_ispMipiRx_vcu_DP_wrapper_bus_skew_routed.pb -rpx kv260_ispMipiRx_vcu_DP_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+
+WARNING::74 - Unsupported FPGA device name 'xck26-sfvc784-2LV-c'. Verify that the specified device is a valid customer supported device.
+-p xck26-sfvc784-2LV-c
+   ^
+
+INFO: [Memdata 28-167] Found XPM memory block kv260_ispMipiRx_vcu_DP_i/vcu/vcu_0/inst/mem_uram_8bps/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to ultra. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_ispMipiRx_vcu_DP_i/vcu/vcu_0/inst/mem_uram_8bps/xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/axis_fifo/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/axis_fifo>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/gen_pkt_fifo/pkt_fifo/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/gen_pkt_fifo/pkt_fifo/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/RX_1500M.line_buffer/line_buf/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/LANE_2.ppi_fifo1/CSI_OPT3_OFF.ppi_fifo/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/LANE_2.ppi_fifo1/CSI_OPT3_OFF.ppi_fifo/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/LANE_1.ppi_fifo0/CSI_OPT3_OFF.ppi_fifo/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/LANE_1.ppi_fifo0/CSI_OPT3_OFF.ppi_fifo/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/AXI_LITE.reg_inf/gen_spkt_fifo/generic_pkt/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/AXI_LITE.reg_inf/gen_spkt_fifo/generic_pkt/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+Command: write_bitstream -force kv260_ispMipiRx_vcu_DP_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC DPIP-2] Input pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/dout_reg input kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/dout_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/tmp_product input kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/tmp_product/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/mac_muladd_8ns_10ns_17ns_18_4_1_U225/bd_eab1_hsc_0_mac_muladd_8ns_10ns_17ns_18_4_1_DSP48_9_U/p_reg_reg input kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/mac_muladd_8ns_10ns_17ns_18_4_1_U225/bd_eab1_hsc_0_mac_muladd_8ns_10ns_17ns_18_4_1_DSP48_9_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_18s_50_2_1_U305/tmp_product output kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_18s_50_2_1_U305/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/tmp_product output kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_50s_52ns_101_5_1_U306/tmp_product output kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_50s_52ns_101_5_1_U306/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_53ns_55ns_106_5_1_U308/tmp_product output kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_53ns_55ns_106_5_1_U308/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_29s_39_2_1_U368/dout_reg multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_29s_39_2_1_U368/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_30ns_39_2_1_U367/dout_reg multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_30ns_39_2_1_U367/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_30ns_39_2_1_U369/dout_reg multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_30ns_39_2_1_U369/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_30ns_39_2_1_U370/dout_reg multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/colorcorrectionmatrix_0_17_17_1080_1920_1_3_3_U0/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_s_fu_44/grp_xfccmkernel_17_1080_1920_21_1_3_3_11_11_1920_Pipeline_colLoop_fu_54/mul_10ns_30ns_39_2_1_U370/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_18s_50_2_1_U305/dout_reg multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_18s_50_2_1_U305/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_18s_50_2_1_U305/tmp_product multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_18s_50_2_1_U305/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/dout_reg multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/tmp_product multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_32ns_21ns_53_2_1_U307/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_50s_52ns_101_5_1_U306/buff0_reg__1 multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/function_awb_17_17_1080_1920_1_3_3_U0/grp_fifo_awb_17_17_1080_1920_1_3_3_s_fu_168/AWBNormalization_17_17_1080_1920_1_1_1024_3_3_U0/grp_AWBNormalizationkernel_17_17_1080_1920_1_3_3_21_1_1024_s_fu_50/mul_50s_52ns_101_5_1_U306/buff0_reg__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/mac_muladd_8ns_7ns_17ns_17_4_1_U222/bd_eab1_hsc_0_mac_muladd_8ns_7ns_17ns_17_4_1_DSP48_6_U/p_reg_reg multiplier stage kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/hsc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_2035_2_fu_114/mac_muladd_8ns_7ns_17ns_17_4_1_U222/bd_eab1_hsc_0_mac_muladd_8ns_7ns_17ns_17_4_1_DSP48_6_U/p_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/rx/inst/RX_1500M.line_buffer/line_buf/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC RTSTAT-10] No routable loads: 34 net(s) have no routable loads. The problem bus(es) and/or net(s) are kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_rx_data_lane[1].rx_data_lane_inst/fifo_rd_rst_t1_nxt, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_rx_data_lane[0].rx_data_lane_inst/fifo_rd_rst_t1_nxt, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_rx_data_lane[1].rx_data_lane_inst/fifo_rd_rst_t2, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_3be0_phy_0_rx_support_i/slave_rx.dphy_rx_fab_top/gen_rx_data_lane[0].rx_data_lane_inst/fifo_rd_rst_t2, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/s00_nodes/s00_w_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/m01_nodes/m01_ar_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/m01_nodes/m01_r_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/m02_nodes/m02_w_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/m01_nodes/m01_b_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/m02_nodes/m02_ar_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/m02_nodes/m02_aw_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/s00_nodes/s00_b_node/inst/mi_handler_m_sc_areset_pipe, kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/v_proc_ss_0/inst/smartconnect_0/inst/m02_nodes/m02_r_node/inst/mi_handler_m_sc_areset_pipe... and (the first 15 of 28 listed).
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: kv260_ispMipiRx_vcu_DP_i/raspi_pipeline/raspi_pipeline/ISPPipeline_accel_0/inst/grp_ISPpipeline_fu_195/ISPpipeline_Block_entry2_proc_U0/fmul_32ns_32ns_32_8_max_dsp_1_U5/ISPPipeline_accel_fmul_32ns_32ns_32_8_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 19 Warnings, 4 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 4 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./kv260_ispMipiRx_vcu_DP_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 5188.910 ; gain = 252.863 ; free physical = 1212 ; free virtual = 7699
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  6 02:43:22 2026...

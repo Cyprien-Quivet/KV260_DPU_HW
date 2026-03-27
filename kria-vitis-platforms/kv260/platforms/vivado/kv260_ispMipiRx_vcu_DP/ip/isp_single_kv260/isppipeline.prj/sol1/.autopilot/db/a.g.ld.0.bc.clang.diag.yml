@@ -1,0 +1,2542 @@
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi13ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi13ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi13ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi13ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi17ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi17ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi17ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi17ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi17ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi9ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<9, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi9ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<9, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 670, Column: 0 }
+Function:        _ZN2xf2cv3MatILi1ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<1, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 605, Column: 0 }
+Function:        _ZN2xf2cv3MatILi1ELi1080ELi1920ELi1ELi3EE4initEiib
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<1, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 605, Column: 0 }
+Function:        _ZN2xf2cv3MatILi9ELi1080ELi1920ELi1ELi3EE4initEiib
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<9, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 605, Column: 0 }
+Function:        _ZN2xf2cv3MatILi17ELi1080ELi1920ELi1ELi3EE4initEiib
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<17, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            reflow-pragma-conflict-handle
+Name:            FunctionPragmaConflictWarn
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 605, Column: 0 }
+Function:        _ZN2xf2cv3MatILi13ELi1080ELi1920ELi1ELi3EE4initEiib
+Args:            
+  - String:          'In function '''
+  - Function:        'xf::cv::Mat<13, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''', '
+  - String:          'Pragma conflict happens on '''
+  - String:          INLINE
+  - String:          ''' and '
+  - String:          DATAFLOW
+  - String:          ' pragmas: '
+  - String:          Inline into dataflow region may break the canonical form
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 675, Column: 2 }
+Function:        _ZN2xf2cv3MatILi13ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<13, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 675, Column: 2 }
+Function:        _ZN2xf2cv3MatILi17ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<17, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 675, Column: 2 }
+Function:        _ZN2xf2cv3MatILi9ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<9, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'xf::cv::Mat<9, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                   Line: 675, Column: 2 }
+Function:        _ZN2xf2cv3MatILi1ELi1080ELi1920ELi1ELi3EEC2Eii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<1, 1080, 1920, 1, 3>::init(int, int, bool)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 605, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'xf::cv::Mat<1, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 217, Column: 70 }
+Function:        _Z8fifo_awbILi17ELi17ELi1080ELi1920ELi1ELi3ELi3EEvRN2xf2cv3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPA1024_jS8_PiS9_ttf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void fifo_awb<17, 17, 1080, 1920, 1, 3, 3>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 213, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 351, Column: 49 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 352, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 353, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 354, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<13, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 355, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 356, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 357, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 358, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<17, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 359, Column: 51 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<9, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 360, Column: 51 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<9, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 361, Column: 52 }
+Function:        _Z11ISPpipelineRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPA1024_jSC_PiSD_ttPhht
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'xf::cv::Mat<1, 1080, 1920, 1, 3>::Mat(int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 670, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ISPpipeline(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short, unsigned short, unsigned int (*) [1024], unsigned int (*) [1024], int*, int*, unsigned short, unsigned short, unsigned char*, unsigned char, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 147, Column: 31 }
+Function:        _Z17ColorMat2AXIvideoILi9ELi1080ELi1920ELi1ELi3EEvRN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEERN3hls6streamINS5_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_147_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 148, Column: 35 }
+Function:        _Z17ColorMat2AXIvideoILi9ELi1080ELi1920ELi1ELi3EEvRN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEERN3hls6streamINS5_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_148_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                   Line: 85, Column: 30 }
+Function:        _ZN2xf2cv13xFGAMMAKernelILi9ELi1080ELi1920ELi3ELi15ELi1ELi3ELi3ELi9ELi9ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT4_EXT5_EEERNS2_IXT_EXT0_EXT1_EXT4_EXT6_EEEPhtt
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_85_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 189, Column: 34 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 189, Column: 34 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 193, Column: 20 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_193_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 198, Column: 20 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_198_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 123, Column: 20 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_123_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 127, Column: 20 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_127_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                   Line: 255, Column: 32 }
+Function:        _ZN2xf2cv11xfccmkernelILi17ELi1080ELi1920ELi21ELi1ELi3ELi3ELi11ELi11ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT3_EXT4_EEERNS2_IXT_EXT0_EXT1_EXT3_EXT5_EEE7ap_uintILi8EEtt
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_255_21
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 403, Column: 31 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_403_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 611, Column: 9 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Loop '''
+  - LoopName:        MERGE_HIST_CH_UNROLL
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 619, Column: 13 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Loop '''
+  - LoopName:        MERGE_HIST_NPPC_UNROLL
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 552, Column: 13 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Loop '''
+  - LoopName:        PLANES_LOOP
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 500, Column: 20 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_500_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 473, Column: 9 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Loop '''
+  - LoopName:        INITIALIZE
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 331, Column: 20 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_331_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 367, Column: 31 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_367_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 372, Column: 31 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_372_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 373, Column: 35 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_373_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 374, Column: 39 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_374_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 401, Column: 35 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_401_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 390, Column: 35 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_390_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 419, Column: 49 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 421, Column: 31 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_421_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 438, Column: 32 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_438_10
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                   Line: 99, Column: 13 }
+Function:        _ZN2xf2cv17gaincontrolkernelILi3ELi13ELi1080ELi1920ELi1ELi3ELi3ELi1ELi17ELi17ELi3ELi3ELi1920EEEvRNS0_3MatIXT0_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtttt
+Args:            
+  - String:          'Loop '''
+  - LoopName:        ProcLoop
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                   Line: 102, Column: 27 }
+Function:        _ZN2xf2cv20blackLevelCorrectionILi13ELi1080ELi1920ELi1ELi16ELi15ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT0_EXT1_EXT2_EXT6_EEERNS2_IXT_EXT0_EXT1_EXT2_EXT7_EEEtf
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_102_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 100, Column: 0 }
+Function:        _Z17ColorMat2AXIvideoILi9ELi1080ELi1920ELi1ELi3EEvRN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEERN3hls6streamINS5_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_147_1
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:147:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'ColorMat2AXIvideo<9, 1080, 1920, 1, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 100, Column: 0 }
+Function:        _Z17ColorMat2AXIvideoILi9ELi1080ELi1920ELi1ELi3EEvRN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEERN3hls6streamINS5_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_148_2
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:148:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'ColorMat2AXIvideo<9, 1080, 1920, 1, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                   Line: 42, Column: 0 }
+Function:        _ZN2xf2cv13xFGAMMAKernelILi9ELi1080ELi1920ELi3ELi15ELi1ELi3ELi3ELi9ELi9ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT4_EXT5_EEERNS2_IXT_EXT0_EXT1_EXT4_EXT6_EEEPhtt
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_85_4
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp:85:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xFGAMMAKernel<9, 1080, 1920, 3, 15, 1, 3, 3, 9, 9, 1920>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:189:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:189:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:189:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:189:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_6
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:193:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_198_7
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:198:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_158_4
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:158:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_162_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:162:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_162_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:162:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_162_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:162:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_123_2
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:123:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_127_3
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp:127:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                   Line: 131, Column: 0 }
+Function:        _ZN2xf2cv11xfccmkernelILi17ELi1080ELi1920ELi21ELi1ELi3ELi3ELi11ELi11ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT3_EXT4_EEERNS2_IXT_EXT0_EXT1_EXT3_EXT5_EEE7ap_uintILi8EEtt
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_255_21
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp:255:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::xfccmkernel<17, 1080, 1920, 21, 1, 3, 3, 11, 11, 1920>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 286, Column: 0 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_403_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:403:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBNormalizationkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        MERGE_HIST_CH_UNROLL
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:611:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        MERGE_HIST_NPPC_UNROLL
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:619:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        MERGE_HIST_NPPC_UNROLL
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:619:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        MERGE_HIST_NPPC_UNROLL
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:619:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        END_HIST_LOOP
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:590:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            DepRemovedByUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 554, Column: 9 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Dependence pragma in loop '''
+  - LoopName:        PLANES_LOOP
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:552:13'
+  - String:          ') '
+  - String:          is removed because the loop is unrolled completely
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            DepRemovedByUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 555, Column: 9 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Dependence pragma in loop '''
+  - LoopName:        PLANES_LOOP
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:552:13'
+  - String:          ') '
+  - String:          is removed because the loop is unrolled completely
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        PLANES_LOOP
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:552:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_500_1
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:500:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        INITIALIZE
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:473:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_331_2
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:331:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        Datafill
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:339:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_367_3
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:367:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_372_4
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:372:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_373_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:373:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_374_6
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:374:39'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_373_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:373:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_374_6
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:374:39'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_373_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:373:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_374_6
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:374:39'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_373_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:373:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_374_6
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:374:39'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_373_5
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:373:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_374_6
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:374:39'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_401_8
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:401:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_390_7
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:390:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:419:49'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_421_9
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:421:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_438_10
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp:438:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                   Line: 80, Column: 0 }
+Function:        _ZN2xf2cv17gaincontrolkernelILi3ELi13ELi1080ELi1920ELi1ELi3ELi3ELi1ELi17ELi17ELi3ELi3ELi1920EEEvRNS0_3MatIXT0_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtttt
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        ProcLoop
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp:99:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::gaincontrolkernel<3, 13, 1080, 1920, 1, 3, 3, 1, 17, 17, 3, 3, 1920>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                   Line: 73, Column: 0 }
+Function:        _ZN2xf2cv20blackLevelCorrectionILi13ELi1080ELi1920ELi1ELi16ELi15ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT0_EXT1_EXT2_EXT6_EEERNS2_IXT_EXT0_EXT1_EXT2_EXT7_EEEtf
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_102_2
+  - String:          ''' ('
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp:102:27'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'xf::cv::blackLevelCorrection<13, 1080, 1920, 1, 16, 15, 1, 3, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 34, Column: 0 }
+Function:        _Z17AXIVideo2BayerMatILi13ELi1080ELi1920ELi1ELi3EEvRN3hls6streamINS0_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<13, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<10>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void AXIVideo2BayerMat<13, 1080, 1920, 1, 3>(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 34, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                   Line: 73, Column: 0 }
+Function:        _ZN2xf2cv20blackLevelCorrectionILi13ELi1080ELi1920ELi1ELi16ELi15ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT0_EXT1_EXT2_EXT6_EEERNS2_IXT_EXT0_EXT1_EXT2_EXT7_EEEtf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf::cv::Mat<13, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::blackLevelCorrection<13, 1080, 1920, 1, 16, 15, 1, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                       Line: 73, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                   Line: 73, Column: 0 }
+Function:        _ZN2xf2cv20blackLevelCorrectionILi13ELi1080ELi1920ELi1ELi16ELi15ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT0_EXT1_EXT2_EXT6_EEERNS2_IXT_EXT0_EXT1_EXT2_EXT7_EEEtf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf_satcast_bl<ap_uint<10> >(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                       Line: 39, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::blackLevelCorrection<13, 1080, 1920, 1, 16, 15, 1, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                       Line: 73, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                   Line: 73, Column: 0 }
+Function:        _ZN2xf2cv20blackLevelCorrectionILi13ELi1080ELi1920ELi1ELi16ELi15ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT0_EXT1_EXT2_EXT6_EEERNS2_IXT_EXT0_EXT1_EXT2_EXT7_EEEtf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<13, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<10>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::blackLevelCorrection<13, 1080, 1920, 1, 16, 15, 1, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_black_level.hpp, 
+                       Line: 73, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                   Line: 80, Column: 0 }
+Function:        _ZN2xf2cv17gaincontrolkernelILi3ELi13ELi1080ELi1920ELi1ELi3ELi3ELi1ELi17ELi17ELi3ELi3ELi1920EEEvRNS0_3MatIXT0_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtttt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf::cv::Mat<13, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::gaincontrolkernel<3, 13, 1080, 1920, 1, 3, 3, 1, 17, 17, 3, 3, 1920>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, unsigned short, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                       Line: 80, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                   Line: 80, Column: 0 }
+Function:        _ZN2xf2cv17gaincontrolkernelILi3ELi13ELi1080ELi1920ELi1ELi3ELi3ELi1ELi17ELi17ELi3ELi3ELi1920EEEvRNS0_3MatIXT0_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtttt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf_satcast_gain<ap_uint<10> >(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                       Line: 46, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::gaincontrolkernel<3, 13, 1080, 1920, 1, 3, 3, 1, 17, 17, 3, 3, 1920>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, unsigned short, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                       Line: 80, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                   Line: 80, Column: 0 }
+Function:        _ZN2xf2cv17gaincontrolkernelILi3ELi13ELi1080ELi1920ELi1ELi3ELi3ELi1ELi17ELi17ELi3ELi3ELi1920EEEvRNS0_3MatIXT0_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtttt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<13, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<10>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::gaincontrolkernel<3, 13, 1080, 1920, 1, 3, 3, 1, 17, 17, 3, 3, 1920>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, unsigned short, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                       Line: 80, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                   Line: 184, Column: 0 }
+Function:        _ZN2xf2cv11gaincontrolILi3ELi13ELi1080ELi1920ELi1ELi3ELi3EEEvRNS0_3MatIXT0_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::gaincontrolkernel<3, 13, 1080, 1920, 1, 3, 3, 1, 17, 17, 3, 3, 1920>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, unsigned short, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                       Line: 80, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::gaincontrol<3, 13, 1080, 1920, 1, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gaincontrol.hpp, 
+                       Line: 184, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf::cv::Mat<13, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                       Line: 230, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Core_Process<3, 13, 1, 17, 5>(DataType<13, 1>::uname (*) [5], int&, int&, int&, int, int, int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                       Line: 122, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                       Line: 230, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf::cv::xf_satcast<10>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 39, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                       Line: 230, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 230, Column: 0 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<17, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<30>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::demosaicing<3, 13, 17, 1080, 1920, 1, false, 3, 3>(xf::cv::Mat<13, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                       Line: 230, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<30> xf::cv::Mat<17, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], float, float, float, float, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 441, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 441, Column: 0 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<17, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<30>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::AWBhistogramkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], float, float, float, float, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 441, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 286, Column: 0 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<30> xf::cv::Mat<17, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::AWBNormalizationkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], float, float, float, float, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 286, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 286, Column: 0 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf_satcast_awb<ap_uint<10> >(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 43, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::AWBNormalizationkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], float, float, float, float, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 286, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 286, Column: 0 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<17, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<30>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::AWBNormalizationkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], float, float, float, float, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 286, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 177, Column: 0 }
+Function:        _Z9fifo_copyILi17ELi17ELi1080ELi1920ELi1ELi3ELi3EEvRN2xf2cv3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<30> xf::cv::Mat<17, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void fifo_copy<17, 17, 1080, 1920, 1, 3, 3>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 177, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 177, Column: 0 }
+Function:        _Z9fifo_copyILi17ELi17ELi1080ELi1920ELi1ELi3ELi3EEvRN2xf2cv3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<17, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<30>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void fifo_copy<17, 17, 1080, 1920, 1, 3, 3>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 177, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                   Line: 131, Column: 0 }
+Function:        _ZN2xf2cv11xfccmkernelILi17ELi1080ELi1920ELi21ELi1ELi3ELi3ELi11ELi11ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT3_EXT4_EEERNS2_IXT_EXT0_EXT1_EXT3_EXT5_EEE7ap_uintILi8EEtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<30> xf::cv::Mat<17, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::xfccmkernel<17, 1080, 1920, 21, 1, 3, 3, 11, 11, 1920>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, ap_uint<8>, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                       Line: 131, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                   Line: 131, Column: 0 }
+Function:        _ZN2xf2cv11xfccmkernelILi17ELi1080ELi1920ELi21ELi1ELi3ELi3ELi11ELi11ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT3_EXT4_EEERNS2_IXT_EXT0_EXT1_EXT3_EXT5_EEE7ap_uintILi8EEtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<10> xf_satcast_ccm<ap_uint<10> >(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                       Line: 96, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::xfccmkernel<17, 1080, 1920, 21, 1, 3, 3, 11, 11, 1920>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, ap_uint<8>, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                       Line: 131, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                   Line: 131, Column: 0 }
+Function:        _ZN2xf2cv11xfccmkernelILi17ELi1080ELi1920ELi21ELi1ELi3ELi3ELi11ELi11ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT3_EXT4_EEERNS2_IXT_EXT0_EXT1_EXT3_EXT5_EEE7ap_uintILi8EEtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<17, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<30>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::xfccmkernel<17, 1080, 1920, 21, 1, 3, 3, 11, 11, 1920>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, ap_uint<8>, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_colorcorrectionmatrix.hpp, 
+                       Line: 131, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<30> xf::cv::Mat<17, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<9, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 54, Column: 0 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<9, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<24>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::xf_QuatizationDithering<17, 9, 1080, 1920, 256, 1024, 1, 3, 3>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<9, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                       Line: 54, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                   Line: 42, Column: 0 }
+Function:        _ZN2xf2cv13xFGAMMAKernelILi9ELi1080ELi1920ELi3ELi15ELi1ELi3ELi3ELi9ELi9ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT4_EXT5_EEERNS2_IXT_EXT0_EXT1_EXT4_EXT6_EEEPhtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<24> xf::cv::Mat<9, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::xFGAMMAKernel<9, 1080, 1920, 3, 15, 1, 3, 3, 9, 9, 1920>(xf::cv::Mat<9, 1080, 1920, 1, 3>&, xf::cv::Mat<9, 1080, 1920, 1, 3>&, unsigned char*, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                       Line: 42, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                   Line: 42, Column: 0 }
+Function:        _ZN2xf2cv13xFGAMMAKernelILi9ELi1080ELi1920ELi3ELi15ELi1ELi3ELi3ELi9ELi9ELi1920EEEvRNS0_3MatIXT_EXT0_EXT1_EXT4_EXT5_EEERNS2_IXT_EXT0_EXT1_EXT4_EXT6_EEEPhtt
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::Mat<9, 1080, 1920, 1, 3>::write<3, (void*)0>(int, ap_uint<24>)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::xFGAMMAKernel<9, 1080, 1920, 3, 15, 1, 3, 3, 9, 9, 1920>(xf::cv::Mat<9, 1080, 1920, 1, 3>&, xf::cv::Mat<9, 1080, 1920, 1, 3>&, unsigned char*, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                       Line: 42, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                   Line: 109, Column: 0 }
+Function:        _ZN2xf2cv15gammacorrectionILi9ELi9ELi1080ELi1920ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void xf::cv::xFGAMMAKernel<9, 1080, 1920, 3, 15, 1, 3, 3, 9, 9, 1920>(xf::cv::Mat<9, 1080, 1920, 1, 3>&, xf::cv::Mat<9, 1080, 1920, 1, 3>&, unsigned char*, unsigned short, unsigned short)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                       Line: 42, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void xf::cv::gammacorrection<9, 9, 1080, 1920, 1, 3, 3>(xf::cv::Mat<9, 1080, 1920, 1, 3>&, xf::cv::Mat<9, 1080, 1920, 1, 3>&, unsigned char*)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                       Line: 109, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 100, Column: 0 }
+Function:        _Z17ColorMat2AXIvideoILi9ELi1080ELi1920ELi1ELi3EEvRN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEERN3hls6streamINS5_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<24> xf::cv::Mat<9, 1080, 1920, 1, 3>::read<3, (void*)0>(int)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/common/xf_structs.hpp, 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void ColorMat2AXIvideo<9, 1080, 1920, 1, 3>(xf::cv::Mat<9, 1080, 1920, 1, 3>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 100, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 512, Column: 0 }
+Function:        _Z17ISPPipeline_accelttRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPhht
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffffE4acc1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 511, Column: 0 }
+Function:        _Z17ISPPipeline_accelttRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPhht
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffffE3acc
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 510, Column: 0 }
+Function:        _Z17ISPPipeline_accelttRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPhht
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffffE4old1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 509, Column: 0 }
+Function:        _Z17ISPPipeline_accelttRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPhht
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffffE3old
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 22, Column: 0 }
+Function:        _Z17ISPPipeline_accelttRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPhht
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL9hist1_awb
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 21, Column: 0 }
+Function:        _Z17ISPPipeline_accelttRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPhht
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL9hist0_awb
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 251, Column: 38 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuffer
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_demosaicing.hpp, 
+                   Line: 263, Column: 42 }
+Function:        _ZN2xf2cv11demosaicingILi3ELi13ELi17ELi1080ELi1920ELi1ELb0ELi3ELi3EEEvRNS0_3MatIXT0_EXT2_EXT3_EXT4_EXT6_EEERNS2_IXT1_EXT2_EXT3_EXT4_EXT7_EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          imgblock
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 482, Column: 17 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          tmp_hist
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 483, Column: 17 }
+Function:        _ZN2xf2cv18AWBhistogramkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          tmp_hist1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 301, Column: 34 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          minValue
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 302, Column: 34 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          maxValue
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_quantizationdithering.hpp, 
+                   Line: 112, Column: 25 }
+Function:        _ZN2xf2cv23xf_QuatizationDitheringILi17ELi9ELi1080ELi1920ELi256ELi1024ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT5_EXT6_EEERNS2_IXT0_EXT1_EXT2_EXT5_EXT7_EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          offset_buffer
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_gammacorrection.hpp, 
+                   Line: 47, Column: 19 }
+Function:        _ZN2xf2cv15gammacorrectionILi9ELi9ELi1080ELi1920ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPh
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          lut_p.i
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+Function:        _ZN2xf2cv15gammacorrectionILi9ELi9ELi1080ELi1920ELi1ELi3ELi3EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPh
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 50, Column: 5 }
+Function:        _Z17AXIVideo2BayerMatILi13ELi1080ELi1920ELi1ELi3EEvRN3hls6streamINS0_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEE
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_start_hunt
+  - String:          ' '
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:50:5'
+  - String:          ' '
+  - Function:        'void AXIVideo2BayerMat<13, 1080, 1920, 1, 3>(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 34, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 86, Column: 9 }
+Function:        _Z17AXIVideo2BayerMatILi13ELi1080ELi1920ELi1ELi3EEvRN3hls6streamINS0_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERN2xf2cv3MatIXT_EXT0_EXT1_EXT2_EXT3_EEE
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_last_hunt
+  - String:          ' '
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp:86:9'
+  - String:          ' '
+  - Function:        'void AXIVideo2BayerMat<13, 1080, 1920, 1, 3>(hls::stream<hls::axis<ap_uint<16>, 1ul, 1ul, 1ul>, 0>&, xf::cv::Mat<13, 1080, 1920, 1, 3>&)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                       Line: 34, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 332, Column: 31 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_332_3
+  - String:          ' '
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:332:31'
+  - String:          ' '
+  - Function:        'void xf::cv::AWBNormalizationkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], float, float, float, float, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 286, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                   Line: 342, Column: 31 }
+Function:        _ZN2xf2cv22AWBNormalizationkernelILi17ELi17ELi1080ELi1920ELi1ELi3ELi3ELi21ELi1ELi1024EEEvRNS0_3MatIXT_EXT1_EXT2_EXT3_EXT4_EEERNS2_IXT0_EXT1_EXT2_EXT3_EXT5_EEEPAT8__jfffff
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_342_4
+  - String:          ' '
+  - LoopLoc:         '../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp:342:31'
+  - String:          ' '
+  - Function:        'void xf::cv::AWBNormalizationkernel<17, 17, 1080, 1920, 1, 3, 3, 21, 1, 1024>(xf::cv::Mat<17, 1080, 1920, 1, 3>&, xf::cv::Mat<17, 1080, 1920, 1, 3>&, unsigned int (*) [1024], float, float, float, float, float)'
+    DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/include/imgproc/xf_autowhitebalance.hpp, 
+                       Line: 286, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            pasta-interface-builder
+Name:            IncorrectSAXIOffset
+DebugLoc:        { File: ../../../../../overlays/Vitis_Libraries/vision//L1/examples/isppipeline/xf_isp_accel.cpp, 
+                   Line: 411, Column: 85 }
+Function:        _Z17ISPPipeline_accelttRN3hls6streamINS_4axisI7ap_uintILi16EELm1ELm1ELm1EEELi0EEERNS0_INS1_IS2_ILi24EELm1ELm1ELm1EEELi0EEEttPhht
+Args:            
+  - String:          'Replacing invalid offset value '''
+  - OrigOffset:      '70'
+  - String:          ''' with '''
+  - NewOffset:       '32'
+  - String:          ''' for s_axilite port '''
+  - PortName:        mode_reg
+  - String:          '''.'
+...

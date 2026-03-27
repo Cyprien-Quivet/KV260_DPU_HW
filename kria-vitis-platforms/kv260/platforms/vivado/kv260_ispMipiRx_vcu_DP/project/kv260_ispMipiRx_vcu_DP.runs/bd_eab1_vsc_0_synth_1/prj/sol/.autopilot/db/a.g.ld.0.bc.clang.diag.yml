@@ -1,0 +1,2586 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_axi_io.h, 
+                   Line: 71, Column: 2 }
+Function:        _ZN3hls15AXIGetBitFieldsILi24E7ap_uintILi8EEEEvNS_4axisIS1_IXT_EELm1ELm1ELm1EEEiiRT0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(ap_uint<24>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_axi_io.h, 
+                       Line: 46, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_axi_io.h, 
+                       Line: 69, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 748, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 745, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 808, Column: 7 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_axi_io.h, 
+                       Line: 69, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 745, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 804, Column: 7 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_axi_io.h, 
+                       Line: 69, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 745, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 800, Column: 7 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_axi_io.h, 
+                       Line: 69, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 745, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                   Line: 874, Column: 2 }
+Function:        _ZN3hls10LineBufferILi2ELi1920E7ap_uintILi8EELi0EE13insert_bottomES2_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 1920, ap_uint<8>, 0>::insert_top_row(ap_uint<8>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 788, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::LineBuffer<2, 1920, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 872, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                   Line: 874, Column: 2 }
+Function:        _ZN3hls10LineBufferILi3ELi1920E7ap_uintILi8EELi0EE13insert_bottomES2_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 1920, ap_uint<8>, 0>::insert_top_row(ap_uint<8>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 788, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::LineBuffer<3, 1920, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 872, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 978, Column: 18 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1126, Column: 46 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 1920, ap_uint<8>, 0>::getval(int, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 833, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1111, Column: 20 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1100, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 1920, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 872, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1074, Column: 45 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 1920, ap_uint<8>, 0>::getval(int, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 833, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1073, Column: 19 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1054, Column: 19 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1047, Column: 14 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 1920, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 872, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1036, Column: 45 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 1920, ap_uint<8>, 0>::getval(int, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 833, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 988, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 1920, ap_uint<8>, 0>::LineBuffer()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 623, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 987, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 1920, ap_uint<8>, 0>::LineBuffer()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 623, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 984, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 983, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 981, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 980, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 979, Column: 18 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 969, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                   Line: 874, Column: 2 }
+Function:        _ZN3hls10LineBufferILi6ELi1920E7ap_uintILi24EELi0EE13insert_bottomES2_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<6, 1920, ap_uint<24>, 0>::insert_top_row(ap_uint<24>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 788, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::LineBuffer<6, 1920, ap_uint<24>, 0>::insert_bottom(ap_uint<24>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 872, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 166, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 326, Column: 5 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'vscale_polyphase(short (*) [6], hls::Scalar<3, ap_uint<8> >*, unsigned char, hls::Scalar<3, ap_uint<8> >*)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 335, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 301, Column: 22 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 294, Column: 14 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<6, 1920, ap_uint<24>, 0>::insert_bottom(ap_uint<24>, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 872, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 264, Column: 41 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<6, 1920, ap_uint<24>, 0>::getval(int, int)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 833, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 169, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<6, 1920, ap_uint<24>, 0>::LineBuffer()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                       Line: 623, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 167, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 166, Column: 26 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'vscale_core_polyphase(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned int&, short (*) [6], hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 155, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 842, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 840, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-pragma-preprocess
+Name:            PragmaResourceTopArg
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 85, Column: 9 }
+Function:        _Z9v_vscalerRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERtS7_S7_RjRhPA6_sS6_
+Args:            
+  - String:          'The resource pragma (bind_storage) on top-level function argument, in '''
+  - Pragma:          call
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 85, Column: 9 }
+  - String:          ''' is unsupported, please use INTERFACE pragma instead'
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            OutPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            PixArray
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                   Line: 625, Column: 9 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            LineBuf
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            PixArrayVal
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            SrcPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                   Line: 625, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            linebuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_mem.h, 
+                   Line: 625, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            linebuf_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            PixBufVal
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            CBufVal
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            PixBufVal223
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 184, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 748, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1111, Column: 20 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            PixBufVal223
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1073, Column: 19 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            CBufVal
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1054, Column: 19 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            PixBufVal
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 988, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            linebuf_c
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 987, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            linebuf_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 984, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pixbuf_c
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 983, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pixbuf_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 981, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            mpix_c
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 980, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            mpix_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 979, Column: 18 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 978, Column: 18 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 301, Column: 22 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            PixArrayVal
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 169, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            LineBuf
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 167, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            PixArray
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 166, Column: 26 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            OutPix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 166, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            SrcPix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 842, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 919, Column: 22 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_919_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 921, Column: 23 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_921_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 262, Column: 20 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_262_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 265, Column: 23 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_265_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 267, Column: 24 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_267_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 278, Column: 23 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_278_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 285, Column: 24 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_285_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 287, Column: 25 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_287_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 298, Column: 23 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_298_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 182, Column: 5 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 306, Column: 24 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_306_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 308, Column: 25 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_308_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 338, Column: 20 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_338_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 340, Column: 21 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_340_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 347, Column: 22 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_347_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1024, Column: 24 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1024_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1034, Column: 21 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1034_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1037, Column: 24 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1037_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1050, Column: 23 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1050_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 182, Column: 5 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1059, Column: 24 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1059_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1071, Column: 23 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1071_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 182, Column: 5 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1075, Column: 24 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1075_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1127, Column: 25 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1127_13
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1095, Column: 26 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1095_10
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1107, Column: 25 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1107_11
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h, 
+                   Line: 182, Column: 5 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1116, Column: 26 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1116_12
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1134, Column: 24 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1134_14
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 789, Column: 22 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_789_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 791, Column: 23 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_791_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 840, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_919_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:919:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 840, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_921_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:921:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_262_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:262:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_265_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:265:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_267_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:267:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_265_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:265:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_267_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:267:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_265_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:265:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_267_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:267:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_265_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:265:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_267_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:267:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_265_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:265:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_267_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:267:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_265_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:265:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_267_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:267:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_278_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:278:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_285_5
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:285:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_287_6
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:287:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_298_7
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:298:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_306_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:306:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_308_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:308:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_306_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:306:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_308_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:308:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_306_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:306:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_308_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:308:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_306_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:306:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_308_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:308:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_306_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:306:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_308_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:308:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_338_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:338:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_340_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:340:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_347_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:347:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_347_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:347:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 155, Column: 0 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_347_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:347:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          vscale_core_polyphase
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1024_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1024:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1034_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1034:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1037_5
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1037:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1037_5
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1037:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1050_6
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1050:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1059_7
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1059:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1071_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1071:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1075_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1075:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1075_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1075:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1127_13
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1127:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1095_10
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1095:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1107_11
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1107:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1116_12
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1116:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_v_proc_ss_0_0/bd_0/ip/ip_1/src/hls/hls_video_core.h:182:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 969, Column: 0 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1134_14
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:1134:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 745, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_789_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:789:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 745, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_791_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:791:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 987, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuf_y
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 988, Column: 16 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuf_c
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1054, Column: 19 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          PixBufVal
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 1111, Column: 20 }
+Function:        _Z18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          PixBufVal223
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 167, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          PixArray
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 168, Column: 6 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          FiltCoeff
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 169, Column: 18 }
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          LineBuf
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL21vscale_core_polyphaseRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_RjPA6_sS6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          PixArrayVal
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 103, Column: 18 }
+Function:        _Z9v_vscalerRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERtS7_S7_RjRhPA6_sS6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            OutYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 102, Column: 18 }
+Function:        _Z9v_vscalerRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERtS7_S7_RjRhPA6_sS6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            SrcYUV422
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 101, Column: 18 }
+Function:        _Z9v_vscalerRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERtS7_S7_RjRhPA6_sS6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            SrcYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 759, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_start
+  - String:          ' '
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:759:2'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 745, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                   Line: 817, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_eol
+  - String:          ' '
+  - LoopLoc:         '/home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp:817:3'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/user/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_eab1_vsc_0_synth_1/prj/sol/.autopilot/db/v_vscaler.cpp, 
+                       Line: 745, Column: 0 }
+  - String:          ' '
+...

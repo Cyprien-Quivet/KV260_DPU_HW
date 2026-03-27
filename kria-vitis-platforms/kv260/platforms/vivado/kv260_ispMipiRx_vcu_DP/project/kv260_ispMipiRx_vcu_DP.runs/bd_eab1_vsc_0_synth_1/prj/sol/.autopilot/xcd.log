@@ -1,0 +1,25 @@
+Fri Mar  6 02:14:18 2026: Running xcd server. This server was built by gradle.
+Fri Mar  6 02:14:18 2026: Server was asked to start on port: '34933'
+Fri Mar  6 02:14:18 2026: Server is using token UUID: '248cffe3-f7ec-4b68-b186-e4a2de6e86bd'
+Fri Mar  6 02:14:18 2026: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Mar  6 02:14:18 2026: Attempting to start server on port '34933'
+Fri Mar  6 02:14:18 2026: XCD main fifo: created main fifo '/tmp/xcdmain248cffe3-f7ec-4b68-b186-e4a2de6e86bd', fd read = 225
+Fri Mar  6 02:14:18 2026: Running Dispatch Server
+Fri Mar  6 02:14:18 2026: Version 2.2.0
+Fri Mar  6 02:14:26 2026: Dispatch Server: Accepted socket connection from client
+Fri Mar  6 02:14:26 2026: Starting Socket connection
+Fri Mar  6 02:14:26 2026: EXCHANGE_TOKEN received, server token: 248cffe3-f7ec-4b68-b186-e4a2de6e86bd, passed token: 248cffe3-f7ec-4b68-b186-e4a2de6e86bd
+Fri Mar  6 02:14:26 2026: SESSION_MGR: creating session with session uuid: 'f02a7d29-0375-40c8-936a-20b1754a48e1' and name 'vitis_hls'
+Fri Mar  6 02:14:26 2026: KERNEL_SVC: creating session with uuid: 'f02a7d29-0375-40c8-936a-20b1754a48e1' and name 'vitis_hls'
+Fri Mar  6 02:14:26 2026: GUIDANCE_SMGR: creating guidance session with uuid: 'f02a7d29-0375-40c8-936a-20b1754a48e1' and name 'vitis_hls'
+Fri Mar  6 02:15:41 2026: STOP_SERVER received, server token: 248cffe3-f7ec-4b68-b186-e4a2de6e86bd, passed token: 248cffe3-f7ec-4b68-b186-e4a2de6e86bd
+Fri Mar  6 02:15:41 2026: Socket received request to stop server.
+Fri Mar  6 02:15:41 2026: Dispatch Server: do_await_stop
+Fri Mar  6 02:15:41 2026: Dispatch Server: stopping mainFifo_
+Fri Mar  6 02:15:41 2026: XCD main fifo: Stopping
+Fri Mar  6 02:15:41 2026: XCD main fifo: do_read error code: Operation canceled
+Fri Mar  6 02:15:41 2026: XCD main fifo: bytes_transferred: 0
+Fri Mar  6 02:15:41 2026: SERVER: destructor for server bound to port 34933
+Fri Mar  6 02:15:41 2026: XCD main fifo: Good unlink of /tmp/xcdmain248cffe3-f7ec-4b68-b186-e4a2de6e86bd
+Fri Mar  6 02:15:41 2026: Server exiting with status 0.
+Fri Mar  6 02:15:41 2026: Closing log file.
